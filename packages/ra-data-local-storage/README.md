@@ -1,6 +1,6 @@
 # ra-data-local-storage
 
-A dataProvider for [react-admin](https://github.com/marmelab/react-admin) that uses a local database, persisted in localStorage.
+A dataProvider for [react-admin](https://github.com/@rocketBee/react-admin) that uses a local database, persisted in localStorage.
 
 The provider issues no HTTP requests; every CRUD query happens locally in the browser. User editions are shared between tabs, and persisted even after a user session ends. This allows local-first apps, and can be useful in tests.
 
@@ -96,7 +96,7 @@ const dataProvider = localStorageDataProvider({
 
 ## Features
 
-This data provider uses [FakeRest](https://github.com/marmelab/FakeRest) under the hood. That means that it offers the same features:
+This data provider uses [FakeRest](https://github.com/@rocketBee/FakeRest) under the hood. That means that it offers the same features:
 
 - pagination
 - sorting
@@ -107,4 +107,4 @@ This data provider uses [FakeRest](https://github.com/marmelab/FakeRest) under t
 
 ## License
 
-This data provider is licensed under the MIT License, and sponsored by [marmelab](https://marmelab.com).
+This data provider is licensed under the MIT License, and sponsored by [@rocketBee](https://@rocketBee.com).

@@ -14,7 +14,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/marmelab/react-admin.git"
+        "url": "git+https://github.com/@rocketBee/react-admin.git"
     },
     "keywords": [
         "reactjs",
@@ -30,9 +30,9 @@
     "author": "Anthony RIMET",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/marmelab/react-admin/issues"
+        "url": "https://github.com/@rocketBee/react-admin/issues"
     },
-    "homepage": "https://github.com/marmelab/react-admin#readme",
+    "homepage": "https://github.com/@rocketBee/react-admin#readme",
     "scripts": {
         "build": "yarn run build-cjs && yarn run build-esm",
         "build-cjs": "rimraf ./dist/cjs && tsc --outDir dist/cjs",

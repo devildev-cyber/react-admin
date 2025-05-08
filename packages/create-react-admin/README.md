@@ -45,4 +45,4 @@ npm install
 
 ## Miscellaneous
 
-This package is MIT licensed. Sponsored by [Marmelab](https://marmelab.com) and [Anthony Chan](https://github.com/ckanthony).
+This package is MIT licensed. Sponsored by [@rocketBee](https://@rocketBee.com) and [Anthony Chan](https://github.com/ckanthony).

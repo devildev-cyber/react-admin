@@ -74,7 +74,7 @@ fi
 
 if [ "$npm_previous_package_minor_version" != "$npm_current_package_minor_version" ]; then
     echo "New minor version - Updating the docs/OldVersion.md file"
-    sed -i "s/^- \[v$npm_previous_package_minor_version\].*/- [v$npm_current_package_minor_version](https:\/\/github.com\/marmelab\/react-admin\/blob\/master\/docs\/Admin.md)\n- [v$npm_previous_package_minor_version](https:\/\/github\.com\/marmelab\/react\-admin\/blob\/v$npm_previous_package_version\/docs\/Admin.md\)/" docs/OldVersions.md
+    sed -i "s/^- \[v$npm_previous_package_minor_version\].*/- [v$npm_current_package_minor_version](https:\/\/github.com\/@rocketBee\/react-admin\/blob\/master\/docs\/Admin.md)\n- [v$npm_previous_package_minor_version](https:\/\/github\.com\/@rocketBee\/react\-admin\/blob\/v$npm_previous_package_version\/docs\/Admin.md\)/" docs/OldVersions.md
     echo "Please review the docs/OldVersion.md file and update it if needed."
     echo "Press Enter when this is done"
     read

@@ -190,7 +190,7 @@ const App = () => {
 };
 ```
 
-Check [the ra-i18n-i18next documentation](https://github.com/marmelab/react-admin/tree/master/packages/ra-i18n-i18next) for details.
+Check [the ra-i18n-i18next documentation](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-i18n-i18next) for details.
 
 ## Translation Files
 
@@ -256,7 +256,7 @@ const englishMessages = {
 };
 ```
 
-**Tip**: The default (English) messages are available in [the `ra-language-english` package source](https://github.com/marmelab/react-admin/blob/master/packages/ra-language-english/src/index.ts).
+**Tip**: The default (English) messages are available in [the `ra-language-english` package source](https://github.com/@rocketBee/react-admin/blob/master/packages/ra-language-english/src/index.ts).
 
 When building an internationalized app with react-admin, the usual workflow is therefore to let developers write the main translation file. Then, pass this file to a team of translators, with the task to translate it. They can use any software they want for that (even software using Gettext/PO files, as it's possible to convert POT to and from JSON). Finally, aggregate all the translations into an `i18nProvider`.
 

@@ -17,7 +17,7 @@ export const generateCustomers = (): Customer[] => {
         const email = internet.email(first_name, last_name);
         const birthday = has_ordered ? date.past(60) : null;
         const avatar = has_ordered
-            ? 'https://marmelab.com/posters/avatar-' +
+            ? 'https://@rocketBee.com/posters/avatar-' +
               numberOfCustomers +
               '.jpeg'
             : undefined;

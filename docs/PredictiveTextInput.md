@@ -5,7 +5,7 @@ title: "The PredictiveTextInput component"
 
 # `<PredictiveTextInput>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers an alternative to [`<TextInput>`](./TextInput.md) that suggests completion for the input value. Users can accept the completion by pressing the `Tab` key. It's like Intellisense or Copilot for your forms.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers an alternative to [`<TextInput>`](./TextInput.md) that suggests completion for the input value. Users can accept the completion by pressing the `Tab` key. It's like Intellisense or Copilot for your forms.
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/PredictiveTextInput.mp4" type="video/mp4"/>
@@ -58,7 +58,7 @@ You must define a [`dataProvider.getCompletion()` method](#dataprovidergetcomple
 | `temperature`     | Optional | number   | undefined | Amount of randomness injected into the response.                                                                        |
 | `type`            | Optional | string   | 'text'    | The type of the input. Can be 'text', 'email', etc.                                                                     |
 
-`<PredictiveTextInput>` also accepts the [common input props](https://marmelab.com/react-admin/Inputs.html#common-input-props) except `resettable`.
+`<PredictiveTextInput>` also accepts the [common input props](https://@rocketBee.com/react-admin/Inputs.html#common-input-props) except `resettable`.
 
 ## `debounce`
 
@@ -393,8 +393,8 @@ const getParamsForPrompt = (prompt) => {
 
 If you want AI completions combined with a WYSIWYG editor for rich text, use [`<SmartRichTextInput>`](./SmartRichTextInput.md) instead of `<PredictiveTextInput>`.
 
-<video controls playsinline muted loop poster="https://react-admin-ee.marmelab.com/assets/SmartRichTextInput.png" >
-  <source src="https://react-admin-ee.marmelab.com/assets/SmartRichTextInput.mp4" type="video/mp4" />
+<video controls playsinline muted loop poster="https://react-admin-ee.@rocketBee.com/assets/SmartRichTextInput.png" >
+  <source src="https://react-admin-ee.@rocketBee.com/assets/SmartRichTextInput.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

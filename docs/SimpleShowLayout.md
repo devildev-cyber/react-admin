@@ -336,6 +336,6 @@ const ProductShow = () => (
 * [`<Labeled>`]
 * [`useRecordContext`]
 
-[`<SimpleShowLayout>`]: https://github.com/marmelab/react-admin/blob/master/packages/ra-ui-materialui/src/detail/SimpleShowLayout.tsx
-[`<Labeled>`]: https://github.com/marmelab/react-admin/blob/master/packages/ra-ui-materialui/src/Labeled.tsx
-[`useRecordContext`]: https://github.com/marmelab/react-admin/blob/master/packages/ra-core/src/controller/record/useRecordContext.ts
+[`<SimpleShowLayout>`]: https://github.com/@rocketBee/react-admin/blob/master/packages/ra-ui-materialui/src/detail/SimpleShowLayout.tsx
+[`<Labeled>`]: https://github.com/@rocketBee/react-admin/blob/master/packages/ra-ui-materialui/src/Labeled.tsx
+[`useRecordContext`]: https://github.com/@rocketBee/react-admin/blob/master/packages/ra-core/src/controller/record/useRecordContext.ts

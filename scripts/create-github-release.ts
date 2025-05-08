@@ -34,7 +34,7 @@ const main = async () => {
     const releases = await octokit.request(
         'GET /repos/{owner}/{repo}/releases',
         {
-            owner: 'marmelab',
+            owner: '@rocketBee',
             repo: 'react-admin',
         }
     );
@@ -75,7 +75,7 @@ const main = async () => {
             'Would have called GitHub API with',
             'POST /repos/{owner}/{repo}/releases',
             {
-                owner: 'marmelab',
+                owner: '@rocketBee',
                 repo: 'react-admin',
                 tag_name,
                 name: version,
@@ -84,7 +84,7 @@ const main = async () => {
         );
     } else {
         await octokit.request('POST /repos/{owner}/{repo}/releases', {
-            owner: 'marmelab',
+            owner: '@rocketBee',
             repo: 'react-admin',
             tag_name,
             name: version,

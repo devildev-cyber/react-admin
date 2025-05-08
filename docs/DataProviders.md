@@ -11,7 +11,7 @@ The Data Provider is the interface between react-admin and your API. It's where 
 
 The first step to using a Data Provider is to pass it to [the `<Admin>` component](./Admin.md) via the `dataProvider` prop.
 
-For example, let's use [the Simple REST data provider](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest). This provider is suitable for REST APIs using simple GET parameters for filters and sorting.
+For example, let's use [the Simple REST data provider](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-simple-rest). This provider is suitable for REST APIs using simple GET parameters for filters and sorting.
 
 First, install the `ra-data-simple-rest` package:
 
@@ -198,7 +198,7 @@ export const App = () => (
 
 **Tip**: By default, React Query Devtools are only included in development bundles (`process.env.NODE_ENV === 'development'`), so they won't be part of production builds.
 
-**Tip**: Some Data Providers have their own logging system. For example, [the `ra-data-fakerest` package](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-fakerest) logs all REST API calls to the browser console when `true` is passed as a second argument:
+**Tip**: Some Data Providers have their own logging system. For example, [the `ra-data-fakerest` package](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-fakerest) logs all REST API calls to the browser console when `true` is passed as a second argument:
 
 ```jsx
 // in src/App.js

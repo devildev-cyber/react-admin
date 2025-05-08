@@ -16,9 +16,9 @@
         "François Zaninotto",
         "Gildas Garcia"
     ],
-    "repository": "marmelab/react-admin",
-    "homepage": "https://github.com/marmelab/react-admin#readme",
-    "bugs": "https://github.com/marmelab/react-admin/issues",
+    "repository": "@rocketBee/react-admin",
+    "homepage": "https://github.com/@rocketBee/react-admin#readme",
+    "bugs": "https://github.com/@rocketBee/react-admin/issues",
     "license": "MIT",
     "scripts": {
         "build": "yarn run build-cjs && yarn run build-esm",

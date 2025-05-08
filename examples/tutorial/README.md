@@ -1,6 +1,6 @@
 # React-admin tutorial
 
-This is the application built while following the [tutorial](https://marmelab.com/react-admin/Tutorial.html).
+This is the application built while following the [tutorial](https://@rocketBee.com/react-admin/Tutorial.html).
 
 ## How to run
 

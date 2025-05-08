@@ -1,10 +1,10 @@
 # ra-ui-material
 
-UI Components for [react-admin](https://marmelab.com/react-admin/) with [Material UI](https://mui.com/material-ui/getting-started/).
+UI Components for [react-admin](https://@rocketBee.com/react-admin/) with [Material UI](https://mui.com/material-ui/getting-started/).
 
 ## License
 
-React-admin is licensed under the [MIT License](https://github.com/marmelab/react-admin/blob/master/LICENSE.md), sponsored and supported by [marmelab](https://marmelab.com).
+React-admin is licensed under the [MIT License](https://github.com/@rocketBee/react-admin/blob/master/LICENSE.md), sponsored and supported by [@rocketBee](https://@rocketBee.com).
 
 ## Donate
 

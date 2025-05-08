@@ -1,12 +1,12 @@
 # FakeRest Data Provider For React-Admin
 
-Client-side data provider for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
+Client-side data provider for [react-admin](https://github.com/@rocketBee/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
 
 This package takes a JSON object as input, then creates a client-side data provider around it - no backend involved. The provider issues no HTTP requests, every operation happens locally in the browser. It's ideal to run e2e tests without an API server, or to showcase an admin only with a static server.
 
 All operations carried out in react-admin are local to the browser, and last only for the current browser session. A browser refresh erases all modifications.
 
-[![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
+[![react-admin-demo](https://@rocketBee.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
 
 ## Installation
 
@@ -69,7 +69,7 @@ Here is an example input:
 }
 ```
 
-You can find a more sophisticated example in [the Posters Galore demo](https://raw.githubusercontent.com/marmelab/ng-admin-demo/master/js/data.js). 
+You can find a more sophisticated example in [the Posters Galore demo](https://raw.githubusercontent.com/@rocketBee/ng-admin-demo/master/js/data.js). 
 
 ## Logging
 
@@ -120,7 +120,7 @@ _database.getOne('posts', 1);
 
 ## Features
 
-This data provider uses [FakeRest](https://github.com/marmelab/FakeRest) under the hood. That means that it offers the same features:
+This data provider uses [FakeRest](https://github.com/@rocketBee/FakeRest) under the hood. That means that it offers the same features:
 
 - pagination
 - sorting
@@ -131,7 +131,7 @@ This data provider uses [FakeRest](https://github.com/marmelab/FakeRest) under t
 
 ## Embedding
 
-`ra-data-fakerest` supports [Embedded Relationships](https://marmelab.com/react-admin/DataProviders.html#embedding-relationships). Use the `meta.embed` query parameter to specify the relationships that you want to embed. 
+`ra-data-fakerest` supports [Embedded Relationships](https://@rocketBee.com/react-admin/DataProviders.html#embedding-relationships). Use the `meta.embed` query parameter to specify the relationships that you want to embed. 
 
 ```jsx
 dataProvider.getOne('posts', { id: 1, meta: { embed: ['author'] } });
@@ -163,7 +163,7 @@ Embedding Relationships is supported in `getList`, `getOne`, `getMany`, and `get
 
 ## Prefetching
 
-`ra-data-fakerest` also supports [Prefetching Relationships](https://marmelab.com/react-admin/DataProviders.html#prefetching-relationships) to pre-populate the query cache with related resources. Use the `meta.prefetch` query parameter to specify the relationships that you want to prefetch.
+`ra-data-fakerest` also supports [Prefetching Relationships](https://@rocketBee.com/react-admin/DataProviders.html#prefetching-relationships) to pre-populate the query cache with related resources. Use the `meta.prefetch` query parameter to specify the relationships that you want to prefetch.
 
 ```jsx
 dataProvider.getOne('posts', { id: 1, meta: { prefetch: ['author'] } });
@@ -195,4 +195,4 @@ Prefetching Relationships is supported in `getList`, `getOne`, `getMany`, and `g
 
 ## License
 
-This data provider is licensed under the MIT License, and sponsored by [marmelab](https://marmelab.com).
+This data provider is licensed under the MIT License, and sponsored by [@rocketBee](https://@rocketBee.com).

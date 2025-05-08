@@ -246,7 +246,7 @@ export interface ListControllerProps<
     /**
      * The debounce delay for filter queries in milliseconds. Defaults to 500ms.
      *
-     * @see https://marmelab.com/react-admin/List.html#debounce
+     * @see https://@rocketBee.com/react-admin/List.html#debounce
      * @example
      * // wait 1 seconds instead of 500 milliseconds befoce calling the dataProvider
      * const PostList = () => (
@@ -260,7 +260,7 @@ export interface ListControllerProps<
     /**
      * Allow anonymous access to the list view. Defaults to false.
      *
-     * @see https://marmelab.com/react-admin/List.html#disableauthentication
+     * @see https://@rocketBee.com/react-admin/List.html#disableauthentication
      * @example
      * import { List } from 'react-admin';
      *
@@ -275,7 +275,7 @@ export interface ListControllerProps<
     /**
      * Whether to disable the synchronization of the list parameters with the current location (URL search parameters)
      *
-     * @see https://marmelab.com/react-admin/List.html#disablesyncwithlocation
+     * @see https://@rocketBee.com/react-admin/List.html#disablesyncwithlocation
      * @example
      * const Dashboard = () => (
      *     <div>
@@ -306,7 +306,7 @@ export interface ListControllerProps<
     /**
      * The function called when a user exports the list
      *
-     * @see https://marmelab.com/react-admin/List.html#exporter
+     * @see https://@rocketBee.com/react-admin/List.html#exporter
      * @example
      * import { List, downloadCSV } from 'react-admin';
      * import jsonExport from 'jsonexport/dist';
@@ -335,7 +335,7 @@ export interface ListControllerProps<
     /**
      * Permanent filter applied to all getList queries, regardless of the user selected filters.
      *
-     * @see https://marmelab.com/react-admin/List.html#filter
+     * @see https://@rocketBee.com/react-admin/List.html#filter
      * @example
      * export const PostList = () => (
      *     <List filter={{ is_published: true }}>
@@ -348,7 +348,7 @@ export interface ListControllerProps<
     /**
      * The filter to apply when calling getList if the filter is empty.
      *
-     * @see https://marmelab.com/react-admin/List.html#filterdefaultvalues
+     * @see https://@rocketBee.com/react-admin/List.html#filterdefaultvalues
      * @example
      * const postFilters = [
      *     <TextInput label="Search" source="q" alwaysOn />,
@@ -367,7 +367,7 @@ export interface ListControllerProps<
     /**
      * The number of results per page. Defaults to 10.
      *
-     * @see https://marmelab.com/react-admin/List.html#perpage
+     * @see https://@rocketBee.com/react-admin/List.html#perpage
      * @example
      * export const PostList = () => (
      *     <List perPage={25}>
@@ -380,7 +380,7 @@ export interface ListControllerProps<
     /**
      * The options passed to react-query's useQuery when calling getList.
      *
-     * @see https://marmelab.com/react-admin/List.html#queryoptions
+     * @see https://@rocketBee.com/react-admin/List.html#queryoptions
      * @example
      * import { useNotify, useRedirect, List } from 'react-admin';
      *
@@ -405,7 +405,7 @@ export interface ListControllerProps<
     /**
      * The resource name. Defaults to the resource from ResourceContext.
      *
-     * @see https://marmelab.com/react-admin/List.html#resource
+     * @see https://@rocketBee.com/react-admin/List.html#resource
      * @example
      * import { List } from 'react-admin';
      *
@@ -420,7 +420,7 @@ export interface ListControllerProps<
     /**
      * The default sort field and order. Defaults to { field: 'id', order: 'ASC' }.
      *
-     * @see https://marmelab.com/react-admin/List.html#sort
+     * @see https://@rocketBee.com/react-admin/List.html#sort
      * @example
      * export const PostList = () => (
      *     <List sort={{ field: 'published_at', order: 'DESC' }}>
@@ -433,7 +433,7 @@ export interface ListControllerProps<
     /**
      * The key to use to store the current filter & sort. Pass false to disable.
      *
-     * @see https://marmelab.com/react-admin/List.html#storekey
+     * @see https://@rocketBee.com/react-admin/List.html#storekey
      * @example
      * const NewerBooks = () => (
      *     <List

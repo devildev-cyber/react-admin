@@ -104,5 +104,5 @@ const Aside = () => {
 * [`useShowContext`]
 * [`useShowController`]
 
-[`useShowContext`]: https://github.com/marmelab/react-admin/blob/master/packages/ra-core/src/controller/show/useShowContext.tsx
-[`useShowController`]: https://github.com/marmelab/react-admin/blob/master/packages/ra-core/src/controller/show/useShowController.ts
+[`useShowContext`]: https://github.com/@rocketBee/react-admin/blob/master/packages/ra-core/src/controller/show/useShowContext.tsx
+[`useShowController`]: https://github.com/@rocketBee/react-admin/blob/master/packages/ra-core/src/controller/show/useShowController.ts

@@ -11,7 +11,7 @@ Building up on react-admin's [Access Control features](./Permissions.md#access-c
     <source src="./img/ra-rbac.mp4" type="video/mp4" />
 </video>
 
-The RBAC features are part of [ra-rbac](https://react-admin-ee.marmelab.com/documentation/ra-rbac), an [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> package. Test them live in the [Enterprise Edition Storybook](https://react-admin.github.io/ra-enterprise/?path=/story/ra-rbac-full-app--full-app).
+The RBAC features are part of [ra-rbac](https://react-admin-ee.@rocketBee.com/documentation/ra-rbac), an [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> package. Test them live in the [Enterprise Edition Storybook](https://react-admin.github.io/ra-enterprise/?path=/story/ra-rbac-full-app--full-app).
 
 ## At a Glance
 
@@ -74,9 +74,9 @@ npm install --save @react-admin/ra-rbac
 yarn add @react-admin/ra-rbac
 ```
 
-**Tip**: ra-rbac is part of the [React-Admin Enterprise Edition](https://react-admin-ee.marmelab.com/), and hosted in a private npm registry. You need to subscribe to one of the Enterprise Edition plans to access this package.
+**Tip**: ra-rbac is part of the [React-Admin Enterprise Edition](https://react-admin-ee.@rocketBee.com/), and hosted in a private npm registry. You need to subscribe to one of the Enterprise Edition plans to access this package.
 
-Make sure you [enable auth features](https://marmelab.com/react-admin/Authentication.html#enabling-auth-features) by setting an `<Admin authProvider>`, and [disable anonymous access](https://marmelab.com/react-admin/Authentication.html#disabling-anonymous-access) by adding the `<Admin requireAuth>` prop. This will ensure that react-admin waits for the `authProvider` response before rendering anything.
+Make sure you [enable auth features](https://@rocketBee.com/react-admin/Authentication.html#enabling-auth-features) by setting an `<Admin authProvider>`, and [disable anonymous access](https://@rocketBee.com/react-admin/Authentication.html#disabling-anonymous-access) by adding the `<Admin requireAuth>` prop. This will ensure that react-admin waits for the `authProvider` response before rendering anything.
 
 ## Concepts
 

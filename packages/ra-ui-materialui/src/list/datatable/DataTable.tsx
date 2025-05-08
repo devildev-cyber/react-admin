@@ -262,7 +262,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * The component used to render the body of the table. Defaults to <DataTableBody>.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#body
+     * @see https://@rocketBee.com/react-admin/DataTable.html#body
      */
     body?: ComponentType;
 
@@ -296,7 +296,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * The component used to render the bulk action buttons. Defaults to <BulkDeleteButton>.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#bulkactionbuttons
+     * @see https://@rocketBee.com/react-admin/DataTable.html#bulkactionbuttons
      * @example
      * import { List, DataTable, BulkDeleteButton } from 'react-admin';
      * import { Button } from '@mui/material';
@@ -322,7 +322,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * The component used to render the expand panel for each row.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#expand
+     * @see https://@rocketBee.com/react-admin/DataTable.html#expand
      * @example
      * import { List, DataTable, useRecordContext } from 'react-admin';
      *
@@ -352,7 +352,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * Whether to allow only one expanded row at a time. Defaults to false.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#expandsingle
+     * @see https://@rocketBee.com/react-admin/DataTable.html#expandsingle
      * @example
      * import { List, DataTable } from 'react-admin';
      *
@@ -369,14 +369,14 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * The component used to render the footer row. Defaults en empty component.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#footer
+     * @see https://@rocketBee.com/react-admin/DataTable.html#footer
      */
     foot?: ComponentType;
 
     /**
      * The component used to render the header row. Defaults to <DataTableHead>.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#header
+     * @see https://@rocketBee.com/react-admin/DataTable.html#header
      */
     head?: ComponentType;
 
@@ -390,7 +390,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * Set to false to disable the hover effect on rows.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#hover
+     * @see https://@rocketBee.com/react-admin/DataTable.html#hover
      * @example
      * import { List, DataTable } from 'react-admin';
      *
@@ -407,7 +407,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * The component used to render the empty table.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#empty
+     * @see https://@rocketBee.com/react-admin/DataTable.html#empty
      * @example
      * import { List, DataTable } from 'react-admin';
      *
@@ -426,7 +426,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * A function that returns whether the row for a record is expandable.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#isrowexpandable
+     * @see https://@rocketBee.com/react-admin/DataTable.html#isrowexpandable
      * @example
      * import { List, DataTable, useRecordContext } from 'react-admin';
      *
@@ -453,7 +453,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * A function that returns whether the row for a record is selectable.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#isrowselectable
+     * @see https://@rocketBee.com/react-admin/DataTable.html#isrowselectable
      * @example
      * import { List, DataTable } from 'react-admin';
      *
@@ -470,7 +470,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * The action to trigger when the user clicks on a row.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#rowclick
+     * @see https://@rocketBee.com/react-admin/DataTable.html#rowclick
      * @example
      * import { List, DataTable } from 'react-admin';
      *
@@ -487,7 +487,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * A function that returns the sx prop to apply to a row.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#rowsx
+     * @see https://@rocketBee.com/react-admin/DataTable.html#rowsx
      * @example
      * import { List, DataTable } from 'react-admin';
      *
@@ -507,7 +507,7 @@ export interface DataTableProps<RecordType extends RaRecord = any>
     /**
      * Density setting, can be either 'small' or 'medium'. Defaults to 'small'.
      *
-     * @see https://marmelab.com/react-admin/DataTable.html#size
+     * @see https://@rocketBee.com/react-admin/DataTable.html#size
      * @example
      * import { List, DataTable } from 'react-admin';
      *

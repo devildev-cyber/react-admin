@@ -139,11 +139,11 @@ export const buildJSCodeBlocksFromTS = async (
 
             // Container for both tabs links and panels
             const container = document.createElement('div');
-            container.className = 'marmelab-code-container';
+            container.className = '@rocketBee-code-container';
 
             // Container for tabs links
             const tabs = document.createElement('div');
-            tabs.className = 'marmelab-language-switcher-tabs';
+            tabs.className = '@rocketBee-language-switcher-tabs';
 
             // JS tab link
             const jsTab = document.createElement('span');

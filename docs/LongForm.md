@@ -5,7 +5,7 @@ title: "LongForm"
 
 # `<LongForm>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers an alternative form layout, to be used as child of `<Create>` or `<Edit>`. Expects `<LongForm.Section>` elements as children.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers an alternative form layout, to be used as child of `<Create>` or `<Edit>`. Expects `<LongForm.Section>` elements as children.
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/ra-longform-overview.webm" type="video/webm"/>
@@ -14,7 +14,7 @@ This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" 
 </video>
 
 
-Test it live on [the Enterprise Edition Storybook](https://storybook.ra-enterprise.marmelab.com/?path=/story/ra-form-layout-longform--basic).
+Test it live on [the Enterprise Edition Storybook](https://storybook.ra-enterprise.@rocketBee.com/?path=/story/ra-form-layout-longform--basic).
 
 This component will come in handy if you need to create a long form, with many input fields divided into several sections. It makes navigation easier, by providing a TOC (Table Of Contents) and by keeping the toolbar fixed at the bottom position.
 
@@ -388,7 +388,7 @@ The `<LongForm>` component accepts the usual `className` prop. You can also over
 
 ## `toolbar`
 
-You can customize the form Toolbar by passing a custom element in the `toolbar` prop. The form expects the same type of element as `<SimpleForm>`, see [the `<SimpleForm toolbar>` prop documentation](https://marmelab.com/react-admin/CreateEdit.html#toolbar) in the react-admin docs.
+You can customize the form Toolbar by passing a custom element in the `toolbar` prop. The form expects the same type of element as `<SimpleForm>`, see [the `<SimpleForm toolbar>` prop documentation](https://@rocketBee.com/react-admin/CreateEdit.html#toolbar) in the react-admin docs.
 
 ```jsx
 import {

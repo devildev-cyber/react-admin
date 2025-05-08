@@ -102,7 +102,7 @@
     },
     "packageManager": "yarn@4.0.2",
     "changelog": {
-        "repo": "marmelab/react-admin",
+        "repo": "@rocketBee/react-admin",
         "labels": {
             "breaking change": "Breaking Changes",
             "feature": "New Features",

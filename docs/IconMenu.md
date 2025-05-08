@@ -5,16 +5,16 @@ title: "The IconMenu Component"
 
 # `<IconMenu>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers an alternative menu user interface. It renders a reduced menu bar with a sliding panel for second-level menu items. This menu saves a lot of screen real estate, and allows for sub menus of any level of complexity.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers an alternative menu user interface. It renders a reduced menu bar with a sliding panel for second-level menu items. This menu saves a lot of screen real estate, and allows for sub menus of any level of complexity.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-multilevelmenu-categories.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-multilevelmenu-categories.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 Sometimes, even menus with sub-menus are not enough to organize the navigation. `ra-navigation` offers an alternative UI for that case: a vertical bar with small items, where the menu label renders underneath the icon. Clicking on any of those items opens a panel containing as many navigation links as you like, laid out as you wish.
 
-Test it live on [the Enterprise Edition Storybook](https://storybook.ra-enterprise.marmelab.com/?path=/story/ra-navigation-iconmenu--basic).
+Test it live on [the Enterprise Edition Storybook](https://storybook.ra-enterprise.@rocketBee.com/?path=/story/ra-navigation-iconmenu--basic).
 
 ## Usage
 
@@ -57,7 +57,7 @@ export const MyLayout = ({ children }) => (
 );
 ```
 
-`<AppLocationContext>` is necessary because `ra-navigation` doesn't use the URL to detect the current location. Instead, page components *declare* their location using a custom hook (`useDefineAppLocation()`). This allows complex site maps, with multiple levels of nesting. Check [the ra-navigation documentation](https://react-admin-ee.marmelab.com/documentation/ra-navigation) to learn more about App Location.
+`<AppLocationContext>` is necessary because `ra-navigation` doesn't use the URL to detect the current location. Instead, page components *declare* their location using a custom hook (`useDefineAppLocation()`). This allows complex site maps, with multiple levels of nesting. Check [the ra-navigation documentation](https://react-admin-ee.@rocketBee.com/documentation/ra-navigation) to learn more about App Location.
 
 Finally, pass this custom layout to the `<Admin>` component. You should apply the theme provided by ra-navigation:
 

@@ -318,7 +318,7 @@ ul.sidenav code {
     margin-bottom: 1em;
 }
 
-.marmelab-language-switcher-tabs {
+.@rocketBee-language-switcher-tabs {
     margin-top: -0.5em;
 }
 
@@ -706,7 +706,7 @@ body.no-sidebar .sidenav-trigger {
     }
 }
 
-.marmelab-language-switcher-tabs {
+.@rocketBee-language-switcher-tabs {
     display: flex;
     gap: 1rem;
     justify-content: end;

@@ -2,9 +2,9 @@
 
 Generates a large JSON object full of fake data for simulating the backend of a poster shop. 
 
-Used to simulate a REST / GraphQL backend in [react-admin](https://github.com/marmelab/react-admin). To get a glimpse of the test data, browse the [react-admin demo](https://marmelab.com/react-admin-demo/#/).
+Used to simulate a REST / GraphQL backend in [react-admin](https://github.com/@rocketBee/react-admin). To get a glimpse of the test data, browse the [react-admin demo](https://@rocketBee.com/react-admin-demo/#/).
 
-[![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
+[![react-admin-demo](https://@rocketBee.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
 
 ## Usage
 
@@ -93,4 +93,4 @@ console.log(data);
 
 ## Licence
 
-Data Generator for Retail is licensed under the [MIT License](https://github.com/marmelab/react-admin/blob/master/LICENSE.md), sponsored and supported by [marmelab](https://marmelab.com).
+Data Generator for Retail is licensed under the [MIT License](https://github.com/@rocketBee/react-admin/blob/master/LICENSE.md), sponsored and supported by [@rocketBee](https://@rocketBee.com).

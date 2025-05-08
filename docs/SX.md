@@ -31,7 +31,7 @@ In the rendered HTML, this will result in a custom class name, like `EditButton-
 
 The `sx` prop supports CSS syntax including child and pseudo-selectors, media queries, raw CSS values, and more.
 
-Here is another example, taken from the [CRM demo](https://github.com/marmelab/react-admin/blob/master/examples/crm/src/dashboard/Welcome.tsx):
+Here is another example, taken from the [CRM demo](https://github.com/@rocketBee/react-admin/blob/master/examples/crm/src/dashboard/Welcome.tsx):
 
 {% raw %}
 ```jsx

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configure git
-git config --global user.email "react-admin@marmelab.com"
+git config --global user.email "react-admin@@rocketBee.com"
 git config --global user.name "React-Admin CI"
 
 # Configure ssh keys

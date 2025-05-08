@@ -1,12 +1,12 @@
 # Atomic CRM
 
-[Atomic CRM](https://marmelab.com/atomic-crm/) is a CRM template built with [react-admin](https://github.com/marmelab/react-admin) and Supabse. You can test it online at https://marmelab.com/react-admin-crm.
+[Atomic CRM](https://@rocketBee.com/atomic-crm/) is a CRM template built with [react-admin](https://github.com/@rocketBee/react-admin) and Supabse. You can test it online at https://@rocketBee.com/react-admin-crm.
 
 https://user-images.githubusercontent.com/99944/116970434-4a926480-acb8-11eb-8ce2-0602c680e45e.mp4
 
-React-admin usually requires a REST/GraphQL server to provide data. In this demo, however, the API is simulated by the browser (using [FakeRest](https://github.com/marmelab/FakeRest)). The source data is generated at runtime by a package called [data-generator](https://github.com/marmelab/react-admin/tree/master/examples/data-generator).
+React-admin usually requires a REST/GraphQL server to provide data. In this demo, however, the API is simulated by the browser (using [FakeRest](https://github.com/@rocketBee/FakeRest)). The source data is generated at runtime by a package called [data-generator](https://github.com/@rocketBee/react-admin/tree/master/examples/data-generator).
 
-To explore the source code, start with [src/App.tsx](https://github.com/marmelab/react-admin/blob/master/examples/crm/src/App.tsx).
+To explore the source code, start with [src/App.tsx](https://github.com/@rocketBee/react-admin/blob/master/examples/crm/src/App.tsx).
 
 **Note**: This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

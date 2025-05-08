@@ -1674,7 +1674,7 @@ describe('<AutocompleteInput />', () => {
             fireEvent.click(screen.getByLabelText('Clear value'));
             userEvent.tab();
             // Couldn't reproduce the infinite loop issue without this timeout
-            // See https://github.com/marmelab/react-admin/issues/7482
+            // See https://github.com/@rocketBee/react-admin/issues/7482
             await new Promise(resolve => setTimeout(resolve, 2000));
             await waitFor(() => {
                 expect(

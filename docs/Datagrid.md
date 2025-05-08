@@ -41,7 +41,7 @@ The `<Datagrid>` is an **iterator** component: it gets an array of records from 
 - [`<EditableDatagrid>`](./EditableDatagrid.md)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> lets users edit the content right in the datagrid
 - [`<DatagridAG>`](./DatagridAG.md)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> adds suport for column reordering, aggregation, pivoting, row grouping, infinite scroll, etc.
 
-Both are [Enterprise Edition](https://react-admin-ee.marmelab.com) components.
+Both are [Enterprise Edition](https://react-admin-ee.@rocketBee.com) components.
 
 ## Props
 
@@ -664,7 +664,7 @@ const PostList = () => (
 
 ## `rowClick`
 
-By default, `<Datagrid>` will look at the current [resource definition](https://marmelab.com/react-admin/Resource.html) to determine what to do when the user clicks on a row. If the resource has a `show` page, it will redirect to the Show view. If the resource has an `edit` page, it will redirect to the Edit view. Otherwise, the row will not be clickable.
+By default, `<Datagrid>` will look at the current [resource definition](https://@rocketBee.com/react-admin/Resource.html) to determine what to do when the user clicks on a row. If the resource has a `show` page, it will redirect to the Show view. If the resource has an `edit` page, it will redirect to the Edit view. Otherwise, the row will not be clickable.
 
 Note that if your authProvider implements [the `canAccess` method](./AuthProviderWriting.md#canaccess) and you don't provide the `rowClick` prop, React-Admin will also verify whether users have access to the Show and Edit views. For instance, given the following `Datagrid`:
 
@@ -838,7 +838,7 @@ const PostList = () => (
 ```
 {% endraw %}
 
-**Tip**: The `Datagrid` component `classes` can also be customized for all instances of the component with its global css name `"RaDatagrid"` as [describe here](https://marmelab.com/blog/2019/12/18/react-admin-3-1.html#theme-overrides)
+**Tip**: The `Datagrid` component `classes` can also be customized for all instances of the component with its global css name `"RaDatagrid"` as [describe here](https://@rocketBee.com/blog/2019/12/18/react-admin-3-1.html#theme-overrides)
 
 ## Header Pinning
 
@@ -964,7 +964,7 @@ const PostList = () => (
 **Tip**: For even more column customization (resizable columns, column grouping, etc.), check out the [`<DatagridAG>`](./DatagridAG.md) component.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/DatagridAG.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/DatagridAG.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -978,7 +978,7 @@ The separation between list pages and edit pages is not always relevant. Sometim
 ### `<EditableDatagrid>`: Editable Rows
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-editable-datagrid-overview.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-editable-datagrid-overview.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -1044,7 +1044,7 @@ Check [the `<EditableDatagrid>` documentation](./EditableDatagrid.md) for more d
 ### `<DatagridAG>`: Spreadsheet-like Interface
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/DatagridAG.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/DatagridAG.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -1072,7 +1072,7 @@ Additionally, `<DatagridAG>` is compatible with the [Enterprise version of ag-gr
 -   And more...
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/DatagridAG-enterprise.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/DatagridAG-enterprise.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -1244,7 +1244,7 @@ const PostList = () => (
 **Tip**: For even more column customization (resizable columns, column grouping, etc.), check out the [`<DatagridAG>`](./DatagridAG.md) component.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/DatagridAG.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/DatagridAG.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 

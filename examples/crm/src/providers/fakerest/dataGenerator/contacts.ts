@@ -36,7 +36,7 @@ export const generateContacts = (db: Db): Required<Contact>[] => {
         const email = internet.email(first_name, last_name);
         const avatar = {
             src: has_avatar
-                ? 'https://marmelab.com/posters/avatar-' +
+                ? 'https://@rocketBee.com/posters/avatar-' +
                   (223 - numberOfContacts) +
                   '.jpeg'
                 : undefined,

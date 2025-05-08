@@ -64,7 +64,7 @@ export const PostList = () => (
 
 **Tip**: The `<Card sx>` prop in the `PostFilterSidebar` component above is here to put the sidebar on the left side of the screen, instead of the default right side.
 
-A more sophisticated example is the filter sidebar for the visitors list visible in the screencast at the beginning of this page. The code for this example is available in the [react-admin repository](https://github.com/marmelab/react-admin/blob/master/examples/demo/src/visitors/VisitorListAside.tsx).
+A more sophisticated example is the filter sidebar for the visitors list visible in the screencast at the beginning of this page. The code for this example is available in the [react-admin repository](https://github.com/@rocketBee/react-admin/blob/master/examples/demo/src/visitors/VisitorListAside.tsx).
 
 **Tip**: In a Filter List sidebar, you can use [the `<FilterLiveSearch>` component](./FilterLiveSearch.md) to add a search input at the top of the sidebar, and [the `<SavedQueriesList>` component](./SavedQueriesList.md) to add a list of saved queries.
 

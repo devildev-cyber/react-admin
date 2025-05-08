@@ -21,7 +21,7 @@ export const SupportedDataProviders: ChoiceType[] = [
         label: 'Simple REST',
         value: 'ra-data-simple-rest',
         description:
-            'A Simple REST data provider (https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest)',
+            'A Simple REST data provider (https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-simple-rest)',
     },
     {
         label: 'Supabase',

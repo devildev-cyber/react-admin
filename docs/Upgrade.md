@@ -231,7 +231,7 @@ In the default theme, all inputs now have full width. This makes forms better lo
 
 | Before | After | 
 | ------| ------|
-| <img width="606" alt="Capture d’écran 2024-03-08 à 22 47 03" src="https://github.com/marmelab/react-admin/assets/99944/b9ff3b48-55ff-4d70-b154-da074f99f88b"> | <img width="580" alt="Capture d’écran 2024-03-08 à 22 46 24" src="https://github.com/marmelab/react-admin/assets/99944/3c0e83da-3f3f-491b-999d-17fdec09e05e"> |
+| <img width="606" alt="Capture d’écran 2024-03-08 à 22 47 03" src="https://github.com/@rocketBee/react-admin/assets/99944/b9ff3b48-55ff-4d70-b154-da074f99f88b"> | <img width="580" alt="Capture d’écran 2024-03-08 à 22 46 24" src="https://github.com/@rocketBee/react-admin/assets/99944/3c0e83da-3f3f-491b-999d-17fdec09e05e"> |
 
 If this breaks your existing form layouts, you can revert to the previous style by resetting the `fullWidth` default prop in the application theme. To do so:
 
@@ -283,7 +283,7 @@ In the default theme, links are now underlined by default.
 
 | Before | After |
 |-------|-------|
-| ![localhost_8000_ (1)](https://github.com/marmelab/react-admin/assets/99944/5501a2bc-5cc8-47c9-b267-2b80b672cf1a) | ![localhost_8000_](https://github.com/marmelab/react-admin/assets/99944/525dc9f5-0b27-4fd0-b3c7-fe9f9af089b1) |
+| ![localhost_8000_ (1)](https://github.com/@rocketBee/react-admin/assets/99944/5501a2bc-5cc8-47c9-b267-2b80b672cf1a) | ![localhost_8000_](https://github.com/@rocketBee/react-admin/assets/99944/525dc9f5-0b27-4fd0-b3c7-fe9f9af089b1) |
 
 
 If you use the `<Link>` component from `react-admin`, and you want to remove the underline, set the `underline` prop to `none`:
@@ -323,7 +323,7 @@ const CompanyField = () => (
 
 ### Dark Theme Is Available By Default
 
-In addition to the light theme, React-admin v5 includes a [dark theme](https://marmelab.com/react-admin/AppTheme.html#light-and-dark-themes), renders a theme switcher in the app bar, and chooses the default theme based on the user OS preferences.
+In addition to the light theme, React-admin v5 includes a [dark theme](https://@rocketBee.com/react-admin/AppTheme.html#light-and-dark-themes), renders a theme switcher in the app bar, and chooses the default theme based on the user OS preferences.
 
 If you don't need the dark mode feature, you'll have to explicitly disable it:
 
@@ -487,7 +487,7 @@ describe('my test suite', () => {
 
 ### Custom Layout No Longer Receives Props
 
-React-admin used to inject 4 props to [custom layouts](https://marmelab.com/react-admin/Admin.html#layout): `children`, `dashboard`, `menu`, and `title`. In react-admin v5, only the `children` prop is injected.
+React-admin used to inject 4 props to [custom layouts](https://@rocketBee.com/react-admin/Admin.html#layout): `children`, `dashboard`, `menu`, and `title`. In react-admin v5, only the `children` prop is injected.
 
 This means that you'll need to use hooks to get the other props:
 
@@ -528,7 +528,7 @@ const App = () => (
 
 ### Custom App Bars No Longer Receive Props
 
-React-admin used to inject 2 props to [custom app bars](https://marmelab.com/react-admin/Layout.html#appbar): `open`, and `title`. These deprecated props are no longer injected in v5. If you need them, you'll have to use hooks:
+React-admin used to inject 2 props to [custom app bars](https://@rocketBee.com/react-admin/Layout.html#appbar): `open`, and `title`. These deprecated props are no longer injected in v5. If you need them, you'll have to use hooks:
 
 ```diff
 +import { useSidebarState, useDefaultTitle } from 'react-admin';
@@ -547,7 +547,7 @@ const MyLayout = ({ children }) => (
 
 ### Custom Menu No Longer Receive Props
 
-React-admin used to inject one prop to [custom menus](https://marmelab.com/react-admin/Layout.html#menu): `hasDashboard`. This deprecated prop is no longer injected in v5. If you need it, you'll have to use the `useHasDashboard` hook instead:
+React-admin used to inject one prop to [custom menus](https://@rocketBee.com/react-admin/Layout.html#menu): `hasDashboard`. This deprecated prop is no longer injected in v5. If you need it, you'll have to use the `useHasDashboard` hook instead:
 
 ```diff
 +import { useHasDashboard } from 'react-admin';
@@ -565,7 +565,7 @@ const MyLayout = ({ children }) => (
 
 ### Custom Error Page No Longer Receives Title
 
-React-admin injects several props to [custom error pages](https://marmelab.com/react-admin/Layout.html#error), including the default app `title`. This prop is no longer injected in v5. If you need it, you'll have to use the `useDefaultTitle` hook instead:
+React-admin injects several props to [custom error pages](https://@rocketBee.com/react-admin/Layout.html#error), including the default app `title`. This prop is no longer injected in v5. If you need it, you'll have to use the `useDefaultTitle` hook instead:
 
 ```diff
 +import { useDefaultTitle } from 'react-admin';
@@ -583,7 +583,7 @@ const MyLayout = ({ children }) => (
 
 ### Custom Catch All No Longer Receives Title
 
-React-admin used to inject the default app `title` to [custom catch all pages](https://marmelab.com/react-admin/Admin.html#catchall). This prop is no longer injected in v5. If you need it, you'll have to use the `useDefaultTitle` hook instead:
+React-admin used to inject the default app `title` to [custom catch all pages](https://@rocketBee.com/react-admin/Admin.html#catchall). This prop is no longer injected in v5. If you need it, you'll have to use the `useDefaultTitle` hook instead:
 
 ```diff
 +import { useDefaultTitle } from 'react-admin';
@@ -669,7 +669,7 @@ const PostList = () => (
 
 ### `<Datagrid rowClick>` is no longer `false` by default
 
-`<Datagrid>` will now make the rows clickable as soon as a Show or Edit view is declared on the resource (using the [resource definition](https://marmelab.com/react-admin/Resource.html)).
+`<Datagrid>` will now make the rows clickable as soon as a Show or Edit view is declared on the resource (using the [resource definition](https://@rocketBee.com/react-admin/Resource.html)).
 
 If you previously relied on the fact that the rows were not clickable by default, you now need to explicitly disable the `rowClick` feature:
 
@@ -1462,4 +1462,4 @@ React-admin no longer supports ([deprecated React PropTypes](https://legacy.reac
 
 ## Upgrading to v4
 
-If you are on react-admin v3, follow the [Upgrading to v4](https://marmelab.com/react-admin/doc/4.16/Upgrade.html) guide before upgrading to v5.
+If you are on react-admin v3, follow the [Upgrading to v4](https://@rocketBee.com/react-admin/doc/4.16/Upgrade.html) guide before upgrading to v5.

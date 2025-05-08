@@ -5,9 +5,9 @@ title: "Documentation"
 
 # react-admin
 
-React-admin is a frontend framework for building browser-based, data-driven applications on top of REST/GraphQL APIs using [React](https://react.dev). Maintained by [marmelab](https://marmelab.com), it is open source and battle-tested.
+React-admin is a frontend framework for building browser-based, data-driven applications on top of REST/GraphQL APIs using [React](https://react.dev). Maintained by [@rocketBee](https://@rocketBee.com), it is open source and battle-tested.
 
-[![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
+[![react-admin-demo](https://@rocketBee.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
 
 Check out examples of react-admin in action in the [Demos](./Demos.md) section.
 
@@ -83,7 +83,7 @@ Learn more about [Architecture Choices](./Architecture.md).
 
 ## Enterprise Edition
 
-[React-admin Enterprise Edition](https://react-admin-ee.marmelab.com/) offers additional premium features:
+[React-admin Enterprise Edition](https://react-admin-ee.@rocketBee.com/) offers additional premium features:
 
   - `ra-ai`: Components powered by Artificial Intelligence (AI) to boost user productivity. Suggest completion for user inputs, fix and improve large chunks of text in React-Admin forms.
   - `ra-audit-log`: Track all changes made to your data, and display them in a dedicated view.
@@ -103,7 +103,7 @@ Learn more about [Architecture Choices](./Architecture.md).
 
 ## Support
 
-* Get professional support from Marmelab via [React-Admin Enterprise Edition](https://react-admin-ee.marmelab.com)
+* Get professional support from @rocketBee via [React-Admin Enterprise Edition](https://react-admin-ee.@rocketBee.com)
 * Get community support via [Discord](https://discord.gg/GeZF9sqh3N) and [StackOverflow](https://stackoverflow.com/questions/tagged/react-admin)
 
 
@@ -114,4 +114,4 @@ We monitor react-admin's carbon footprint using [GreenFrame](https://greenframe.
 
 ## License
 
-React-admin is licensed under the [MIT License](https://github.com/marmelab/react-admin/blob/master/LICENSE.md), sponsored by [marmelab](https://marmelab.com).
+React-admin is licensed under the [MIT License](https://github.com/@rocketBee/react-admin/blob/master/LICENSE.md), sponsored by [@rocketBee](https://@rocketBee.com).

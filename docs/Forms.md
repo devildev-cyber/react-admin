@@ -375,7 +375,7 @@ import { FormDataConsumer } from 'react-admin';
 
 **Note**: By default, `react-hook-form` submits values of unmounted input components. In the above example, the `shouldUnregister` prop of the `<SimpleForm>` component prevents that from happening. That way, when end users hide an input, its value isn't included in the submitted data.
 
-**Note**: `shouldUnregister` should be avoided when using `<ArrayInput>` (which internally uses `useFieldArray`) as the unregister function gets called after input unmount/remount and reorder. This limitation is mentioned in the react-hook-form [documentation](https://react-hook-form.com/docs/usecontroller#props). If you are in such a situation, you can use the [`transform`](https://marmelab.com/react-admin/Edit.html#transform) prop to manually clean the submitted values.
+**Note**: `shouldUnregister` should be avoided when using `<ArrayInput>` (which internally uses `useFieldArray`) as the unregister function gets called after input unmount/remount and reorder. This limitation is mentioned in the react-hook-form [documentation](https://react-hook-form.com/docs/usecontroller#props). If you are in such a situation, you can use the [`transform`](https://@rocketBee.com/react-admin/Edit.html#transform) prop to manually clean the submitted values.
 
 ## Transforming Form Values Before Submitting
 
@@ -795,7 +795,7 @@ Users often need to edit data from several resources in the same form. React-adm
 - [`<EditInDialogButton>`](./EditInDialogButton.md) lets users open a modal to edit a related record
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-form-layout/latest/InDialogButtons.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-form-layout/latest/InDialogButtons.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

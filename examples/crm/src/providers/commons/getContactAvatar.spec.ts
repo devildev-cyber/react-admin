@@ -14,8 +14,8 @@ Object.defineProperty(globalThis, 'crypto', {
     value: webcrypto,
 });
 
-it('should return gravatar URL for anthony@marmelab.com', async () => {
-    const email = 'anthony@marmelab.com';
+it('should return gravatar URL for anthony@@rocketBee.com', async () => {
+    const email = 'anthony@@rocketBee.com';
     const record: Partial<Contact> = { email };
 
     const avatarUrl = await getContactAvatar(record);
@@ -49,7 +49,7 @@ it('should return null if no email is provided', async () => {
 });
 
 it('should return null if email has no gravatar or validate domain', async () => {
-    const email = 'anthony@fake-domain-marmelab.com';
+    const email = 'anthony@fake-domain-@rocketBee.com';
     const record: Partial<Contact> = { email };
 
     const avatarUrl = await getContactAvatar(record);

@@ -5,10 +5,10 @@ title: "CreateInDialogButton"
 
 # `<CreateInDialogButton>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers a way to open a `<Create>` view inside a dialog, hence allowing to create a new record without leaving the current view.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers a way to open a `<Create>` view inside a dialog, hence allowing to create a new record without leaving the current view.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-form-layout/latest/CreateInDialogButton.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-form-layout/latest/CreateInDialogButton.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -26,7 +26,7 @@ npm install --save @react-admin/ra-form-layout
 yarn add @react-admin/ra-form-layout
 ```
 
-**Tip**: [`ra-form-layout`](https://react-admin-ee.marmelab.com/documentation/ra-form-layout#createindialogbutton-editindialogbutton-and-showindialogbutton) is hosted in a private npm registry. You need to subscribe to one of the [Enterprise Edition](https://react-admin-ee.marmelab.com/) plans to access this package.
+**Tip**: [`ra-form-layout`](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout#createindialogbutton-editindialogbutton-and-showindialogbutton) is hosted in a private npm registry. You need to subscribe to one of the [Enterprise Edition](https://react-admin-ee.@rocketBee.com/) plans to access this package.
 
 Then, put `<CreateInDialogButton>` wherever you would put a `<CreateButton>`, and use the same children as you would for a `<Create>` component (e.g. a `<SimpleForm>`): 
 

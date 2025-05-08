@@ -46,7 +46,7 @@ export interface AdminUIProps extends CoreAdminUIProps {
     /**
      * The component used to display notifications
      *
-     * @see https://marmelab.com/react-admin/Admin.html#notification
+     * @see https://@rocketBee.com/react-admin/Admin.html#notification
      * @example
      * import { Admin, Notification } from 'react-admin';
      * import { dataProvider } from './dataProvider';

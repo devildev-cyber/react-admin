@@ -1,6 +1,6 @@
 # ra-data-graphql-simple
 
-A GraphQL data provider for [react-admin](https://github.com/marmelab/react-admin/)
+A GraphQL data provider for [react-admin](https://github.com/@rocketBee/react-admin/)
 built with [Apollo](https://www.apollodata.com/) and tailored to target a simple GraphQL implementation.
 
 **This is an example implementation to show how to build a graphql adapter using `ra-data-graphql`.**
@@ -111,7 +111,7 @@ type ListMetadata {
 scalar Date
 ```
 
-This is the grammar used e.g. by [marmelab/json-graphql-server](https://github.com/marmelab/json-graphql-server), a client-side GraphQL server used for test purposes.
+This is the grammar used e.g. by [@rocketBee/json-graphql-server](https://github.com/@rocketBee/json-graphql-server), a client-side GraphQL server used for test purposes.
 
 ## Options
 
@@ -209,7 +209,7 @@ buildApolloProvider({ introspection: introspectionOptions });
 
 ## Sparse Field Support for Queries and Mutations
 
-By default, for every API call this data provider returns all top level fields in your GraphQL schema as well as association objects containing the association's ID. If you would like to implement sparse field support for your requests, you can request the specific fields you want in a request by passing them to the dataProvider via the available [meta param](https://marmelab.com/react-admin/Actions.html#meta-parameter). For example,
+By default, for every API call this data provider returns all top level fields in your GraphQL schema as well as association objects containing the association's ID. If you would like to implement sparse field support for your requests, you can request the specific fields you want in a request by passing them to the dataProvider via the available [meta param](https://@rocketBee.com/react-admin/Actions.html#meta-parameter). For example,
 
 ```js
 dataProvider.getOne(

@@ -5,7 +5,7 @@ title: "The Tree Component"
 
 # `<Tree>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component renders a tree based on tree data.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component renders a tree based on tree data.
 
 ![Tree screenshot](./img/tree.png)
 
@@ -13,7 +13,7 @@ It is a wrapper for [rc-tree's `<Tree>`](https://github.com/react-component/tree
 
 ## Usage
 
-`<Tree>` expects a `data` prop containing a tree of nodes as returned by [the dataProvider tree methods](https://react-admin-ee.marmelab.com/documentation/ra-tree#dataprovider).
+`<Tree>` expects a `data` prop containing a tree of nodes as returned by [the dataProvider tree methods](https://react-admin-ee.@rocketBee.com/documentation/ra-tree#dataprovider).
 
 ```tsx
 import { Tree } from '@react-admin/ra-tree';
@@ -42,7 +42,7 @@ The `<Tree>` component accepts the [rc-tree's `<Tree>`](https://github.com/react
 
 | Prop                  | Required | Type           | Default | Description                                                                                    |
 | --------------------- | -------- | -------------- | ------- |----------------------------------------------------------------------------------------------- |
-| `data`                | Required | `TreeRecord[]` | -       | The tree data to display in the format returned by the [dataProvider](https://react-admin-ee.marmelab.com/documentation/ra-tree#dataprovider). |
+| `data`                | Required | `TreeRecord[]` | -       | The tree data to display in the format returned by the [dataProvider](https://react-admin-ee.@rocketBee.com/documentation/ra-tree#dataprovider). |
 | `className`           | Optional | `string`       | -       | The CSS class name to apply on the Root component.                                             |
 | `defaultExpandedKeys` | Optional | `Identifier[]` | -       | An array of identifiers defining the records that should be expanded by default.               |
 | `defaultSelectedKeys` | Optional | `Identifier[]` | -       | An array of identifiers defining the records that should be selected by default.               |
@@ -72,7 +72,7 @@ export const SimpleTree = () => <Tree data={data} className="my-class" />;
 
 ### `data`
 
-The tree data to display in the format returned by the [dataProvider](https://react-admin-ee.marmelab.com/documentation/ra-tree#dataprovider).
+The tree data to display in the format returned by the [dataProvider](https://react-admin-ee.@rocketBee.com/documentation/ra-tree#dataprovider).
 
 ```tsx
 import { Tree } from '@react-admin/ra-tree';

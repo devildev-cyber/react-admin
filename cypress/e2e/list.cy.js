@@ -85,7 +85,7 @@ describe('List Page', () => {
 
             // This validates that defaultFilterValues on the user list is
             // not kept for posts after navigation.
-            // See https://github.com/marmelab/react-admin/pull/2019
+            // See https://github.com/@rocketBee/react-admin/pull/2019
             cy.get('[href="#/users"]').click();
             // Wait until the filter is actually applied (async because of hook-form)
             cy.contains('1-2 of 2');

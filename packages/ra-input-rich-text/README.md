@@ -1,6 +1,6 @@
 # ra-input-rich-text
 
-A rich text editor for [React Admin](http://marmelab.com/react-admin), based on [TipTap](https://www.tiptap.dev/).
+A rich text editor for [React Admin](http://@rocketBee.com/react-admin), based on [TipTap](https://www.tiptap.dev/).
 
 ## Installation
 
@@ -142,4 +142,4 @@ export const MyEditorOptions = {
 
 ## License
 
-This data provider is licensed under the MIT License, and sponsored by [Marmelab](https://marmelab.com).
+This data provider is licensed under the MIT License, and sponsored by [@rocketBee](https://@rocketBee.com).

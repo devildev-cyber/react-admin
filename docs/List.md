@@ -1022,7 +1022,7 @@ const PostList = () => (
 ```
 {% endraw %}
 
-**Tip**: The `List` component `classes` can also be customized for all instances of the component with its global css name `RaList` as [describe here](https://marmelab.com/blog/2019/12/18/react-admin-3-1.html#theme-overrides)
+**Tip**: The `List` component `classes` can also be customized for all instances of the component with its global css name `RaList` as [describe here](https://@rocketBee.com/blog/2019/12/18/react-admin-3-1.html#theme-overrides)
 
 ## Scaffolding a List page
 

@@ -1,8 +1,8 @@
 {
     "name": "data-generator-retail",
     "version": "5.8.0",
-    "homepage": "https://github.com/marmelab/react-admin/tree/master/examples/data-generator",
-    "bugs": "https://github.com/marmelab/react-admin/issues",
+    "homepage": "https://github.com/@rocketBee/react-admin/tree/master/examples/data-generator",
+    "bugs": "https://github.com/@rocketBee/react-admin/issues",
     "license": "MIT",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",

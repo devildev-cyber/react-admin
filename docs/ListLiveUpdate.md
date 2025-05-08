@@ -5,7 +5,7 @@ title: "ListLiveUpdate"
 
 # `<ListLiveUpdate>`
 
-`<ListLiveUpdate>` is an [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component that refreshes its parent `ListContext` (e.g in a [`<List>`](./List.md)) when a record is created, updated, or deleted.
+`<ListLiveUpdate>` is an [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component that refreshes its parent `ListContext` (e.g in a [`<List>`](./List.md)) when a record is created, updated, or deleted.
 
 ![ListLive](./img/ListLive.png)
 
@@ -40,7 +40,7 @@ To trigger refreshes of `<ListLiveUpdate>`, the API has to publish events contai
 ```
 
 
-This also works with [`<ReferenceManyField>`](https://marmelab.com/react-admin/ReferenceManyField.html) or [`<ReferenceArrayField>`](https://marmelab.com/react-admin/ReferenceArrayField.html):
+This also works with [`<ReferenceManyField>`](https://@rocketBee.com/react-admin/ReferenceManyField.html) or [`<ReferenceArrayField>`](https://@rocketBee.com/react-admin/ReferenceArrayField.html):
 ```tsx
 import { Show, SimpleShowLayout, ReferenceManyField, Datagrid, TextField, DateField } from 'react-admin';
 import { ListLiveUpdate } from '@react-admin/ra-realtime';

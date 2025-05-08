@@ -354,7 +354,7 @@ Here is a list of react-admin's [relationship components](./Features.md#relation
 - [`<ReferenceManyToManyInput>`](./ReferenceManyToManyInput.md)
 - [`<ReferenceOneInput>`](./ReferenceOneInput.md)
 
-To learn more about relationships, check out this tutorial: [Handling Relationships in React Admin](https://marmelab.com/blog/2025/02/06/handling-relationships-in-react-admin.html).
+To learn more about relationships, check out this tutorial: [Handling Relationships in React Admin](https://@rocketBee.com/blog/2025/02/06/handling-relationships-in-react-admin.html).
 
 If a relationship component doesn't fit your specific use case, you can always use a [custom data provider method](./Actions.md#calling-custom-methods) to fetch the required data.
 
@@ -367,7 +367,7 @@ If a relationship component doesn't fit your specific use case, you can always u
 
 React-admin offers powerful realtime features to help you build collaborative applications based on the Publish / Subscribe (PubSub) pattern. The [Realtime documentation](./Realtime.md) explains how to use them.
 
-These features are part of the [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" />.
+These features are part of the [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" />.
 
 ### Realtime Data Provider
 

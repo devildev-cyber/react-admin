@@ -182,6 +182,6 @@ const PostList = () => {
 ```
 {% endraw %}
 
-Note that you can't have an [optimized](https://marmelab.com/react-admin/List.html#performance) Datagrid when doing so, as changing the locale wouldn't trigger a render of its children.
+Note that you can't have an [optimized](https://@rocketBee.com/react-admin/List.html#performance) Datagrid when doing so, as changing the locale wouldn't trigger a render of its children.
 
 The same pattern applies to show views when you don't want to display all translations: get the locale from the `useLocale` hook and dynamically set the `source` prop of the translatable fields.

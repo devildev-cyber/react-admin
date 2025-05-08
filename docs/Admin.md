@@ -33,7 +33,7 @@ export default App;
 
 `<Admin>` children can be [`<Resource>`](./Resource.md) and [`<CustomRoutes>`](./CustomRoutes.md) elements.
 
-In most apps, you need to pass more props to `<Admin>`. Here is a more complete example taken from [the e-commerce demo](https://marmelab.com/react-admin-demo/):
+In most apps, you need to pass more props to `<Admin>`. Here is a more complete example taken from [the e-commerce demo](https://@rocketBee.com/react-admin-demo/):
 
 {% raw %}
 ```tsx
@@ -166,7 +166,7 @@ Here are all the props accepted by the component:
 
 `dataProvider` is the only required prop. It must be an object allowing to communicate with the API. React-admin uses the data provider everywhere it needs to fetch or save data.
 
-In many cases, you won't have to write a data provider, as one of the [50+ existing data providers](./DataProviderList.md) will probably fit your needs. For instance, if your API is REST-based, you can use the [Simple REST Data Provider](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest) as follows:
+In many cases, you won't have to write a data provider, as one of the [50+ existing data providers](./DataProviderList.md) will probably fit your needs. For instance, if your API is REST-based, you can use the [Simple REST Data Provider](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-simple-rest) as follows:
 
 ```tsx
 // in src/App.js
@@ -330,7 +330,7 @@ const App = () => (
 
 The `authProvider` is responsible for managing authentication and permissions, usually based on an authentication backend. React-admin uses it to check for authentication status, redirect to the login page when the user is not authenticated, check for permissions, display the user identity, and more.
 
-If you use a standard authentication strategy, you can use one of the [existing auth providers](./AuthProviderList.md). For instance, to use [Auth0](https://auth0.com/), you can use [`ra-auth-auth0`](https://github.com/marmelab/ra-auth-auth0):
+If you use a standard authentication strategy, you can use one of the [existing auth providers](./AuthProviderList.md). For instance, to use [Auth0](https://auth0.com/), you can use [`ra-auth-auth0`](https://github.com/@rocketBee/ra-auth-auth0):
 
 ```tsx
 // in src/App.tsx
@@ -391,7 +391,7 @@ The Auth Provider also lets you configure redirections after login/logout, anony
 
 ## `basename`
 
-Use this prop to make all routes and links in your Admin relative to a "base" portion of the URL pathname that they all share. This is required when using the [`BrowserRouter`](https://reactrouter.com/en/main/router-components/browser-router) to serve the application under a sub-path of your domain (for example https://marmelab.com/ra-enterprise-demo), or when embedding react-admin inside a single-page app with its own routing.
+Use this prop to make all routes and links in your Admin relative to a "base" portion of the URL pathname that they all share. This is required when using the [`BrowserRouter`](https://reactrouter.com/en/main/router-components/browser-router) to serve the application under a sub-path of your domain (for example https://@rocketBee.com/ra-enterprise-demo), or when embedding react-admin inside a single-page app with its own routing.
 
 ```tsx
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -618,9 +618,9 @@ const App = () => (
 
 ## `disableTelemetry`
 
-In production, react-admin applications send an anonymous request on mount to a telemetry server operated by marmelab. You can see this request by looking at the Network tab of your browser DevTools:
+In production, react-admin applications send an anonymous request on mount to a telemetry server operated by @rocketBee. You can see this request by looking at the Network tab of your browser DevTools:
 
-`https://react-admin-telemetry.marmelab.com/react-admin-telemetry`
+`https://react-admin-telemetry.@rocketBee.com/react-admin-telemetry`
 
 The only data sent to the telemetry server is the admin domain (e.g. "example.com") - no personal data is ever sent, and no cookie is included in the response. The react-admin team uses these domains to track the usage of the framework.
 
@@ -822,7 +822,7 @@ const App = () => (
 );
 ```
 
-Check [the custom layout documentation](./Layout.md#writing-a-layout-from-scratch) for examples, and use the [default `<Layout>`](https://github.com/marmelab/react-admin/blob/master/packages/ra-ui-materialui/src/layout/Layout.tsx) as a starting point.
+Check [the custom layout documentation](./Layout.md#writing-a-layout-from-scratch) for examples, and use the [default `<Layout>`](https://github.com/@rocketBee/react-admin/blob/master/packages/ra-ui-materialui/src/layout/Layout.tsx) as a starting point.
 
 ## `loginPage`
 
@@ -1076,7 +1076,7 @@ Check the [Preferences documentation](./Store.md) for more details.
 
 Material UI supports [theming](https://mui.com/material-ui/customization/theming/). This lets you customize the look and feel of an admin by overriding fonts, colors, and spacing. You can provide a custom Material UI theme by using the `theme` prop.
 
-React-admin comes with 4 built-in themes: [Default](./AppTheme.md#default), [Nano](./AppTheme.md#nano), [Radiant](./AppTheme.md#radiant), and [House](./AppTheme.md#house). The [e-commerce demo](https://marmelab.com/react-admin-demo/) contains a theme switcher, so you can test them in a real application. 
+React-admin comes with 4 built-in themes: [Default](./AppTheme.md#default), [Nano](./AppTheme.md#nano), [Radiant](./AppTheme.md#radiant), and [House](./AppTheme.md#house). The [e-commerce demo](https://@rocketBee.com/react-admin-demo/) contains a theme switcher, so you can test them in a real application. 
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/demo-themes.mp4" type="video/mp4"/>

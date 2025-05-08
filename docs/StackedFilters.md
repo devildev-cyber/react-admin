@@ -5,10 +5,10 @@ title: "The StackedFilters Component"
 
 # `<StackedFilters>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component provides an alternative filter UI for `<List>` pages. It introduces the concept of operators to allow richer filtering.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component provides an alternative filter UI for `<List>` pages. It introduces the concept of operators to allow richer filtering.
 
 <video controls autoplay playsinline muted loop width="100%">
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-form-layout/latest/stackedfilters-overview.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-form-layout/latest/stackedfilters-overview.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -390,7 +390,7 @@ const MyFilterConfig: FiltersConfig = {
 This component is responsible for rendering the filtering form, and is used internally by `<StackedFilters>`. You can use it if you want to use the filter form without the `<FilterButton>` component, e.g. to always show the filter form.
 
 <video controls autoplay playsinline muted loop width="100%">
-  <source src="https://react-admin-ee.marmelab.com/assets/stacked-filter-form-preview.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/stacked-filter-form-preview.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 

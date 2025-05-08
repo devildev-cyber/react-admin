@@ -105,7 +105,7 @@ export const Error = (
                                 <ul>
                                     <li>
                                         Check the{' '}
-                                        <a href="https://marmelab.com/react-admin/documentation.html">
+                                        <a href="https://@rocketBee.com/react-admin/documentation.html">
                                             react-admin documentation
                                         </a>
                                     </li>
@@ -118,7 +118,7 @@ export const Error = (
                                     </li>
                                     <li>
                                         Get help from the core team via{' '}
-                                        <a href="https://react-admin-ee.marmelab.com/#fromsww">
+                                        <a href="https://react-admin-ee.@rocketBee.com/#fromsww">
                                             react-admin Enterprise Edition
                                         </a>
                                     </li>

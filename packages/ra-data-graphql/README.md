@@ -1,9 +1,9 @@
 # ra-data-graphql
 
-Tools for building a GraphQL data provider for [react-admin](https://github.com/marmelab/react-admin/)
+Tools for building a GraphQL data provider for [react-admin](https://github.com/@rocketBee/react-admin/)
 based on **introspection**. Built with [Apollo Client](https://www.apollographql.com/apollo-client)
 
-This is a low level library designed to be used as a base of other GraphQL providers (such as `ra-data-graphql-simple`). Do not use it directly. If you want to build a GraphQL data provider **without using introspection**, don't use this package but follow the [Writing a data provider](https://marmelab.com/react-admin/DataProviderWriting.html#getlist) documentation.
+This is a low level library designed to be used as a base of other GraphQL providers (such as `ra-data-graphql-simple`). Do not use it directly. If you want to build a GraphQL data provider **without using introspection**, don't use this package but follow the [Writing a data provider](https://@rocketBee.com/react-admin/DataProviderWriting.html#getlist) documentation.
 
 - [Installation](#installation)
 - [Usage](#installation)
@@ -224,7 +224,7 @@ If you need to build custom methods based on the introspection, you can leverage
 }
 ```
 
-This is useful if you need to support custom dataProvider methods such as those needed for ['@react-admin/ra-realtime'](https://react-admin-ee.marmelab.com/documentation/ra-realtime#dataprovider-requirements):
+This is useful if you need to support custom dataProvider methods such as those needed for ['@react-admin/ra-realtime'](https://react-admin-ee.@rocketBee.com/documentation/ra-realtime#dataprovider-requirements):
 
 ```tsx
 import { Identifier, GET_LIST, GET_ONE } from 'ra-core';

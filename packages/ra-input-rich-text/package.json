@@ -3,9 +3,9 @@
     "version": "5.8.0",
     "description": "<RichTextInput> component for react-admin, useful for editing HTML code in admin GUIs.",
     "author": "Gildas Garcia",
-    "repository": "marmelab/react-admin",
-    "homepage": "https://github.com/marmelab/react-admin#readme",
-    "bugs": "https://github.com/marmelab/react-admin/issues",
+    "repository": "@rocketBee/react-admin",
+    "homepage": "https://github.com/@rocketBee/react-admin#readme",
+    "bugs": "https://github.com/@rocketBee/react-admin/issues",
     "license": "MIT",
     "files": [
         "*.md",

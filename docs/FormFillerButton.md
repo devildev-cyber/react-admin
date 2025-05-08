@@ -5,10 +5,10 @@ title: "FormFillerButton"
 
 # `<FormFillerButton>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component allows users to fill a form using an image or a camera. The image is sent to the AI backend together with the names of the fields to fill. The AI backend will extract the text from the image and fill the form.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component allows users to fill a form using an image or a camera. The image is sent to the AI backend together with the names of the fields to fill. The AI backend will extract the text from the image and fill the form.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/FormFillerButton.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/FormFillerButton.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 

@@ -1,8 +1,8 @@
 # French Messages for React-Admin
 
-French messages for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
+French messages for [react-admin](https://github.com/@rocketBee/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
 
-[![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
+[![react-admin-demo](https://@rocketBee.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
 
 ## Installation
 
@@ -29,4 +29,4 @@ const i18nProvider = polyglotI18nProvider(locale => messages[locale]);
 
 ## License
 
-This translation is licensed under the MIT License, and sponsored by [marmelab](https://marmelab.com).
+This translation is licensed under the MIT License, and sponsored by [@rocketBee](https://@rocketBee.com).

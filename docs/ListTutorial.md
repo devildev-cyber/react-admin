@@ -895,4 +895,4 @@ export const UserList = () => (
 You can find more List components for react-admin in third-party repositories.
 
 - [ra-customizable-datagrid](https://github.com/fizix-io/ra-customizable-datagrid): plugin that allows to hide / show columns dynamically.
-- [ra-datagrid](https://github.com/marmelab/ra-datagrid): Integration of [Material UI's `<Datagrid>`](https://mui.com/components/data-grid/) into react-admin.
+- [ra-datagrid](https://github.com/@rocketBee/ra-datagrid): Integration of [Material UI's `<Datagrid>`](https://mui.com/components/data-grid/) into react-admin.

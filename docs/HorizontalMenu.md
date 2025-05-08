@@ -5,17 +5,17 @@ title: "HorizontalMenu"
 
 # `<HorizontalMenu>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> renders a horizontal menu component, alternative to react-admin's `<Menu>`, to be used in the AppBar of the [`<ContainerLayout>`](./ContainerLayout.md).
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> renders a horizontal menu component, alternative to react-admin's `<Menu>`, to be used in the AppBar of the [`<ContainerLayout>`](./ContainerLayout.md).
 
 ![Container layout](./img/container-layout.png)
 
-`<HorizontalMenu>` is part of the [ra-navigation](https://react-admin-ee.marmelab.com/documentation/ra-navigation#containerlayout) package.
+`<HorizontalMenu>` is part of the [ra-navigation](https://react-admin-ee.@rocketBee.com/documentation/ra-navigation#containerlayout) package.
 
 ## Usage
 
 Create a menu component based on `<HorizontalMenu>` and `<HorizontalMenu.Item>` (or `<HorizontalMenu.DashboardItem>`) children.
 
-Each child should have a `value` corresponding to the [application location](https://react-admin-ee.marmelab.com/documentation/ra-navigation#concepts) of the target, and can have a `to` prop corresponding to the target location if different from the app location.
+Each child should have a `value` corresponding to the [application location](https://react-admin-ee.@rocketBee.com/documentation/ra-navigation#concepts) of the target, and can have a `to` prop corresponding to the target location if different from the app location.
 
 ```jsx
 import { HorizontalMenu } from '@react-admin/ra-navigation';
@@ -238,7 +238,7 @@ This component adds a menu item that redirects to the `/` route. It accepts the 
 ## Adding Sub-Menus
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/horizontal-menu-submenu.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/horizontal-menu-submenu.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 

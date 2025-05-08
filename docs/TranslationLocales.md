@@ -18,11 +18,11 @@ You can find translation packages for the following languages:
 - Czech (`cs`): [binao/ra-language-czech](https://github.com/binao/ra-language-czech)
 - Danish (`da`): [nikri/ra-language-danish](https://github.com/nikri/ra-language-danish)
 - Dutch (`nl`): [nickwaelkens/ra-language-dutch](https://github.com/nickwaelkens/ra-language-dutch)
-- English (`en`): [marmelab/ra-language-english](https://github.com/marmelab/react-admin/tree/master/packages/ra-language-english)
+- English (`en`): [@rocketBee/ra-language-english](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-language-english)
 - Estonian (`et`): [tui-ru/ra-language-estonian](https://github.com/tui-ru/ra-language-estonian)
 - Farsi (`fa`): [hamidfzm/ra-language-farsi](https://github.com/hamidfzm/ra-language-farsi)
 - Finnish (`fi`): [aikain/ra-language-finnish](https://github.com/aikain/ra-language-finnish)
-- French (`fr`): [marmelab/ra-language-french](https://github.com/marmelab/react-admin/tree/master/packages/ra-language-french)
+- French (`fr`): [@rocketBee/ra-language-french](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-language-french)
 - German (`de`): [haleosdev/ra-language-german](https://github.com/HaleosDev/ra-language-german) (formal and informal translation packages available)
 - Greek (`el`): [panterz/ra-language-greek](https://github.com/panterz/ra-language-greek)
 - Hebrew (`he`): [ak-il/ra-language-hebrew](https://github.com/ak-il/ra-language-hebrew)
@@ -56,4 +56,4 @@ In addition, the previous version of react-admin, called admin-on-rest, was tran
 
 These packages are not directly interoperable with react-admin, but the upgrade is straightforward; rename the root key from "aor" to "ra". We invite the authors of the packages listed above to republish their translations for react-admin, using a different package name.
 
-If you want to contribute a new translation, feel free to submit a pull request to update [this page](https://github.com/marmelab/react-admin/blob/master/docs/TranslationLocales.md) with a link to your package.
+If you want to contribute a new translation, feel free to submit a pull request to update [this page](https://github.com/@rocketBee/react-admin/blob/master/docs/TranslationLocales.md) with a link to your package.

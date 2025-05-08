@@ -366,14 +366,14 @@ describe('<SimpleFormIterator />', () => {
                     <ArrayInput
                         source="emails"
                         defaultValue={[
-                            { email: 'test@marmelab.com', name: 'test' },
+                            { email: 'test@@rocketBee.com', name: 'test' },
                         ]}
                     >
                         <SimpleFormIterator>
                             <TextInput
                                 source="email"
                                 label="Email"
-                                defaultValue="default@marmelab.com"
+                                defaultValue="default@@rocketBee.com"
                             />
                             <TextInput source="name" label="Name" />
                         </SimpleFormIterator>
@@ -407,7 +407,7 @@ describe('<SimpleFormIterator />', () => {
             screen
                 .queryAllByLabelText('Email')
                 .map(inputElement => (inputElement as HTMLInputElement).value)
-        ).toEqual(['default@marmelab.com']);
+        ).toEqual(['default@@rocketBee.com']);
         expect(
             screen
                 .queryAllByLabelText('Name')
@@ -422,7 +422,7 @@ describe('<SimpleFormIterator />', () => {
             <Wrapper>
                 <SimpleForm
                     defaultValues={{
-                        emails: [{ email: 'test@marmelab.com', name: 'test' }],
+                        emails: [{ email: 'test@@rocketBee.com', name: 'test' }],
                     }}
                 >
                     <ArrayInput source="emails">
@@ -475,7 +475,7 @@ describe('<SimpleFormIterator />', () => {
             <Wrapper>
                 <SimpleForm
                     defaultValues={{
-                        emails: [{ email: 'test@marmelab.com', name: 'test' }],
+                        emails: [{ email: 'test@@rocketBee.com', name: 'test' }],
                     }}
                 >
                     <ArrayInput source="emails">
@@ -486,7 +486,7 @@ describe('<SimpleFormIterator />', () => {
                                         <TextInput
                                             source="email"
                                             label="Email"
-                                            defaultValue="default@marmelab.com"
+                                            defaultValue="default@@rocketBee.com"
                                         />
                                         <TextInput source="name" label="Name" />
                                     </>
@@ -523,7 +523,7 @@ describe('<SimpleFormIterator />', () => {
             screen
                 .queryAllByLabelText('Email')
                 .map(inputElement => (inputElement as HTMLInputElement).value)
-        ).toEqual(['default@marmelab.com']);
+        ).toEqual(['default@@rocketBee.com']);
         expect(
             screen
                 .queryAllByLabelText('Name')
@@ -880,7 +880,7 @@ describe('<SimpleFormIterator />', () => {
                     onSubmit={save}
                     record={{
                         id: 1,
-                        emails: [{ email: 'test@marmelab.com', role: 'User' }],
+                        emails: [{ email: 'test@@rocketBee.com', role: 'User' }],
                     }}
                 >
                     <ArrayInput source="emails">
@@ -902,7 +902,7 @@ describe('<SimpleFormIterator />', () => {
                     .map(
                         inputElement => (inputElement as HTMLInputElement).value
                     )
-            ).toEqual(['test@marmelab.com']);
+            ).toEqual(['test@@rocketBee.com']);
             expect(
                 screen
                     .queryAllByLabelText('Role')

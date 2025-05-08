@@ -5,12 +5,12 @@ title: "useGetTree"
 
 # `useGetTree`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> hook is exposed by [the `ra-tree` module](https://react-admin-ee.marmelab.com/documentation/ra-tree), a package dedicated to handling tree structures. It's ideal for fetching a tree structure from the API, e.g. a list of categories.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> hook is exposed by [the `ra-tree` module](https://react-admin-ee.@rocketBee.com/documentation/ra-tree), a package dedicated to handling tree structures. It's ideal for fetching a tree structure from the API, e.g. a list of categories.
 
 It calls `dataProvider.getTree()` (one of the new `dataProvider` methods supported by `ra-tree`) when the component mounts, and returns the tree nodes in a flat array.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-tree-overview.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-tree-overview.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -65,4 +65,4 @@ These methods return Promises for `TreeRecord` objects.
 -   `addChildNode(resource, { parentId, data, position, meta })`
 -   `deleteBranch(resource, { id, data, meta })`: `id` is the identifier of the node to remove, and `data` its content
 
-Check [the `ra-tree` documentation](https://react-admin-ee.marmelab.com/documentation/ra-tree) for more details.
+Check [the `ra-tree` documentation](https://react-admin-ee.@rocketBee.com/documentation/ra-tree) for more details.

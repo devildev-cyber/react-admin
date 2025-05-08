@@ -184,13 +184,13 @@ export const generateProducts = (db: Db): Product[] => {
                         (width * height) / 15
                     ),
                     thumbnail:
-                        'https://marmelab.com/posters/' +
+                        'https://@rocketBee.com/posters/' +
                         category.name +
                         '-' +
                         (index + 1) +
                         '.jpeg',
                     image:
-                        'https://marmelab.com/posters/' +
+                        'https://@rocketBee.com/posters/' +
                         category.name +
                         '-' +
                         (index + 1) +

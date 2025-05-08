@@ -5,14 +5,14 @@ title: "useDefineAppLocation"
 
 # `useDefineAppLocation`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> hook lets you define the app location for a page, used by components like [`<Breadcrumb>`](./Breadcrumb.md) and [`<IconMenu>`](./IconMenu.md) to render the current location.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> hook lets you define the app location for a page, used by components like [`<Breadcrumb>`](./Breadcrumb.md) and [`<IconMenu>`](./IconMenu.md) to render the current location.
 
 <video controls autoplay playsinline muted loop width="100%">
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-navigation/latest/breadcumb-nested-resource.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-navigation/latest/breadcumb-nested-resource.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-In the following example, the `<SongEditForArtist>` component is a [nested resource](https://marmelab.com/react-admin/Resource.html#nested-resources) rendering at the `/artists/:id/songs/:songId` path. It uses `useDefineAppLocation` to define the app location as `artists.edit.songs.edit`, and passes the `record` and `song` objects as parameters to let the breadcrumb component render the record and song names.
+In the following example, the `<SongEditForArtist>` component is a [nested resource](https://@rocketBee.com/react-admin/Resource.html#nested-resources) rendering at the `/artists/:id/songs/:songId` path. It uses `useDefineAppLocation` to define the app location as `artists.edit.songs.edit`, and passes the `record` and `song` objects as parameters to let the breadcrumb component render the record and song names.
 
 ```tsx
 import { useParams } from 'react-router-dom';

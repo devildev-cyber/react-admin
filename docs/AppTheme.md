@@ -7,7 +7,7 @@ title: "Application Theme"
 
 If you want to override some styles across the entire application, you can use a custom theme, leveraging [the Material UI Theming support](https://mui.com/material-ui/customization/theming/). Custom themes let you override colors, fonts, spacing, and even the style of individual components.
 
-The [e-commerce demo](https://marmelab.com/react-admin-demo/) contains a theme switcher, so you can test them in a real application.
+The [e-commerce demo](https://@rocketBee.com/react-admin-demo/) contains a theme switcher, so you can test them in a real application.
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/demo-themes.mp4" type="video/mp4"/>

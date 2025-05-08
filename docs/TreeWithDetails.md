@@ -5,7 +5,7 @@ title: "The TreeWithDetails Component"
 
 # `<TreeWithDetails>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers a replacement for the `<List>` component when the records form **tree structures** like directories, categories, etc. `<TreeWithDetails>` renders a tree structure and the show view/edition form in the same page.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers a replacement for the `<List>` component when the records form **tree structures** like directories, categories, etc. `<TreeWithDetails>` renders a tree structure and the show view/edition form in the same page.
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/treewithdetails.webm" type="video/webm"/>
@@ -67,7 +67,7 @@ const App = () => (
 );
 ```
 
-Check [the `ra-tree` documentation](https://react-admin-ee.marmelab.com/documentation/ra-tree#treewithdetails-component) for more details.
+Check [the `ra-tree` documentation](https://react-admin-ee.@rocketBee.com/documentation/ra-tree#treewithdetails-component) for more details.
 
 ## Props
 
@@ -517,4 +517,4 @@ export const CategoriesList = () => (
 );
 ```
 
-**Note**: `dataProvider.addChildNode()` must support the `position` param for this feature to work. See the [`dataProvider` section](https://react-admin-ee.marmelab.com/documentation/ra-tree#dataprovider) for details.
+**Note**: `dataProvider.addChildNode()` must support the `position` param for this feature to work. See the [`dataProvider` section](https://react-admin-ee.@rocketBee.com/documentation/ra-tree#dataprovider) for details.

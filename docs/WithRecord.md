@@ -89,4 +89,4 @@ const BookShow = () => (
 
 * [`WithRecord`]
 
-[`WithRecord`]: https://github.com/marmelab/react-admin/blob/master/packages/ra-core/src/controller/record/WithRecord.tsx
+[`WithRecord`]: https://github.com/@rocketBee/react-admin/blob/master/packages/ra-core/src/controller/record/WithRecord.tsx

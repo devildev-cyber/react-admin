@@ -244,7 +244,7 @@ React-admin supports **one-to-many**, **many-to-one**, **one-to-one**, and **man
 
 Reference components are a tremendous development accelerator for complex frontend features. They also liberate the backend developers from the burden of implementing complex joins.
 
-To learn more about relationships, check out this tutorial: [Handling Relationships in React Admin](https://marmelab.com/blog/2025/02/06/handling-relationships-in-react-admin.html).
+To learn more about relationships, check out this tutorial: [Handling Relationships in React Admin](https://@rocketBee.com/blog/2025/02/06/handling-relationships-in-react-admin.html).
 
 ## Not Ugly
 
@@ -265,7 +265,7 @@ Modern web apps are often very visually pleasing, but they can be difficult to u
 
 On the other hand, the default React-admin skin is designed to be dense, giving **more space to the content and less to the chrome**, which allows for faster user interaction.
 
-[![Dense layout](./img/dense.webp)](https://marmelab.com/react-admin-demo/#/)
+[![Dense layout](./img/dense.webp)](https://@rocketBee.com/react-admin-demo/#/)
 
 We have made many improvements to this default layout based on user feedback. In our experience, for admin apps, dashboards, and B2B apps, efficiency is more important than large margins. If this is not your use case, you can easily **customize the margin and density** of the UI using the [theme](./AppTheme.md).
 
@@ -362,8 +362,8 @@ Check the following hooks to learn more about headless controllers:
 
 And check these examples for admin panels built with react-admin but without Material UI:
 
-- [DaisyUI, Tailwind CSS, Tanstack Table and React-Aria](https://marmelab.com/blog/2023/11/28/using-react-admin-with-your-favorite-ui-library.html)
-- [shadcn/ui, Tailwind CSS and Radix UI](https://github.com/marmelab/ra-shadcn-demo)
+- [DaisyUI, Tailwind CSS, Tanstack Table and React-Aria](https://@rocketBee.com/blog/2023/11/28/using-react-admin-with-your-favorite-ui-library.html)
+- [shadcn/ui, Tailwind CSS and Radix UI](https://github.com/@rocketBee/ra-shadcn-demo)
 
 ## Guessers & Scaffolding
 
@@ -405,14 +405,14 @@ The basic [`<Datagrid>` component](./Datagrid.md) displays a list of records in 
 The [`<EditableDatagrid>` component](./EditableDatagrid.md) lets users edit records in place, without having to navigate to an edit form. It's a great way to speed up data entry.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-editable-datagrid-overview.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-editable-datagrid-overview.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 Finally, the [`<DatagridAG>` component](./DatagridAG.md) integrates the powerful [AG Grid](https://www.ag-grid.com/) library to provide a rich set of features, such as cell editing, aggregation, row grouping, master detail, clipboard, pivoting, column filtering, export to excel, context menu, tree data, charting, and more.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/DatagridAG-enterprise.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/DatagridAG-enterprise.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -791,7 +791,7 @@ const CustomerEdit = () => (
 
 {% endraw %}
 
-![JsonSchemaForm](https://react-admin-ee.marmelab.com/assets/jsonschemaform.webp)
+![JsonSchemaForm](https://react-admin-ee.@rocketBee.com/assets/jsonschemaform.webp)
 
 And if you want something super custom that react-admin doesn't support out of the box, you can always use [react-hook-form](https://react-hook-form.com/) directly.
 
@@ -828,15 +828,15 @@ const PersonEdit = () => (
 
 You can also use the [`<SmartRichTextInput>`](./SmartRichTextInput.md) component, which lets users edit HTML documents in WYSIWYG with superpowers:
 
-<video controls playsinline muted loop poster="https://react-admin-ee.marmelab.com/assets/SmartRichTextInput.png" >
-  <source src="https://react-admin-ee.marmelab.com/assets/SmartRichTextInput.mp4" type="video/mp4" />
+<video controls playsinline muted loop poster="https://react-admin-ee.@rocketBee.com/assets/SmartRichTextInput.png" >
+  <source src="https://react-admin-ee.@rocketBee.com/assets/SmartRichTextInput.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 One last example is [`<FormFillerButton>`](./FormFillerButton.md), which lets user fill the current form based on an image.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/FormFillerButton.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/FormFillerButton.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -944,7 +944,7 @@ To learn more about authentication, roles, and permissions, check out the follow
 React-admin lets users **track the changes** made to any record. They can see the **history of revisions**, **compare differences** between any two versions, and **revert to a previous state** if needed.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-history.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-history.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -957,19 +957,19 @@ In detail, revision tracking lets you:
 
 These features are available through the following components:
 
-- [`<SimpleFormWithRevision>`](https://react-admin-ee.marmelab.com/documentation/ra-history#simpleformwithrevision)
-- [`<TabbedFormWithRevision>`](https://react-admin-ee.marmelab.com/documentation/ra-history#tabbedformwithrevision)
+- [`<SimpleFormWithRevision>`](https://react-admin-ee.@rocketBee.com/documentation/ra-history#simpleformwithrevision)
+- [`<TabbedFormWithRevision>`](https://react-admin-ee.@rocketBee.com/documentation/ra-history#tabbedformwithrevision)
 - [`<RevisionsButton>`](./RevisionsButton.md)
-- [`<RevisionListWithDetailsInDialog>`](https://react-admin-ee.marmelab.com/documentation/ra-history#revisionlistwithdetailsindialog)
-- [`<FieldDiff>`](https://react-admin-ee.marmelab.com/documentation/ra-history#fielddiff)
-- [`<SmartFieldDiff>`](https://react-admin-ee.marmelab.com/documentation/ra-history#smartfielddiff)
+- [`<RevisionListWithDetailsInDialog>`](https://react-admin-ee.@rocketBee.com/documentation/ra-history#revisionlistwithdetailsindialog)
+- [`<FieldDiff>`](https://react-admin-ee.@rocketBee.com/documentation/ra-history#fielddiff)
+- [`<SmartFieldDiff>`](https://react-admin-ee.@rocketBee.com/documentation/ra-history#smartfielddiff)
 
 ## Audit Log
 
 Most admin and B2B apps require that user actions are recorded for audit purposes. React-admin provides templates for displaying such audit logs, and helpers to automatically **record user actions**.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-audit-log/latest/ra-audit-log.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-audit-log/latest/ra-audit-log.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -998,11 +998,11 @@ The Audit Log features let you:
 
 These features are available through the following components:
 
-- [`<Timeline>`](https://react-admin-ee.marmelab.com/documentation/ra-audit-log#timeline) shows a list of all recent changes in the admin. It's a great component for dashboards.
-- [`<RecordTimeline>`](https://react-admin-ee.marmelab.com/documentation/ra-audit-log#recordtimeline) shows a list of all recent changes for a given record, usually embedded in a `<Show>` or `<Edit>` view.
-- [`<EventList>`](https://react-admin-ee.marmelab.com/documentation/ra-audit-log#eventlist) is a ready-to-use List component for navigating in your admin history, complete with filters and pagination.
+- [`<Timeline>`](https://react-admin-ee.@rocketBee.com/documentation/ra-audit-log#timeline) shows a list of all recent changes in the admin. It's a great component for dashboards.
+- [`<RecordTimeline>`](https://react-admin-ee.@rocketBee.com/documentation/ra-audit-log#recordtimeline) shows a list of all recent changes for a given record, usually embedded in a `<Show>` or `<Edit>` view.
+- [`<EventList>`](https://react-admin-ee.@rocketBee.com/documentation/ra-audit-log#eventlist) is a ready-to-use List component for navigating in your admin history, complete with filters and pagination.
 
-And you can use [the `addEventsForMutations` helper](https://react-admin-ee.marmelab.com/documentation/ra-audit-log#client-side-tracking) to record user actions:
+And you can use [the `addEventsForMutations` helper](https://react-admin-ee.@rocketBee.com/documentation/ra-audit-log#client-side-tracking) to record user actions:
 
 ```jsx
 import { addEventsForMutations } from "@react-admin/ra-audit-log";
@@ -1020,7 +1020,7 @@ const dataProvider = addEventsForMutations(
 If your app needs to display **events**, **appointments**, **time intervals**, or any other kind of time-based data, you can use the [`<Calendar>`](./Calendar.md) component.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-calendar.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-calendar.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -1056,7 +1056,7 @@ The user interface offers everything you expect:
 
 Check the following components for more details:
 
-- [`<CompleteCalendar>`](https://react-admin-ee.marmelab.com/documentation/ra-calendar#completecalendar)
+- [`<CompleteCalendar>`](https://react-admin-ee.@rocketBee.com/documentation/ra-calendar#completecalendar)
 - [`<Calendar>`](./Calendar.md)
 
 ## Tree View
@@ -1101,14 +1101,14 @@ Check out the following components for displaying hierarchical data:
 
 - [`<TreeWithDetails>`](./TreeWithDetails.md): A list view for tree structures, with a details panel.
 - [`<TreeInput>`](./TreeInput.md): An input component for tree structures.
-- [`<Tree>`](https://react-admin-ee.marmelab.com/documentation/ra-tree#tree-component): A list view for tree structures, with a Material UI skin.
+- [`<Tree>`](https://react-admin-ee.@rocketBee.com/documentation/ra-tree#tree-component): A list view for tree structures, with a Material UI skin.
 
 ## Application Building Blocks
 
 A UI kit like Material UI provides basic building blocks like a button, a form, a table, etc. React-admin goes one level higher and provides a set of **[application components](./Reference.md#components)** specifically designed for building admin and B2B *applications*.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-editable-datagrid/latest/ra-editable-datagrid-overview.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-editable-datagrid/latest/ra-editable-datagrid-overview.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -1118,13 +1118,13 @@ These building blocks include:
 - A smart location framework, simplifying the management of [breadcrumbs](./Breadcrumb.md) and [hierarchical menus](./MultiLevelMenu.md)
 - [Import](https://github.com/benwinding/react-admin-import-csv) / [export](./Buttons.md#exportbutton) buttons
 - An [editable datagrid](./EditableDatagrid.md)
-- A [guided tour system](https://react-admin-ee.marmelab.com/documentation/ra-tour)
+- A [guided tour system](https://react-admin-ee.@rocketBee.com/documentation/ra-tour)
 - A [user menu](./Menu.md)
 - A [rich text editor](./RichTextInput.md),
 - A [markdown editor](./MarkdownInput.md)
 - A [clone button](./Buttons.md#clonebutton)
 - Various navigation menus ([simple](./Menu.md), [hierarchical](./MultiLevelMenu.md), [horizontal](./HorizontalMenu.md), etc.)
-- Various [page](./ContainerLayout.md) and [form](https://react-admin-ee.marmelab.com/documentation/ra-form-layout) layouts
+- Various [page](./ContainerLayout.md) and [form](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout) layouts
 - ...and many more.
 
 And if you want to create your building blocks, you can use any of the [75+ hooks](./Reference.md#hooks) that carry **headless, reusable logic**. To name a few of them:
@@ -1402,7 +1402,7 @@ Check the following components for details:
 
 The default [Material Design](https://material.io/) look and feel is nice, but a bit... Google-y. If this bothers you, or if you need to brand your app, rest assured: react-admin is fully themeable.
 
-React-admin comes with 4 built-in themes: [Default](./AppTheme.md#default), [Nano](./AppTheme.md#nano), [Radiant](./AppTheme.md#radiant), and [House](./AppTheme.md#house). The [e-commerce demo](https://marmelab.com/react-admin-demo/) contains a theme switcher, so you can test them in a real application.
+React-admin comes with 4 built-in themes: [Default](./AppTheme.md#default), [Nano](./AppTheme.md#nano), [Radiant](./AppTheme.md#radiant), and [House](./AppTheme.md#house). The [e-commerce demo](https://@rocketBee.com/react-admin-demo/) contains a theme switcher, so you can test them in a real application.
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/demo-themes.mp4" type="video/mp4"/>
@@ -1704,9 +1704,9 @@ Building react-admin apps with TypeScript brings more safety and productivity to
 
 ## Sustainable
 
-Last but not least, react-admin is here to stay. That's because the development of the open-source project is **funded by the customers** of the [Enterprise Edition](https://react-admin-ee.marmelab.com/).
+Last but not least, react-admin is here to stay. That's because the development of the open-source project is **funded by the customers** of the [Enterprise Edition](https://react-admin-ee.@rocketBee.com/).
 
-Maintaining a large open-source project in the long term is a challenge. But the react-admin core team, hosted by [Marmelab](https://marmelab.com), doesn't have to worry about the next funding round, or about paying back venture capital by raising prices. React-admin has zero debt, has already **passed the break-even point**, and the team will only grow as the number of customers grows.
+Maintaining a large open-source project in the long term is a challenge. But the react-admin core team, hosted by [@rocketBee](https://@rocketBee.com), doesn't have to worry about the next funding round, or about paying back venture capital by raising prices. React-admin has zero debt, has already **passed the break-even point**, and the team will only grow as the number of customers grows.
 
 The core team is fortunate to be able to work full-time on react-admin, and this allows us to:
 
@@ -1719,4 +1719,4 @@ The core team is fortunate to be able to work full-time on react-admin, and this
 - stay up-to-date with the latest React and libraries versions
 - contribute to the open-source community
 
-At Marmelab, "sustainable" also means **low carbon footprint**. React-admin is regularly audited with [GreenFrame](https://greenframe.io/), a tool that measures the carbon footprint of software projects. Technical choices are also made with the environment in mind. For instance, the use of [React Query](https://tanstack.com/query/v5/) for caching data in react-admin reduces the number of HTTP requests, and thus reduces the carbon footprint of the application.
+At @rocketBee, "sustainable" also means **low carbon footprint**. React-admin is regularly audited with [GreenFrame](https://greenframe.io/), a tool that measures the carbon footprint of software projects. Technical choices are also made with the environment in mind. For instance, the use of [React Query](https://tanstack.com/query/v5/) for caching data in react-admin reduces the number of HTTP requests, and thus reduces the carbon footprint of the application.

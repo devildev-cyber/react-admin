@@ -8,7 +8,7 @@ For how-to questions and other non-issues, please use [StackOverflow](https://st
 
 ## Opening an Issue
 
-If you think you have found a bug, or have a new feature idea, please start by making sure it hasn't already been [reported or fixed](https://github.com/marmelab/react-admin/issues?q=is%3Aissue+is%3Aclosed). You can search through existing issues and PRs to see if someone has reported one similar to yours.
+If you think you have found a bug, or have a new feature idea, please start by making sure it hasn't already been [reported or fixed](https://github.com/@rocketBee/react-admin/issues?q=is%3Aissue+is%3Aclosed). You can search through existing issues and PRs to see if someone has reported one similar to yours.
 
 Next, create a new issue that briefly explains the problem, and provides a bit of background as to the circumstances that triggered it, and steps to reproduce it.
 
@@ -16,7 +16,7 @@ For code issues please include:
 * React-admin version
 * React version
 * Browser version
-* A code example or link to a repo, gist or running site. (hint: fork [this sandbox](https://stackblitz.com/github/marmelab/react-admin/tree/master/examples/simple) to create a reproducible version of your bug)
+* A code example or link to a repo, gist or running site. (hint: fork [this sandbox](https://stackblitz.com/github/@rocketBee/react-admin/tree/master/examples/simple) to create a reproducible version of your bug)
 
 For visual or layout problems, images or animated gifs can help explain your issue.
 It's even better with a live reproduction test case.
@@ -59,4 +59,4 @@ make prettier
 
 ## License
 
-By contributing your code to the marmelab/react-admin GitHub repository, you agree to license your contribution under the MIT license.
+By contributing your code to the @rocketBee/react-admin GitHub repository, you agree to license your contribution under the MIT license.

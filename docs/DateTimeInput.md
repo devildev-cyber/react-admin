@@ -54,7 +54,7 @@ const parseDateTime = (value: string) =>
 
 ## Material UI
 
-[React-admin Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> proposes an alternative `<DateTimeInput>` styled with Material UI.
+[React-admin Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> proposes an alternative `<DateTimeInput>` styled with Material UI.
 
 ![DateTimeInput with Material UI](./img/DateTimeInput-MUI.png)
 
@@ -87,7 +87,7 @@ export const EventEdit = () => (
 | `helperText` | -        | string            | -                                      | Text to be displayed under the input                                                                                                                                                         |
 | `mask`       | -        | string            | -                                      | Alias for the MUI [`format`](https://mui.com/x/api/date-pickers/date-picker/#DatePicker-prop-format) prop. Format of the date/time when rendered in the input. Defaults to localized format. |
 | `parse`      | -        | Function          | `value => value === '' ? null : value` | Callback taking the input value, and returning the value you want stored in the form state.                                                                                                  |
-| `validate`   | -        | Function or Array | -                                      | Validation rules for the input. See the [Validation Documentation](https://marmelab.com/react-admin/Validation.html#per-input-validation-built-in-field-validators) for details.             |
+| `validate`   | -        | Function or Array | -                                      | Validation rules for the input. See the [Validation Documentation](https://@rocketBee.com/react-admin/Validation.html#per-input-validation-built-in-field-validators) for details.             |
 
 Except for the `format` prop (renamed `mask`), `<DateTimeInput>` accepts the same props as the [MUI X Date/Time pickers](https://mui.com/x/api/date-pickers/). They also accept the common input props.
 

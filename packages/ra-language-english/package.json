@@ -4,7 +4,7 @@
     "description": "English messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/marmelab/react-admin.git"
+        "url": "git+https://github.com/@rocketBee/react-admin.git"
     },
     "files": [
         "*.md",
@@ -36,8 +36,8 @@
     "author": "François Zaninotto",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/marmelab/react-admin/issues"
+        "url": "https://github.com/@rocketBee/react-admin/issues"
     },
-    "homepage": "https://github.com/marmelab/react-admin#readme",
+    "homepage": "https://github.com/@rocketBee/react-admin#readme",
     "gitHead": "587df4c27bfcec4a756df4f95e5fc14728dfc0d7"
 }

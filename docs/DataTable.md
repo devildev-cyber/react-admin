@@ -756,7 +756,7 @@ export const PostList = () => (
 
 ## `rowClick`
 
-By default, `<DataTable>` uses the current [resource definition](https://marmelab.com/react-admin/Resource.html) to determine what to do when the user clicks on a row. If the resource has a `show` page, a row click redirects to the Show view. If the resource has an `edit` page, a row click redirects to the Edit view. Otherwise, the row is not clickable.
+By default, `<DataTable>` uses the current [resource definition](https://@rocketBee.com/react-admin/Resource.html) to determine what to do when the user clicks on a row. If the resource has a `show` page, a row click redirects to the Show view. If the resource has an `edit` page, a row click redirects to the Edit view. Otherwise, the row is not clickable.
 
 **Tip**: If you enable [Access Control](./Permissions.md#access-control), react-admin also checks that the current user can access the Show and Edit views. For instance, for a `DataTable` on the `posts` resource, react-admin calls `canAccess` with the following parameters for each record:
 
@@ -901,7 +901,7 @@ const PostList = () => (
 ```
 {% endraw %}
 
-**Tip**: The `DataTable` component `classes` can also be customized for all instances of the component with its global CSS name `"RaDataTable"` as described in [the theme override tutorial](https://marmelab.com/blog/2019/12/18/react-admin-3-1.html#theme-overrides)
+**Tip**: The `DataTable` component `classes` can also be customized for all instances of the component with its global CSS name `"RaDataTable"` as described in [the theme override tutorial](https://@rocketBee.com/blog/2019/12/18/react-admin-3-1.html#theme-overrides)
 
 ## `<DataTable.Col>`
 
@@ -1353,7 +1353,7 @@ const PostList = () => (
 **Tip**: For even more column customization (resizable columns, column grouping, etc.), check out the [`<DatagridAG>`](./DatagridAG.md) component.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/DatagridAG.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/DatagridAG.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -1380,7 +1380,7 @@ export const PostList = () => (
 The separation between list pages and edit pages is not always relevant. Sometimes, you want to let users edit records directly in the list page. React-admin proposes an alternative component to edit records in a DataTable called [`<DatagridAG>`](./DatagridAG.md), which provides a spreadsheet-like interface, "à la" Excel, using the [ag-Grid](https://www.ag-grid.com/) library.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/DatagridAG.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/DatagridAG.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -1408,7 +1408,7 @@ Additionally, `<DatagridAG>` is compatible with the [Enterprise version of ag-gr
 - And more...
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/DatagridAG-enterprise.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/DatagridAG-enterprise.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 

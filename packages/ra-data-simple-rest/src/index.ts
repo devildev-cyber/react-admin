@@ -6,7 +6,7 @@ import { fetchUtils, DataProvider } from 'ra-core';
  *
  * This REST dialect is similar to the one of FakeRest
  *
- * @see https://github.com/marmelab/FakeRest
+ * @see https://github.com/@rocketBee/FakeRest
  *
  * @example
  *

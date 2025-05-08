@@ -12,7 +12,7 @@ React-admin provides hooks and UI components for collaborative applications wher
   Your browser does not support the video tag.
 </video>
 
-These features are provided by the `ra-realtime` package, which is part of the [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> 
+These features are provided by the `ra-realtime` package, which is part of the [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> 
 
 ## Backend Agnostic
 
@@ -105,7 +105,7 @@ Thanks to the Ra-realtime hooks, you can implement custom notifications based on
   Your browser does not support the video tag.
 </video>
 
-First, leverage the ability to [add custom dataProvider methods](https://marmelab.com/react-admin/Actions.html#calling-custom-methods) to allow calling this custom end point from the UI:
+First, leverage the ability to [add custom dataProvider methods](https://@rocketBee.com/react-admin/Actions.html#calling-custom-methods) to allow calling this custom end point from the UI:
 
 ```ts
 export const dataProvider = {
@@ -303,7 +303,7 @@ npm install --save @react-admin/ra-realtime
 yarn add @react-admin/ra-realtime
 ```
 
-`ra-realtime` is part of the [React-Admin Enterprise Edition](https://react-admin-ee.marmelab.com/), and hosted in a private npm registry. You need to subscribe to one of the Enterprise Edition plans to install this package.
+`ra-realtime` is part of the [React-Admin Enterprise Edition](https://react-admin-ee.@rocketBee.com/), and hosted in a private npm registry. You need to subscribe to one of the Enterprise Edition plans to install this package.
 
 You will need a data provider that supports real-time subscriptions. Check out the [Data Provider Requirements](./RealtimeDataProvider.md) section for more information.
 

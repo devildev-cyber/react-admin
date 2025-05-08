@@ -5,7 +5,7 @@ title: 'The MarkdownInput Component'
 
 # `<MarkdownInput>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component allows to edit and preview Markdown data, based on [the Toast UI editor](https://nhn.github.io/tui.editor/latest/ToastUIEditor). To be used in Edit and Create views.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component allows to edit and preview Markdown data, based on [the Toast UI editor](https://nhn.github.io/tui.editor/latest/ToastUIEditor). To be used in Edit and Create views.
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/markdown-input.webm" type="video/webm"/>
@@ -97,7 +97,7 @@ The react-admin team is working on a solution to this issue and will release a n
 | `toolbarItems`       | Optional | `array`   |            | The toolbar items to display in the editor. See [Adding Buttons](#adding-buttons) for more details. |
 | `useCommandShortcut` | Optional | `boolean` | `true`     | Whether use keyboard shortcuts to perform commands                                                  |
 
-`<MarkdownInput>` also accepts the [common input props](https://marmelab.com/react-admin/Inputs.html#common-input-props) and the [editor props](https://nhn.github.io/tui.editor/latest/ToastUIEditorCore) from the [Toast UI](https://ui.toast.com/) editor.
+`<MarkdownInput>` also accepts the [common input props](https://@rocketBee.com/react-admin/Inputs.html#common-input-props) and the [editor props](https://nhn.github.io/tui.editor/latest/ToastUIEditorCore) from the [Toast UI](https://ui.toast.com/) editor.
 
 ## `fullWidth`
 
@@ -276,4 +276,4 @@ export const PostEdit = () => {
 };
 ```
 
-Check [the `ra-markdown` documentation](https://react-admin-ee.marmelab.com/documentation/ra-markdown) for more details.
+Check [the `ra-markdown` documentation](https://react-admin-ee.@rocketBee.com/documentation/ra-markdown) for more details.

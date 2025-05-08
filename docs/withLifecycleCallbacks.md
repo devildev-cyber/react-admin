@@ -304,7 +304,7 @@ As explained above, lifecycle callbacks are a fallback for business logic that y
 - The callbacks are not executed in a transaction. In case of an error, the backend may be left in an inconsistent state.
 - When another client than react-admin calls the API, the callbacks will not be executed. If you depend on these callbacks for data consistency, this prevents you from exposing the API to other clients
 - If a callback triggers the event it's listening to (e.g. if you update the record received in an `afterSave`), this will lead to an infinite loop.
-- Do not use lifecycle callbacks to implement authorization logic, as the JS code can be altered in the browser using development tools. Check this [tutorial on multi-tenant single-page apps](https://marmelab.com/blog/2022/12/14/multitenant-spa.html) for more details.
+- Do not use lifecycle callbacks to implement authorization logic, as the JS code can be altered in the browser using development tools. Check this [tutorial on multi-tenant single-page apps](https://@rocketBee.com/blog/2022/12/14/multitenant-spa.html) for more details.
 
 In short: use lifecycle callbacks with caution!
 

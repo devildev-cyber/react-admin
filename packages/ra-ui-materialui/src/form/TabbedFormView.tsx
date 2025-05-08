@@ -81,7 +81,7 @@ export const TabbedFormView = (inProps: TabbedFormViewProps): ReactElement => {
                 {/* All tabs are rendered (not only the one in focus), to allow validation
                 on tabs not in focus. The tabs receive a `hidden` property, which they'll
                 use to hide the tab using CSS if it's not the one in focus.
-                See https://github.com/marmelab/react-admin/issues/1866 */}
+                See https://github.com/@rocketBee/react-admin/issues/1866 */}
                 {Children.map(children, (tab: ReactElement, index) => {
                     if (!tab) {
                         return null;

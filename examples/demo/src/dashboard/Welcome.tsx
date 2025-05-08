@@ -42,14 +42,14 @@ const Welcome = () => {
                     >
                         <Button
                             variant="contained"
-                            href="https://marmelab.com/react-admin"
+                            href="https://@rocketBee.com/react-admin"
                             startIcon={<HomeIcon />}
                         >
                             {translate('pos.dashboard.welcome.ra_button')}
                         </Button>
                         <Button
                             variant="contained"
-                            href="https://github.com/marmelab/react-admin/tree/master/examples/demo"
+                            href="https://github.com/@rocketBee/react-admin/tree/master/examples/demo"
                             startIcon={<CodeIcon />}
                         >
                             {translate('pos.dashboard.welcome.demo_button')}

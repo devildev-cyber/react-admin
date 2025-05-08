@@ -308,7 +308,7 @@ const MyCustomIcon = () => (
             height: 30,
             width: 30,
         }}
-        src="https://marmelab.com/images/avatars/adrien.jpg"
+        src="https://@rocketBee.com/images/avatars/adrien.jpg"
     />
 );
 
@@ -429,7 +429,7 @@ export const MyAppBar = () => (
 A common use case for app bar customization is to add a site-wide search engine. The `<Search>` component is a good starting point for this.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-search-demo.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-search-demo.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

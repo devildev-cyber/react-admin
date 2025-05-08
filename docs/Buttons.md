@@ -234,7 +234,7 @@ Alternately, pass a `successMessage` prop:
 
 ## `<BulkUpdateFormButton>`
 
-This component, part of the [enterprise edition](https://react-admin-ee.marmelab.com/documentation/ra-form-layout)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" />, lets users edit multiple records at once. To be used inside [the `<Datagrid bulkActionButtons>` prop](./Datagrid.md#bulkactionbuttons).
+This component, part of the [enterprise edition](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" />, lets users edit multiple records at once. To be used inside [the `<Datagrid bulkActionButtons>` prop](./Datagrid.md#bulkactionbuttons).
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/BulkUpdateButton-SimpleForm.webm" type="video/webm"/>
@@ -358,7 +358,7 @@ const PostBulkUpdateButtonWithTransition = () => (
 
 ### `mutationMode`
 
-Use the `mutationMode` prop to specify the [mutation mode](https://marmelab.com/react-admin/Edit.html#mutationmode).
+Use the `mutationMode` prop to specify the [mutation mode](https://@rocketBee.com/react-admin/Edit.html#mutationmode).
 
 ```tsx
 import { BulkUpdateFormButton } from '@react-admin/ra-form-layout';
@@ -416,7 +416,7 @@ const PostBulkUpdateButton = () => (
 
 ### Usage with `<TabbedForm>` or other location based form layouts
 
-`<BulkUpdateFormButton>` can be used with any form layout. However, for form layouts that are based on location by default, such as [`<TabbedForm>`](https://marmelab.com/react-admin/TabbedForm.html), you will need to disable the location syncing feature, as it may conflict with the Edit route declared by React Admin (`/<resource>/<id>`).
+`<BulkUpdateFormButton>` can be used with any form layout. However, for form layouts that are based on location by default, such as [`<TabbedForm>`](https://@rocketBee.com/react-admin/TabbedForm.html), you will need to disable the location syncing feature, as it may conflict with the Edit route declared by React Admin (`/<resource>/<id>`).
 
 For instance, with `<TabbedForm>`, you can use the `syncWithLocation` prop to disable it:
 
@@ -1643,8 +1643,8 @@ See [The AppBar documentation](./AppBar.md#usermenu) for more details.
 
 ## Performance
 
-The ripple effect can cause [performance issues](https://github.com/marmelab/react-admin/issues/5587) when displaying a large number of buttons (e.g. in a large datagrid). It's possible to remove the ripple effect from within your Material UI theme. The [Material UI docs](https://mui.com/material-ui/getting-started/faq/#how-can-i-disable-the-ripple-effect-globally) provide instructions on how to do this.
+The ripple effect can cause [performance issues](https://github.com/@rocketBee/react-admin/issues/5587) when displaying a large number of buttons (e.g. in a large datagrid). It's possible to remove the ripple effect from within your Material UI theme. The [Material UI docs](https://mui.com/material-ui/getting-started/faq/#how-can-i-disable-the-ripple-effect-globally) provide instructions on how to do this.
 
 It's worth noting that removing the ripple will cause accessibility issues, including a lack of focus states during tab navigating for components like `BooleanInput` and `CheckboxGroupInput`.
 
-Note: The `disableRipple` was set to `true` in React Admin for a time, but was reimplemented due to accessibility concerns. If you'd like to reimplement the static ripple color effect, you can use [React Admin's previous implementation](https://github.com/marmelab/react-admin/blob/994079cbca810a2e74d85329e684811645b04ae2/packages/ra-ui-materialui/src/defaultTheme.ts#L31) as a starting point. [The Material UI docs](https://mui.com/material-ui/api/button-base/#props) also gives details on how to reimplement focus styles using the `Mui-focusVisible` class.
+Note: The `disableRipple` was set to `true` in React Admin for a time, but was reimplemented due to accessibility concerns. If you'd like to reimplement the static ripple color effect, you can use [React Admin's previous implementation](https://github.com/@rocketBee/react-admin/blob/994079cbca810a2e74d85329e684811645b04ae2/packages/ra-ui-materialui/src/defaultTheme.ts#L31) as a starting point. [The Material UI docs](https://mui.com/material-ui/api/button-base/#props) also gives details on how to reimplement focus styles using the `Mui-focusVisible` class.

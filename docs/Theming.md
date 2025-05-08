@@ -125,7 +125,7 @@ React-admin comes with 5 built-in themes:
 | &nbsp;&nbsp; [Nano](./AppTheme.md#nano) [![Nano light theme](./img/nanoLightTheme1.jpg)](./AppTheme.html#nano) | &nbsp;&nbsp; [Radiant](./AppTheme.md#radiant) [![Radiant light theme](./img/radiantLightTheme1.jpg)](./AppTheme.html#radiant) |
 | &nbsp;&nbsp; [House](./AppTheme.md#house) [![House light theme](./img/houseLightTheme1.jpg)](./AppTheme.html#house) |
 
-The [e-commerce demo](https://marmelab.com/react-admin-demo/) contains a theme switcher, so you can test them in a real application.
+The [e-commerce demo](https://@rocketBee.com/react-admin-demo/) contains a theme switcher, so you can test them in a real application.
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/demo-themes.mp4" type="video/mp4"/>
@@ -161,7 +161,7 @@ React-admin provides 3 built-in layout components, and you can easily create you
 
 For instance, you can replace the default `<Layout>`, which uses a sidebar for navigation, with a [`<ContainerLayout>`](./ContainerLayout.md), which uses a top bar instead.
 
-![Container layout](https://react-admin-ee.marmelab.com/assets/ra-navigation/latest/container-layout.png)
+![Container layout](https://react-admin-ee.@rocketBee.com/assets/ra-navigation/latest/container-layout.png)
 
 ```jsx
 import { Admin, Resource } from 'react-admin';

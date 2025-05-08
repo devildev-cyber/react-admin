@@ -103,6 +103,6 @@ const i18nProvider = polyglotI18nProvider(locale =>
 );
 ```
 
-The default (English) messages are available in [the `ra-language-english` package source](https://github.com/marmelab/react-admin/blob/master/packages/ra-language-english/src/index.ts).
+The default (English) messages are available in [the `ra-language-english` package source](https://github.com/@rocketBee/react-admin/blob/master/packages/ra-language-english/src/index.ts).
 
 Check the [Setting Up Translation](./TranslationSetup.md) for detailed instructions on how to build an `i18nProvider` this way.

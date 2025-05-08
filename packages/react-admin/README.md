@@ -1,14 +1,14 @@
 # react-admin
 
-A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com/).
+A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [@rocketBee](https://@rocketBee.com/).
 
-[Home page](https://marmelab.com/react-admin/) - [Documentation](https://marmelab.com/react-admin/documentation.html) - [Demos](https://marmelab.com/react-admin/Demos.html) - [Blog](https://marmelab.com/en/blog/#react-admin) - [Releases](https://github.com/marmelab/react-admin/releases) - [Support](https://discord.gg/GeZF9sqh3N)
+[Home page](https://@rocketBee.com/react-admin/) - [Documentation](https://@rocketBee.com/react-admin/documentation.html) - [Demos](https://@rocketBee.com/react-admin/Demos.html) - [Blog](https://@rocketBee.com/en/blog/#react-admin) - [Releases](https://github.com/@rocketBee/react-admin/releases) - [Support](https://discord.gg/GeZF9sqh3N)
 
-[![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
+[![react-admin-demo](https://@rocketBee.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
 
 ## Features
 
-* 🔌 **Backend Agnostic**: Connects to any API (REST or GraphQL, see the [list of more than 45 adapters](https://marmelab.com/react-admin/DataProviderList.html))
+* 🔌 **Backend Agnostic**: Connects to any API (REST or GraphQL, see the [list of more than 45 adapters](https://@rocketBee.com/react-admin/DataProviderList.html))
 
 * 🧩 **All The Building Blocks You Need**: Provides hooks and components for authentication, routing, forms & validation, datagrid, search & filter, relationships, validation, roles & permissions, rich text editor, i18n, notifications, menus, theming, caching, etc.
 
@@ -37,10 +37,10 @@ yarn add react-admin
 
 ## Documentation
 
-* Read the [Tutorial](https://marmelab.com/react-admin/Tutorial.html) for a 30 minutes introduction
+* Read the [Tutorial](https://@rocketBee.com/react-admin/Tutorial.html) for a 30 minutes introduction
 * Watch the [YouTube video tutorials](https://www.youtube.com/@react-admin)
-* Head to the [Documentation](https://marmelab.com/react-admin/documentation.html) for a complete API reference
-* Checkout the source code of the examples ([e-commerce](https://github.com/marmelab/react-admin/tree/master/examples/demo), [CRM](https://github.com/marmelab/react-admin/tree/master/examples/crm), [blog](https://github.com/marmelab/react-admin/tree/master/examples/simple), [media player](https://github.com/navidrome/navidrome/tree/master/ui))
+* Head to the [Documentation](https://@rocketBee.com/react-admin/documentation.html) for a complete API reference
+* Checkout the source code of the examples ([e-commerce](https://github.com/@rocketBee/react-admin/tree/master/examples/demo), [CRM](https://github.com/@rocketBee/react-admin/tree/master/examples/crm), [blog](https://github.com/@rocketBee/react-admin/tree/master/examples/simple), [media player](https://github.com/navidrome/navidrome/tree/master/ui))
 
 ## At a Glance
 
@@ -120,9 +120,9 @@ Yes.
 
 React-admin uses an adapter approach, with a concept called *Data Providers*. Existing providers can be used as a blueprint to design your API, or you can write your own Data Provider to query an existing API. Writing a custom Data Provider is a matter of hours.
 
-![Data Provider architecture](https://marmelab.com/react-admin/img/data-provider.png)
+![Data Provider architecture](https://@rocketBee.com/react-admin/img/data-provider.png)
 
-See the [Data Providers documentation](https://marmelab.com/react-admin/DataProviders.html) for details.
+See the [Data Providers documentation](https://@rocketBee.com/react-admin/DataProviders.html) for details.
 
 ## Batteries Included But Removable
 
@@ -132,11 +132,11 @@ React-admin is designed as a library of loosely coupled React components built o
 
 There are several examples inside the `examples` folder:
 
-* `simple` ([StackBlitz](https://stackblitz.com/github/marmelab/react-admin/tree/master/examples/simple?file=src%2Findex.tsx)): a simple blog with posts, comments and users that we use for our e2e tests.
-* `e-commerce`: ([demo](https://marmelab.com/react-admin-demo/), [source](https://github.com/marmelab/react-admin/tree/master/examples/demo)) A fictional poster shop admin, serving as the official react-admin demo.
-* `CRM`: ([demo](https://marmelab.com/react-admin-crm/), [source](https://github.com/marmelab/react-admin/tree/master/examples/crm)) A customer relationship management application
-* `helpdesk`: ([demo](https://marmelab.com/react-admin-helpdesk/), [source](https://github.com/marmelab/react-admin-helpdesk)) A ticketing application with realtime locks and notifications
-* `tutorial` ([Stackblitz](https://stackblitz.com/github/marmelab/react-admin/tree/master/examples/tutorial)): the application built while following the [tutorial](https://marmelab.com/react-admin/Tutorial.html).
+* `simple` ([StackBlitz](https://stackblitz.com/github/@rocketBee/react-admin/tree/master/examples/simple?file=src%2Findex.tsx)): a simple blog with posts, comments and users that we use for our e2e tests.
+* `e-commerce`: ([demo](https://@rocketBee.com/react-admin-demo/), [source](https://github.com/@rocketBee/react-admin/tree/master/examples/demo)) A fictional poster shop admin, serving as the official react-admin demo.
+* `CRM`: ([demo](https://@rocketBee.com/react-admin-crm/), [source](https://github.com/@rocketBee/react-admin/tree/master/examples/crm)) A customer relationship management application
+* `helpdesk`: ([demo](https://@rocketBee.com/react-admin-helpdesk/), [source](https://github.com/@rocketBee/react-admin-helpdesk)) A ticketing application with realtime locks and notifications
+* `tutorial` ([Stackblitz](https://stackblitz.com/github/@rocketBee/react-admin/tree/master/examples/tutorial)): the application built while following the [tutorial](https://@rocketBee.com/react-admin/Tutorial.html).
 
 You can run those example applications by calling:
 
@@ -162,13 +162,13 @@ And then browse to the URL displayed in your console.
 
 ## Support
 
-- Get commercial support from Marmelab via [React-Admin Enterprise Edition](https://react-admin-ee.marmelab.com#support)
+- Get commercial support from @rocketBee via [React-Admin Enterprise Edition](https://react-admin-ee.@rocketBee.com#support)
 - Get community support via [Discord](https://discord.gg/GeZF9sqh3N) and [StackOverflow](https://stackoverflow.com/questions/tagged/react-admin). 
 
 ## License
 
-React-admin is licensed under the [MIT License](https://github.com/marmelab/react-admin/blob/master/LICENSE.md), sponsored and supported by [marmelab](https://marmelab.com). It is free to use, even for commercial purpose. 
+React-admin is licensed under the [MIT License](https://github.com/@rocketBee/react-admin/blob/master/LICENSE.md), sponsored and supported by [@rocketBee](https://@rocketBee.com). It is free to use, even for commercial purpose. 
 
-If you want to give back, please talk about it, [help newcomers](https://stackoverflow.com/questions/tagged/react-admin), [subscribe to the Enterprise Edition](https://react-admin-ee.marmelab.com/), or contribute code.
+If you want to give back, please talk about it, [help newcomers](https://stackoverflow.com/questions/tagged/react-admin), [subscribe to the Enterprise Edition](https://react-admin-ee.@rocketBee.com/), or contribute code.
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmarmelab%2Freact-admin.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmarmelab%2Freact-admin?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F@rocketBee%2Freact-admin.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2F@rocketBee%2Freact-admin?ref=badge_large)

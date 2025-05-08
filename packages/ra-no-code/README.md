@@ -6,7 +6,7 @@ A distribution of the react-admin framework for building offline-first admins th
 
 ## License
 
-React-admin is licensed under the [MIT License](https://github.com/marmelab/react-admin/blob/master/LICENSE.md), sponsored and supported by [marmelab](https://marmelab.com).
+React-admin is licensed under the [MIT License](https://github.com/@rocketBee/react-admin/blob/master/LICENSE.md), sponsored and supported by [@rocketBee](https://@rocketBee.com).
 
 ## Donate
 

@@ -13,7 +13,7 @@ The easiest task is **bug triaging**. Check that new issues on GitHub follow the
 
 The second way to contribute is to **answer support questions on [Discord](https://discord.gg/GeZF9sqh3N) and [StackOverflow](https://stackoverflow.com/questions/tagged/react-admin)**. There are many beginner questions there, so even if you're not super experienced with react-admin, there is someone you can help there. 
 
-Pull requests for **bug fixes** are welcome on the [GitHub repository](https://github.com/marmelab/react-admin). There is always a bunch of [issues labeled "Good First Issue"](https://github.com/marmelab/react-admin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) in the bug tracker—start with these. 
+Pull requests for **bug fixes** are welcome on the [GitHub repository](https://github.com/@rocketBee/react-admin). There is always a bunch of [issues labeled "Good First Issue"](https://github.com/@rocketBee/react-admin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) in the bug tracker—start with these. 
 
 If you want to **add a feature**, you can open a Pull request on the `next` branch. We don't accept all features—we try to keep the react-admin code small and manageable. Try and see if your feature can't be built as an additional `npm` package. If you're in doubt, open a "Feature Request" issue to see if the core team would accept your feature before developing it.
 
@@ -61,10 +61,10 @@ And then browse to [http://localhost:4000/documentation.html](http://localhost:4
 
 There are several examples inside the `examples` folder. They all use a fake REST API, so you can run them without setting up a backend.
 
-* `simple` ([StackBlitz](https://stackblitz.com/github/marmelab/react-admin/tree/master/examples/simple?file=src%2Findex.tsx)): a simple blog with posts, comments and users that we use for our e2e tests.
-* `e-commerce`: ([demo](https://marmelab.com/react-admin-demo/), [source](https://github.com/marmelab/react-admin/tree/master/examples/demo)) A fictional poster shop admin, serving as the official react-admin demo.
-* `CRM`: ([demo](https://marmelab.com/react-admin-crm/), [source](https://github.com/marmelab/react-admin/tree/master/examples/crm)) A customer relationship management application
-* `tutorial` ([Stackblitz](https://stackblitz.com/github/marmelab/react-admin/tree/master/examples/tutorial)): the application built while following the [tutorial](https://marmelab.com/react-admin/Tutorial.html).
+* `simple` ([StackBlitz](https://stackblitz.com/github/@rocketBee/react-admin/tree/master/examples/simple?file=src%2Findex.tsx)): a simple blog with posts, comments and users that we use for our e2e tests.
+* `e-commerce`: ([demo](https://@rocketBee.com/react-admin-demo/), [source](https://github.com/@rocketBee/react-admin/tree/master/examples/demo)) A fictional poster shop admin, serving as the official react-admin demo.
+* `CRM`: ([demo](https://@rocketBee.com/react-admin-crm/), [source](https://github.com/@rocketBee/react-admin/tree/master/examples/crm)) A customer relationship management application
+* `tutorial` ([Stackblitz](https://stackblitz.com/github/@rocketBee/react-admin/tree/master/examples/tutorial)): the application built while following the [tutorial](https://@rocketBee.com/react-admin/Tutorial.html).
 
 You can run those example applications by calling:
 
@@ -175,7 +175,7 @@ In react-admin v4, these libraries are called [React Query](https://tanstack.com
 
 When a new requirement arises, the react-admin teams always looks for an existing solution, and prefers integrating it rather than redeveloping it.
 
-There is one constraint, though: all react-admin's dependencies must be compatible with the [MIT license](https://github.com/marmelab/react-admin/blob/master/LICENSE.md). 
+There is one constraint, though: all react-admin's dependencies must be compatible with the [MIT license](https://github.com/@rocketBee/react-admin/blob/master/LICENSE.md). 
 
 ## Backward Compatibility Is More Important Than New Features
 
@@ -242,13 +242,13 @@ Whenever you import a react-admin component, it's sourced from the `react-admin`
 import { List, Datagrid, TextField } from 'react-admin';
 ```
 
-But if you peek at [the react-admin source code](https://github.com/marmelab/react-admin) (which we encourage you to do), you will find imports like:
+But if you peek at [the react-admin source code](https://github.com/@rocketBee/react-admin) (which we encourage you to do), you will find imports like:
 
 ```jsx
 import { useListController } from 'ra-core';
 ```
 
-That's because the `react-admin` package simply re-exports components from internal packages. React-admin is a *distribution* of several packages, each dedicated to a specific feature. These packages can be found in [the `packages/` directory](https://github.com/marmelab/react-admin/tree/master/packages). Some of the more notable packages include:
+That's because the `react-admin` package simply re-exports components from internal packages. React-admin is a *distribution* of several packages, each dedicated to a specific feature. These packages can be found in [the `packages/` directory](https://github.com/@rocketBee/react-admin/tree/master/packages). Some of the more notable packages include:
     
 * `ra-core`: The core react-admin logic, without any UI.
 * `ra-ui-materialui`: The Material UI skin for react-admin.

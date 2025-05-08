@@ -27,7 +27,7 @@ const App = () => (
 );
 ```
 
-https://marmelab.com/react-admin/Permissions.html#restricting-access-to-resources-or-views
+https://@rocketBee.com/react-admin/Permissions.html#restricting-access-to-resources-or-views
 
 ---
 
@@ -47,7 +47,7 @@ Use `<ReferenceOneField>` with a `sort` prop to display the latest record relate
 
 {% endraw %}
 
-https://marmelab.com/react-admin/ReferenceOneField.html#usage
+https://@rocketBee.com/react-admin/ReferenceOneField.html#usage
 
 ---
 
@@ -64,7 +64,7 @@ const MyPage = () => {
 export default MyPage;
 ```
 
-https://marmelab.com/react-admin/useAuthenticated.html
+https://@rocketBee.com/react-admin/useAuthenticated.html
 
 ---
 
@@ -88,7 +88,7 @@ export const lightTheme = {
 };
 ```
 
-https://github.com/marmelab/react-admin/blob/master/examples/demo/src/layout/themes.ts#L102
+https://github.com/@rocketBee/react-admin/blob/master/examples/demo/src/layout/themes.ts#L102
 
 ---
 
@@ -100,7 +100,7 @@ import { List } from "react-admin";
 const BookList = () => <List disableAuthentication>...</List>;
 ```
 
-https://marmelab.com/react-admin/List.html#disableauthentication
+https://@rocketBee.com/react-admin/List.html#disableauthentication
 
 ---
 
@@ -121,7 +121,7 @@ const UserProfile = () => {
 };
 ```
 
-https://marmelab.com/react-admin/useGetOne.html#aggregating-getone-calls
+https://@rocketBee.com/react-admin/useGetOne.html#aggregating-getone-calls
 
 ---
 
@@ -143,7 +143,7 @@ const FilterSidebar = () => (
 );
 ```
 
-https://marmelab.com/react-admin/FilterLiveSearch.html
+https://@rocketBee.com/react-admin/FilterLiveSearch.html
 
 ---
 
@@ -167,7 +167,7 @@ const ListActions = () => (
 );
 ```
 
-https://marmelab.com/react-admin/SortButton.html
+https://@rocketBee.com/react-admin/SortButton.html
 
 ---
 
@@ -200,7 +200,7 @@ export const BookEdit = () => (
 
 ---
 
-When leveraging `<ReferenceInput>` to let users select a related record from a list, you may want to display only a subset of the related records (e.g. only the published posts). You can do so by adding a `filter` prop to the `<ReferenceInput>`. #relationship https://marmelab.com/react-admin/ReferenceInput.html#filter
+When leveraging `<ReferenceInput>` to let users select a related record from a list, you may want to display only a subset of the related records (e.g. only the published posts). You can do so by adding a `filter` prop to the `<ReferenceInput>`. #relationship https://@rocketBee.com/react-admin/ReferenceInput.html#filter
 
 {% raw %}
 
@@ -216,7 +216,7 @@ When leveraging `<ReferenceInput>` to let users select a related record from a l
 
 ---
 
-The `sx` prop is responsive: you can set different values depending on the breakpoint. #style https://marmelab.com/react-admin/Theming.html#sx-overriding-a-component-style
+The `sx` prop is responsive: you can set different values depending on the breakpoint. #style https://@rocketBee.com/react-admin/Theming.html#sx-overriding-a-component-style
 
 {% raw %}
 
@@ -240,7 +240,7 @@ The `sx` prop is responsive: you can set different values depending on the break
 
 ---
 
-The `<ListLive>` component is a `<List>` that automatically refreshes when the data changes. #list #realtime https://marmelab.com/react-admin/ListLive.html
+The `<ListLive>` component is a `<List>` that automatically refreshes when the data changes. #list #realtime https://@rocketBee.com/react-admin/ListLive.html
 
 ```jsx
 import { Datagrid, TextField } from "react-admin";
@@ -257,7 +257,7 @@ const PostList = () => (
 
 ---
 
-Don't add an optional "s" to a name depending on the item count: `useTranslate` supports pluralization. #i18n https://marmelab.com/react-admin/useTranslate.html#using-pluralization-and-interpolation
+Don't add an optional "s" to a name depending on the item count: `useTranslate` supports pluralization. #i18n https://@rocketBee.com/react-admin/useTranslate.html#using-pluralization-and-interpolation
 
 ```jsx
 const messages = {
@@ -281,7 +281,7 @@ translate('count_beer', { smart_count: 2 });
 
 ---
 
-`<SelectInput>` can render certain options as disabled. Just set the `disabled:true` property on the option. #input https://marmelab.com/react-admin/SelectInput.html#disablevalue
+`<SelectInput>` can render certain options as disabled. Just set the `disabled:true` property on the option. #input https://@rocketBee.com/react-admin/SelectInput.html#disablevalue
 
 ```jsx
 const choices = [
@@ -298,7 +298,7 @@ If you need to transform or combine multiple values to render a field, `<Functio
 
 While `render` is the only required prop, when used inside a `<Datagrid>`, you can also provide a `source` or a `sortBy` prop to make the column sortable. Indeed when a user clicks on a column, `<Datagrid>` uses these props to sort. Should you provide both, `sortBy` will override `source` for sorting the column.
 
-#field https://marmelab.com/react-admin/FunctionField.html
+#field https://@rocketBee.com/react-admin/FunctionField.html
 
 ```diff
 <Datagrid>
@@ -346,7 +346,7 @@ export default App;
 
 ---
 
-If the provided form layouts do not suit your needs, you can build your own with the `<Form>` component. #form https://marmelab.com/react-admin/Form.html
+If the provided form layouts do not suit your needs, you can build your own with the `<Form>` component. #form https://@rocketBee.com/react-admin/Form.html
 
 ```jsx
 import {
@@ -389,7 +389,7 @@ This allows, among others, to have multiple lists on a single page.
 
 To do so, pass the `disableSyncWithLocation` prop to the `<List>`.
 
-#list https://marmelab.com/react-admin/List.html#disablesyncwithlocation
+#list https://@rocketBee.com/react-admin/List.html#disablesyncwithlocation
 
 ```jsx
 const Dashboard = () => (
@@ -424,7 +424,7 @@ const Dashboard = () => (
 
 If you need to have multiple lists of the same resource in your app, and would like to keep distinct states for each of them (filters, sorting and pagination), you can use the `storeKey` prop to differentiate them.
 
-#list https://marmelab.com/react-admin/List.html#storekey
+#list https://@rocketBee.com/react-admin/List.html#storekey
 
 {% raw %}
 
@@ -465,7 +465,7 @@ const App = () => (
 
 ---
 
-How to build a multi-tenant web app with react-admin? Although this may sound simple, you should NOT do the following. This blog post explains why. #multiTenancy https://marmelab.com/blog/2022/12/14/multitenant-spa.html
+How to build a multi-tenant web app with react-admin? Although this may sound simple, you should NOT do the following. This blog post explains why. #multiTenancy https://@rocketBee.com/blog/2022/12/14/multitenant-spa.html
 
 ```diff
 +const tenantId = localStorage.getItem('tenantId');
@@ -482,7 +482,7 @@ const { data, isLoading } = useGetList(
 
 ---
 
-If you need to build an app relying on more than one API, you can combine multiple data providers into one using the `combineDataProviders` helper. #dataFetching https://marmelab.com/react-admin/DataProviders.html#combining-data-providers
+If you need to build an app relying on more than one API, you can combine multiple data providers into one using the `combineDataProviders` helper. #dataFetching https://@rocketBee.com/react-admin/DataProviders.html#combining-data-providers
 
 ```jsx
 import buildRestProvider from "ra-data-simple-rest";
@@ -519,7 +519,7 @@ export const App = () => (
 
 ---
 
-React Admin's `fetchJson` is a neat utility that makes it easier to query a JSON API with the required headers. It also allows to add your own headers, and handles the JSON decoding of the response. #dataProvider https://marmelab.com/react-admin/fetchJson.html
+React Admin's `fetchJson` is a neat utility that makes it easier to query a JSON API with the required headers. It also allows to add your own headers, and handles the JSON decoding of the response. #dataProvider https://@rocketBee.com/react-admin/fetchJson.html
 
 ```js
 import { fetchUtils } from "react-admin";
@@ -535,7 +535,7 @@ const httpClient = async (url, options = {}) => {
 
 ---
 
-If you need to combine several fields in a single cell (in a `<Datagrid>`) or in a single row (in a `<SimpleShowLayout>`), use a `<WrapperField>` to define the `label` and `sortBy` props. #field https://marmelab.com/react-admin/WrapperField.html
+If you need to combine several fields in a single cell (in a `<Datagrid>`) or in a single row (in a `<SimpleShowLayout>`), use a `<WrapperField>` to define the `label` and `sortBy` props. #field https://@rocketBee.com/react-admin/WrapperField.html
 
 ```js
 import { List, Datagrid, WrapperField, TextField } from "react-admin";
@@ -555,7 +555,7 @@ const BookList = () => (
 
 ---
 
-If you use `useMediaQuery` to display different content on mobile and desktop, be aware that the component will render twice on mobile - that's a limitation of the hook to support server-side rendering. To avoid that double render, set the `noSsr` option. #mobile https://marmelab.com/react-admin/Theming.html#usemediaquery-hook
+If you use `useMediaQuery` to display different content on mobile and desktop, be aware that the component will render twice on mobile - that's a limitation of the hook to support server-side rendering. To avoid that double render, set the `noSsr` option. #mobile https://@rocketBee.com/react-admin/Theming.html#usemediaquery-hook
 
 ```jsx
 import { useMediaQuery, Theme } from "@material-ui/core";
@@ -571,7 +571,7 @@ const PostList = () => {
 
 ---
 
-You can use a `<Show>` Layout component for the `<Datagrid expand>` prop. #datagrid https://marmelab.com/react-admin/Datagrid.html#expand
+You can use a `<Show>` Layout component for the `<Datagrid expand>` prop. #datagrid https://@rocketBee.com/react-admin/Datagrid.html#expand
 
 ```jsx
 const PostShow = () => (
@@ -595,7 +595,7 @@ const PostList = () => (
 
 ---
 
-By default, the `polyglotI18nProvider` logs a warning each time a message can’t be found in the translations. This helps track missing translation keys. To silence this, you can pass the `allowMissing` option to Polyglot. #i18n https://marmelab.com/react-admin/TranslationSetup.html#silencing-translation-warnings
+By default, the `polyglotI18nProvider` logs a warning each time a message can’t be found in the translations. This helps track missing translation keys. To silence this, you can pass the `allowMissing` option to Polyglot. #i18n https://@rocketBee.com/react-admin/TranslationSetup.html#silencing-translation-warnings
 
 ```diff
 // in src/i18nProvider.js
@@ -616,7 +616,7 @@ const i18nProvider = polyglotI18nProvider(locale =>
 
 ---
 
-The `<AutocompleteInput>` dropdown has the same width as the input. You can make it larger by specifying a custom `PopperComponent` prop. #autocomplete https://marmelab.com/react-admin/AutocompleteInput.html
+The `<AutocompleteInput>` dropdown has the same width as the input. You can make it larger by specifying a custom `PopperComponent` prop. #autocomplete https://@rocketBee.com/react-admin/AutocompleteInput.html
 
 {% raw %}
 
@@ -639,7 +639,7 @@ const ListFilters = [
 {% endraw %}
 
 ---
-If you need to add custom pages in your application, for instance to let users manage their profile (password, preferences, etc), use the `<CustomRoutes>` component. #router https://marmelab.com/react-admin/CustomRoutes.html
+If you need to add custom pages in your application, for instance to let users manage their profile (password, preferences, etc), use the `<CustomRoutes>` component. #router https://@rocketBee.com/react-admin/CustomRoutes.html
 
 ```jsx
 import { Admin, Resource, CustomRoutes } from 'react-admin';
@@ -667,7 +667,7 @@ export default App;
 
 ---
 
-If you'd like to reset the list filters when your users click on a menu item, you can use an empty `filter` query parameter to empty the filters. #list #menu https://marmelab.com/react-admin/Menu.html#resetting-filters-on-menu-click
+If you'd like to reset the list filters when your users click on a menu item, you can use an empty `filter` query parameter to empty the filters. #list #menu https://@rocketBee.com/react-admin/Menu.html#resetting-filters-on-menu-click
 
 ```jsx
 <Menu.Item
@@ -679,7 +679,7 @@ If you'd like to reset the list filters when your users click on a menu item, yo
 
 ---
 
-If you need to display/hide an input based on the value of another input, the `<FormDataConsumer>` component can help. Also, remember to set the `shouldUnregister` prop, so that when the input is hidden, its value isn’t included in the submitted data. #form https://marmelab.com/react-admin/Inputs.html#hiding-inputs-based-on-other-inputs
+If you need to display/hide an input based on the value of another input, the `<FormDataConsumer>` component can help. Also, remember to set the `shouldUnregister` prop, so that when the input is hidden, its value isn’t included in the submitted data. #form https://@rocketBee.com/react-admin/Inputs.html#hiding-inputs-based-on-other-inputs
 
 {% raw %}
 
@@ -704,7 +704,7 @@ const PostEdit = () => (
 
 ---
 
-You can leverage the `useListContext` hook to build your own list UI. #list https://marmelab.com/react-admin/useListContext.html
+You can leverage the `useListContext` hook to build your own list UI. #list https://@rocketBee.com/react-admin/useListContext.html
 
 {% raw %}
 
@@ -730,7 +730,7 @@ const CompanyList = () => {
 
 ---
 
-`<AutocompleteInput>` and `<SelectInput>` both provide an easy way to create new options on-the-fly. Simply use the `onCreate` prop to render a `prompt` to ask users about the new value. #input https://marmelab.com/react-admin/AutocompleteInput.html#oncreate
+`<AutocompleteInput>` and `<SelectInput>` both provide an easy way to create new options on-the-fly. Simply use the `onCreate` prop to render a `prompt` to ask users about the new value. #input https://@rocketBee.com/react-admin/AutocompleteInput.html#oncreate
 
 {% raw %}
 ```jsx
@@ -765,7 +765,7 @@ const PostCreate = () => {
 
 ---
 
-You can customize the preview of an image file dropped in an [`<ImageInput>` component](https://marmelab.com/react-admin/ImageInput.html). Let's replace the default preview provided by `<ImageField>`, with the [MUI Avatar component](https://mui.com/material-ui/react-avatar/):
+You can customize the preview of an image file dropped in an [`<ImageInput>` component](https://@rocketBee.com/react-admin/ImageInput.html). Let's replace the default preview provided by `<ImageField>`, with the [MUI Avatar component](https://mui.com/material-ui/react-avatar/):
 
 {% raw %}
 
@@ -812,7 +812,7 @@ const Preview = () => {
 
 ---
 
-`<AutocompleteInput>` accepts the same props as MUI's `<Autocomplete>`. For instance, you can use `filterSelectedOptions` to choose whether or not to display the currently selected option among the list of available choices. #input https://marmelab.com/react-admin/AutocompleteInput.html#additional-props
+`<AutocompleteInput>` accepts the same props as MUI's `<Autocomplete>`. For instance, you can use `filterSelectedOptions` to choose whether or not to display the currently selected option among the list of available choices. #input https://@rocketBee.com/react-admin/AutocompleteInput.html#additional-props
 
 {% raw %}
 
@@ -828,7 +828,7 @@ const Preview = () => {
 
 ---
 
-If your API does not serve a resource as expected by your application, and if you cannot tranform this resource server-side, you can alter it client-side in the `dataProvider` by using `withLifecycleCallbacks`. #dataProvider https://marmelab.com/react-admin/withLifecycleCallbacks.html
+If your API does not serve a resource as expected by your application, and if you cannot tranform this resource server-side, you can alter it client-side in the `dataProvider` by using `withLifecycleCallbacks`. #dataProvider https://@rocketBee.com/react-admin/withLifecycleCallbacks.html
 
 {% raw %}
 ```ts
@@ -868,7 +868,7 @@ export const dataProvider = withLifecycleCallbacks(
 
 ---
 
-If you want to style a particular column in a `<Datagrid>`, you can take advantage of the generated class names per column. For instance a field with `source="title"` will have the class `column-title`. #datagrid https://marmelab.com/react-admin/Datagrid.html#styling-specific-columns
+If you want to style a particular column in a `<Datagrid>`, you can take advantage of the generated class names per column. For instance a field with `source="title"` will have the class `column-title`. #datagrid https://@rocketBee.com/react-admin/Datagrid.html#styling-specific-columns
 
 {% raw %}
 
@@ -895,7 +895,7 @@ const PostList = () => (
 
 ---
 
-Instead of defining the same `optionText` prop in multiple `<Input>` or `<Field>`, you can choose a default template using the `recordRepresentation` prop of `<Resource>`. #resource https://marmelab.com/react-admin/Resource.html#recordrepresentation
+Instead of defining the same `optionText` prop in multiple `<Input>` or `<Field>`, you can choose a default template using the `recordRepresentation` prop of `<Resource>`. #resource https://@rocketBee.com/react-admin/Resource.html#recordrepresentation
 
 {% raw %}
 
@@ -919,7 +919,7 @@ const App = () => (
 
 ---
 
-The `<ReferenceManyField>` provides a `ListContext` to its children, just like the `<List>`. You can leverage that to build richer UI for references. For instance, adding search. https://marmelab.com/react-admin/ReferenceManyField.html
+The `<ReferenceManyField>` provides a `ListContext` to its children, just like the `<List>`. You can leverage that to build richer UI for references. For instance, adding search. https://@rocketBee.com/react-admin/ReferenceManyField.html
 
 {% raw %}
 
@@ -947,7 +947,7 @@ export const PostEdit = () => (
 ---
 
 Check the uniqueness of a value in a form with the `useUnique` validator. It checks the validity using `dataProvider.getList()` with a filter param, and fails when a record exists with the current input value.
-#form https://marmelab.com/react-admin/useUnique.html
+#form https://@rocketBee.com/react-admin/useUnique.html
 
 {% raw %}
 ```tsx
@@ -966,7 +966,7 @@ const UserCreateForm = () => {
 
 ---
 
-In confirmation messages, and on the empty page, the resource name appears in the middle of sentences, as lower case. This works in English, but you may want to display resources in another way, like in German, where names are always capitalized. To do this, simply add a `forcedCaseName` key next to the `name` key in your translation file. #i18n https://marmelab.com/react-admin/TranslationTranslating.html#forcing-the-case-in-confirm-messages-and-empty-page
+In confirmation messages, and on the empty page, the resource name appears in the middle of sentences, as lower case. This works in English, but you may want to display resources in another way, like in German, where names are always capitalized. To do this, simply add a `forcedCaseName` key next to the `name` key in your translation file. #i18n https://@rocketBee.com/react-admin/TranslationTranslating.html#forcing-the-case-in-confirm-messages-and-empty-page
 
 {% raw %}
 
@@ -991,17 +991,17 @@ In confirmation messages, and on the empty page, the resource name appears in th
 
 ---
 
-With `<Datagrid>`, you can select a range of rows by pressing the shift key while clicking on a row checkbox. #datagrid https://marmelab.com/react-admin/Datagrid.html#bulkactionbuttons
+With `<Datagrid>`, you can select a range of rows by pressing the shift key while clicking on a row checkbox. #datagrid https://@rocketBee.com/react-admin/Datagrid.html#bulkactionbuttons
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://marmelab.com/react-admin/img/datagrid-select-range.mp4" type="video/mp4"/>
+  <source src="https://@rocketBee.com/react-admin/img/datagrid-select-range.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
 ---
 
 If you need to customize the `<SolarLayout>` appBar that appears on Mobile, you can set the `appBar` prop of `<SolarLayout>`. For instance, here's how you could customize its colors and add some extra content to its far right.
-#SolarLayout https://react-admin-ee.marmelab.com/documentation/ra-navigation#appbar-1
+#SolarLayout https://react-admin-ee.@rocketBee.com/documentation/ra-navigation#appbar-1
 
 {% raw %}
 ```tsx
@@ -1029,7 +1029,7 @@ const CustomLayout = (props: SolarLayoutProps) => (
 
 There are several ways to upload files: you can send files as Base64 string, you can send files using multipart/form-data, or you might want to send files to a third party service such as CDN, etc. The Handling File Uploads section of our documentation contains example code for all three, including and example using Cloudinary as CDN.
 
-#dataProvider https://marmelab.com/react-admin/DataProviders.html#handling-file-uploads
+#dataProvider https://@rocketBee.com/react-admin/DataProviders.html#handling-file-uploads
 
 {% raw %}
 ```tsx
@@ -1075,7 +1075,7 @@ export const dataProvider = withLifecycleCallbacks(
 
 ---
 
-Most `<List>` children, such as `<Datagrid>`, `<SimpleList>` or `<SingleFieldList>` support the `empty` prop. It accepts a React Component, allowing to customize the content to display when the list is empty. #list https://marmelab.com/react-admin/List.html#empty
+Most `<List>` children, such as `<Datagrid>`, `<SimpleList>` or `<SingleFieldList>` support the `empty` prop. It accepts a React Component, allowing to customize the content to display when the list is empty. #list https://@rocketBee.com/react-admin/List.html#empty
 
 {% raw %}
 ```jsx
@@ -1095,7 +1095,7 @@ const PostList = () => (
 
 ---
 
-If you are implementing a custom list iterator, but don't want to handle the loading state by grabbing the `isLoading` variable from the `ListContext`, a convenient solution is to leverage the `<List emptyWhileLoading>` prop. With it, the `<List>` component won’t render its child component until the data is available. #list https://marmelab.com/react-admin/ListTutorial.html#building-a-custom-iterator
+If you are implementing a custom list iterator, but don't want to handle the loading state by grabbing the `isLoading` variable from the `ListContext`, a convenient solution is to leverage the `<List emptyWhileLoading>` prop. With it, the `<List>` component won’t render its child component until the data is available. #list https://@rocketBee.com/react-admin/ListTutorial.html#building-a-custom-iterator
 
 {% raw %}
 ```jsx
@@ -1125,7 +1125,7 @@ const BookList = () => (
 
 ---
 
-Components based on Material UI `<Dialog>`, like `<EditDialog>` or `<CreateDialog>`, can be set to take up full width by setting the `fullWidth` prop to `true`. It works well in conjunction with the `maxWidth` prop, allowing the dialog to grow only until a given breakpoint. #ui https://marmelab.com/react-admin/EditDialog.html#fullwidth
+Components based on Material UI `<Dialog>`, like `<EditDialog>` or `<CreateDialog>`, can be set to take up full width by setting the `fullWidth` prop to `true`. It works well in conjunction with the `maxWidth` prop, allowing the dialog to grow only until a given breakpoint. #ui https://@rocketBee.com/react-admin/EditDialog.html#fullwidth
 
 {% raw %}
 ```jsx
@@ -1139,7 +1139,7 @@ const MyEditDialog = () => (
 
 ---
 
-With `<EditableDatagrid>`, if you are providing your own side effects to manage successful or failed save or delete actions, you can leverage the `useRowContext` hook to close the form programmatically. #datagrid #form https://marmelab.com/react-admin/EditableDatagrid.html#providing-custom-side-effects
+With `<EditableDatagrid>`, if you are providing your own side effects to manage successful or failed save or delete actions, you can leverage the `useRowContext` hook to close the form programmatically. #datagrid #form https://@rocketBee.com/react-admin/EditableDatagrid.html#providing-custom-side-effects
 
 {% raw %}
 ```tsx
@@ -1166,7 +1166,7 @@ const ArtistCreationForm = () => {
 
 ---
 
-When editing a record, if ever the record is refetched and its value has changed, the form will be reset to the new value. If you want to avoid loosing changes already made to the record, you can leverage the `resetOptions` to keep the dirty values. #form https://marmelab.com/react-admin/Form.html#props
+When editing a record, if ever the record is refetched and its value has changed, the form will be reset to the new value. If you want to avoid loosing changes already made to the record, you can leverage the `resetOptions` to keep the dirty values. #form https://@rocketBee.com/react-admin/Form.html#props
 
 {% raw %}
 ```tsx
@@ -1200,7 +1200,7 @@ If you would like to make the tabs vertical in a `<TabbedShowLayout>`, you can s
 
 ---
 
-Instead of numbers, you can pass an array of objects to `<Pagination rowsPerPageOptions>` to specify a custom label corresponding to each value. #list https://marmelab.com/react-admin/List.html#pagination
+Instead of numbers, you can pass an array of objects to `<Pagination rowsPerPageOptions>` to specify a custom label corresponding to each value. #list https://@rocketBee.com/react-admin/List.html#pagination
 
 {% raw %}
 ```tsx
@@ -1226,7 +1226,7 @@ export const PostList = () => (
 
 ---
 
-If you render more than one `<DatagridConfigurable>` on the same page, you must pass a unique preferenceKey prop to each one. Do not forget to link their `<SelectColumnsButton>` components by giving them the same preferenceKey. #datagrid https://marmelab.com/react-admin/Datagrid.html#configurable
+If you render more than one `<DatagridConfigurable>` on the same page, you must pass a unique preferenceKey prop to each one. Do not forget to link their `<SelectColumnsButton>` components by giving them the same preferenceKey. #datagrid https://@rocketBee.com/react-admin/Datagrid.html#configurable
 
 {% raw %}
 ```tsx
@@ -1252,7 +1252,7 @@ const PostList = () => (
 ---
 
 If your API answers with an error status after submitting a form and you need to access the error object, you can use the `mutationOptions` prop. #form
-https://marmelab.com/react-admin/Edit.html#mutationoptions
+https://@rocketBee.com/react-admin/Edit.html#mutationoptions
 
 {% raw %}
 ```ts
@@ -1280,7 +1280,7 @@ const PostEdit = () => {
 ---
 
 Setting a `QueryClient` with a `staleTime` greater than 0 means that the UI may display stale data. If necessary, you can invalidate the query so that the next `useQuery` hook fetches fresh data.
-https://marmelab.com/react-admin/Admin.html#queryclient
+https://@rocketBee.com/react-admin/Admin.html#queryclient
 
 {% raw %}
 ```ts
@@ -1296,7 +1296,7 @@ const PostEdit = () => {
 
 ---
 
-Don’t confuse Material-UI’s `useTheme`, which returns the material-ui theme object, with react-admin’s `useTheme`, which lets you read and update the theme name (light or dark). #theme https://marmelab.com/react-admin/useTheme.html
+Don’t confuse Material-UI’s `useTheme`, which returns the material-ui theme object, with react-admin’s `useTheme`, which lets you read and update the theme name (light or dark). #theme https://@rocketBee.com/react-admin/useTheme.html
 
 {% raw %}
 ```ts
@@ -1317,7 +1317,7 @@ const ThemeToggler = () => {
 
 ---
 
-If you need to tweak the default layout to add a right column or move the menu to the top, you’re probably better off writing your own layout component (https://marmelab.com/react-admin/Layout.html#writing-a-layout-from-scratch). #layout #style
+If you need to tweak the default layout to add a right column or move the menu to the top, you’re probably better off writing your own layout component (https://@rocketBee.com/react-admin/Layout.html#writing-a-layout-from-scratch). #layout #style
 
 ```tsx
 import * as React from 'react';
@@ -1363,7 +1363,7 @@ export default MyLayout;
 
 ---
 
-If you need to override the Layout's global styles (like the default font size or family), you should write a custom theme (https://marmelab.com/react-admin/AppTheme.html#writing-a-custom-theme) rather than override the `<Layout sx>` prop. #layout #style
+If you need to override the Layout's global styles (like the default font size or family), you should write a custom theme (https://@rocketBee.com/react-admin/AppTheme.html#writing-a-custom-theme) rather than override the `<Layout sx>` prop. #layout #style
 
 ```tsx
 const theme = {
@@ -1397,7 +1397,7 @@ const theme = {
 
 ---
 
-If you're using the `<RichTextInput>` component, you may want to access the `TipTap` editor object to tweak extensions, input rules, etc. To do so, you can assign a ref in the `onCreate` function in the `editorOptions` prop of your `<RichTextInput>` component. #rich-text https://marmelab.com/react-admin/RichTextInput.html#calling-the-editor-object
+If you're using the `<RichTextInput>` component, you may want to access the `TipTap` editor object to tweak extensions, input rules, etc. To do so, you can assign a ref in the `onCreate` function in the `editorOptions` prop of your `<RichTextInput>` component. #rich-text https://@rocketBee.com/react-admin/RichTextInput.html#calling-the-editor-object
 
 {% raw %}
 ```tsx
@@ -1445,7 +1445,7 @@ export const PostEdit = () => {
 
 ---
 
-When users don’t find the reference they are looking for in the list of possible values, they need to create a new reference. Here's how you can let users create a new reference on the fly with `<ReferenceInput>`, `<AutocompleteInput onCreate>` and `useCreate`. #form #reference https://marmelab.com/react-admin/ReferenceInput.html#creating-a-new-reference
+When users don’t find the reference they are looking for in the list of possible values, they need to create a new reference. Here's how you can let users create a new reference on the fly with `<ReferenceInput>`, `<AutocompleteInput onCreate>` and `useCreate`. #form #reference https://@rocketBee.com/react-admin/ReferenceInput.html#creating-a-new-reference
 
 {% raw %}
 ```tsx
@@ -1515,11 +1515,11 @@ export const ArticleInputs = () => {
 
 ---
 
-Thanks to the react-admin community, you can find third-party react-admin components to enhance your apps, such as a color-picker, JSON fields and inputs, a trim field, a URL input, and more. Check the non-exhaustive list in [the third-party inputs documentation](https://marmelab.com/react-admin/Inputs.html#third-party-components).
+Thanks to the react-admin community, you can find third-party react-admin components to enhance your apps, such as a color-picker, JSON fields and inputs, a trim field, a URL input, and more. Check the non-exhaustive list in [the third-party inputs documentation](https://@rocketBee.com/react-admin/Inputs.html#third-party-components).
 
 ---
 
-The `notifictaion` prop of the `<Admin>` component allows you to customize the notification component. You can use the `Notification` component from the `react-admin` package to customize the notification content. #ui https://marmelab.com/react-admin/Admin.html#notification
+The `notifictaion` prop of the `<Admin>` component allows you to customize the notification component. You can use the `Notification` component from the `react-admin` package to customize the notification content. #ui https://@rocketBee.com/react-admin/Admin.html#notification
 
 {% raw %}
 ```tsx
@@ -1547,7 +1547,7 @@ export const App = () => {
 
 ---
 
-The `useNotify` hook allows you to display notifications in your application. You can customize the notification content by passing a component directly to the `notify` method. #ui https://marmelab.com/react-admin/useNotify.html
+The `useNotify` hook allows you to display notifications in your application. You can customize the notification content by passing a component directly to the `notify` method. #ui https://@rocketBee.com/react-admin/useNotify.html
 
 {% raw %}
 ```tsx
@@ -1570,7 +1570,7 @@ const NotifyButton = () => {
 
 ---
 
-Throwing an `HttpError` in your `dataProvider` will have the effect to display a notification in your application. You can customize the content of the notification by passing a component directly to the `HttpError` method. #dataProvider https://marmelab.com/react-admin/DataProviderWriting.html#error-format
+Throwing an `HttpError` in your `dataProvider` will have the effect to display a notification in your application. You can customize the content of the notification by passing a component directly to the `HttpError` method. #dataProvider https://@rocketBee.com/react-admin/DataProviderWriting.html#error-format
 
 {% raw %}
 ```tsx
@@ -1627,7 +1627,7 @@ export const MyDataProvider = {
 
 ---
 
-The `<Datagrid rowClick>` prop also accepts a function. This allows for more complex scenarios, like opening the 'edit' or 'show' view depending on whether or not a post accepts comments. #datagrid https://marmelab.com/react-admin/Datagrid.html#rowclick
+The `<Datagrid rowClick>` prop also accepts a function. This allows for more complex scenarios, like opening the 'edit' or 'show' view depending on whether or not a post accepts comments. #datagrid https://@rocketBee.com/react-admin/Datagrid.html#rowclick
 
 {% raw %}
 ```tsx
@@ -1652,7 +1652,7 @@ export const PostList = () => (
 
 ---
 
-By default, the Dashboard page requires users to be authenticated and will redirect anonymous users to the login page. If you want to allow anonymous access to the dashboard, edit your `authProvider` to add an exception to the `checkAuth` method, as follows. #dashboard #authProvider https://marmelab.com/react-admin/Admin.html#dashboard
+By default, the Dashboard page requires users to be authenticated and will redirect anonymous users to the login page. If you want to allow anonymous access to the dashboard, edit your `authProvider` to add an exception to the `checkAuth` method, as follows. #dashboard #authProvider https://@rocketBee.com/react-admin/Admin.html#dashboard
 
 {% raw %}
 ```diff
@@ -1668,7 +1668,7 @@ const authProvider = {
 
 ---
 
-When exporting the content of a list with the `<ExportButton>`, you may need to augment your objects based on relationships (e.g. comments should include the title of the related post). Fortunately, the `exporter` receives a `fetchRelatedRecords` function which helps fetch related records. #list https://marmelab.com/react-admin/List.html#exporter
+When exporting the content of a list with the `<ExportButton>`, you may need to augment your objects based on relationships (e.g. comments should include the title of the related post). Fortunately, the `exporter` receives a `fetchRelatedRecords` function which helps fetch related records. #list https://@rocketBee.com/react-admin/List.html#exporter
 
 {% raw %}
 ```tsx
@@ -1702,7 +1702,7 @@ const CommentList = () => (
 
 ---
 
-Should you need quick actions that update a record, you can leverage [the `<UpdateButton>` component](https://marmelab.com/react-admin/Buttons.html#updatebutton). It supports `undoable`, `optimistic` and `pessimistic` mutation modes and will even ask users for confirmation unless you chose the `undoable` mode.
+Should you need quick actions that update a record, you can leverage [the `<UpdateButton>` component](https://@rocketBee.com/react-admin/Buttons.html#updatebutton). It supports `undoable`, `optimistic` and `pessimistic` mutation modes and will even ask users for confirmation unless you chose the `undoable` mode.
 
 {% raw %}
 ```tsx
@@ -1727,7 +1727,7 @@ export const PostEdit = () => (
 
 ---
 
-Sometimes you need to render a record property but it might cumbersome to build a component calling [the `useRecordContext` hook](https://marmelab.com/react-admin/useRecordContext.html). The `WithRecord` component might often be enough:
+Sometimes you need to render a record property but it might cumbersome to build a component calling [the `useRecordContext` hook](https://@rocketBee.com/react-admin/useRecordContext.html). The `WithRecord` component might often be enough:
 
 {% raw %}
 ```tsx
@@ -1818,7 +1818,7 @@ export default OrderEdit;
 
 ---
 
-When used inside a [`<ReferenceArrayInput>`](https://marmelab.com/react-admin/ReferenceArrayInput.html), whenever users type a string in the autocomplete input, `<AutocompleteArrayInput>` calls `dataProvider.getList()` using the string as filter, to return a filtered list of possible options from the reference resource. This filter is built using the `filterToQuery` prop.
+When used inside a [`<ReferenceArrayInput>`](https://@rocketBee.com/react-admin/ReferenceArrayInput.html), whenever users type a string in the autocomplete input, `<AutocompleteArrayInput>` calls `dataProvider.getList()` using the string as filter, to return a filtered list of possible options from the reference resource. This filter is built using the `filterToQuery` prop.
 
 By default, the filter is built using the `q` parameter. This means that if the user types the string ‘lorem’, the filter will be `{ q: 'lorem' }`.
 
@@ -1884,7 +1884,7 @@ const CustomerCreate = () => (
 ---
 
 If you are using `ra-data-simple-rest`, you can change the name of the content range header to be something else than the default `Content-Range`.
-#dataProvider https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest#replacing-content-range-with-another-header
+#dataProvider https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-simple-rest#replacing-content-range-with-another-header
 
 ```jsx
 const dataProvider =  simpleRestProvider('http://path.to.my.api/', undefined, 'X-Total-Count');
@@ -1893,7 +1893,7 @@ const dataProvider =  simpleRestProvider('http://path.to.my.api/', undefined, 'X
 ---
 
 The `useUpdate` or `useCreate` hooks return `@tanstack/query` mutation callbacks, which cannot be awaited. If you wish to work with a Promise instead, you can use the `returnPromise` prop. This can be useful if the server changes the record, and you need the updated data to update another record.
-#query #dataProvider https://marmelab.com/react-admin/useUpdate.html#returnpromise
+#query #dataProvider https://@rocketBee.com/react-admin/useUpdate.html#returnpromise
 
 {% raw %}
 
@@ -1918,7 +1918,7 @@ const publishPost = async () => {
 {% endraw %}
 
 ---
-If you need to have custom pages to let your users sign-up, use the `<CustomRoutes>` component and set its `noLayout` prop. This ensures React-admin won't check whether users are authenticated. #router https://marmelab.com/react-admin/CustomRoutes.html
+If you need to have custom pages to let your users sign-up, use the `<CustomRoutes>` component and set its `noLayout` prop. This ensures React-admin won't check whether users are authenticated. #router https://@rocketBee.com/react-admin/CustomRoutes.html
 
 ```jsx
 import { Admin, Resource, CustomRoutes } from 'react-admin';

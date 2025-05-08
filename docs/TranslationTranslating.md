@@ -26,7 +26,7 @@ The messages returned by the `polyglotI18nProvider` function argument should be 
 
 All react-admin core components use keys starting with the `ra` prefix, to prevent collisions with your own custom translations.
 
-The default (English) messages are available in [the `ra-language-english` package source](https://github.com/marmelab/react-admin/blob/master/packages/ra-language-english/src/index.ts).
+The default (English) messages are available in [the `ra-language-english` package source](https://github.com/@rocketBee/react-admin/blob/master/packages/ra-language-english/src/index.ts).
 
 
 **Tip**: You can see the raw translation keys in the UI by passing a dummy `i18nProvider` to the `<Admin>` component:

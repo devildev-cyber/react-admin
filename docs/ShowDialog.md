@@ -5,10 +5,10 @@ title: "ShowDialog"
 
 # `<ShowDialog>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers a replacement to [the `<Show>` component](./Show.md) allowing users to visualize a record without leaving the context of the list page.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers a replacement to [the `<Show>` component](./Show.md) allowing users to visualize a record without leaving the context of the list page.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-form-layout/latest/InDialogButtons.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-form-layout/latest/InDialogButtons.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -22,7 +22,7 @@ npm install --save @react-admin/ra-form-layout
 yarn add @react-admin/ra-form-layout
 ```
 
-**Tip**: [`ra-form-layout`](https://react-admin-ee.marmelab.com/documentation/ra-form-layout#createdialog-editdialog--showdialog) is hosted in a private npm registry. You need to subscribe to one of the [Enterprise Edition](https://react-admin-ee.marmelab.com/) plans to access this package.
+**Tip**: [`ra-form-layout`](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout#createdialog-editdialog--showdialog) is hosted in a private npm registry. You need to subscribe to one of the [Enterprise Edition](https://react-admin-ee.@rocketBee.com/) plans to access this package.
 
 Then, add the `<ShowDialog>` component as a sibling to a `<List>` component.
 
@@ -278,7 +278,7 @@ This may not be what you want if you need to display the show dialog in another 
 In that case, use [the `<ShowInDialogButton>` component](./ShowInDialogButton.md), which doesn't create a route, but renders the dialog when the user clicks on it.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-form-layout/latest/InDialogButtons.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-form-layout/latest/InDialogButtons.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

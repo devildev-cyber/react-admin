@@ -5,10 +5,10 @@ title: "The Calendar Component"
 
 # `<Calendar>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component, part of [the `ra-calendar` module](https://react-admin-ee.marmelab.com/documentation/ra-calendar), renders a list of events as a calendar. 
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component, part of [the `ra-calendar` module](https://react-admin-ee.@rocketBee.com/documentation/ra-calendar), renders a list of events as a calendar. 
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-calendar.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-calendar.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -262,7 +262,7 @@ Check the possible values for `CalendarProps` in the [`<Calendar>`](#calendar) a
 
 ### `EditDialogProps`
 
-For content edition, `<CompleteCalendar>` relies on [ra-form-layout's `<EditDialog>`](https://react-admin-ee.marmelab.com/documentation/ra-form-layout#createdialog-editdialog--showdialog) to display its child form in a dialog.
+For content edition, `<CompleteCalendar>` relies on [ra-form-layout's `<EditDialog>`](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout#createdialog-editdialog--showdialog) to display its child form in a dialog.
 
 You can customize `<EditDialog>` props like `title`, `redirect`, `onSuccess` and `onFailure` by passing a custom `EditDialogProps` prop.
 
@@ -295,11 +295,11 @@ const EventList = () => (
 ```
 {% endraw %}
 
-Check the possible values for `EditDialogProps` in [the `<EditDialog>` component documentation](https://react-admin-ee.marmelab.com/documentation/ra-form-layout#createdialog-editdialog--showdialog).
+Check the possible values for `EditDialogProps` in [the `<EditDialog>` component documentation](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout#createdialog-editdialog--showdialog).
 
 ### `CreateDialogProps`
 
-For content addition, `<CompleteCalendar>` relies on [ra-form-layout's `<CreateDialog>`](https://react-admin-ee.marmelab.com/documentation/ra-form-layout#createdialog-editdialog--showdialog) to display its child form in a dialog.
+For content addition, `<CompleteCalendar>` relies on [ra-form-layout's `<CreateDialog>`](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout#createdialog-editdialog--showdialog) to display its child form in a dialog.
 
 You can customize `<CreateDialog>` props like `title`, `redirect`, `onSuccess` and `onFailure` by passing a custom `CreateDialogProps` prop.
 
@@ -327,7 +327,7 @@ const EventList = () => (
 ```
 {% endraw %}
 
-Check the possible values for `CreateDialogProps` in [the `<CreateDialog>` component documentation](https://react-admin-ee.marmelab.com/documentation/ra-form-layout#createdialog-editdialog--showdialog).
+Check the possible values for `CreateDialogProps` in [the `<CreateDialog>` component documentation](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout#createdialog-editdialog--showdialog).
 
 ### `mutationOptions`
 

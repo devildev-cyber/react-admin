@@ -845,7 +845,7 @@ Should you use the location `state` or the location `search`? The latter modifie
 `<Edit>` is designed to be a page component, passed to the `edit` prop of the `<Resource>` component. But you may want to let users edit a record from another page. 
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/edit-dialog.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/edit-dialog.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

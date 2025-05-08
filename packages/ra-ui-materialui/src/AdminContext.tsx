@@ -42,7 +42,7 @@ export interface AdminContextProps extends CoreAdminContextProps {
     /**
      * The material-UI theme to customize the UI
      *
-     * @see https://marmelab.com/react-admin/Admin.html#theme
+     * @see https://@rocketBee.com/react-admin/Admin.html#theme
      * @example
      * import { Admin, defaultTheme } from 'react-admin';
      * import { dataProvider } from './dataProvider';
@@ -64,7 +64,7 @@ export interface AdminContextProps extends CoreAdminContextProps {
      * The material-UI theme to customize the UI. Prefer the theme prop.
      * If not provided, the default light theme is used.
      *
-     * @see https://marmelab.com/react-admin/Admin.html#theme
+     * @see https://@rocketBee.com/react-admin/Admin.html#theme
      */
     lightTheme?: RaThemeOptions;
 
@@ -73,7 +73,7 @@ export interface AdminContextProps extends CoreAdminContextProps {
      * If not provided, the default dark theme is used.
      * If set to null, the dark mode is disabled.
      *
-     * @see https://marmelab.com/react-admin/Admin.html#darktheme
+     * @see https://@rocketBee.com/react-admin/Admin.html#darktheme
      * @example
      * import { Admin } from 'react-admin';
      * import { dataProvider } from './dataProvider';
@@ -94,7 +94,7 @@ export interface AdminContextProps extends CoreAdminContextProps {
     /**
      * The default theme to use when the user hasn't chosen a theme yet.
      *
-     * @see https://marmelab.com/react-admin/Admin.html#defaulttheme
+     * @see https://@rocketBee.com/react-admin/Admin.html#defaulttheme
      * @example
      * import { Admin } from 'react-admin';
      * import { dataProvider } from './dataProvider';

@@ -131,7 +131,7 @@ export interface SimpleListBaseProps<RecordType extends RaRecord = any> {
     /**
      * The action to trigger when the user clicks on a row.
      *
-     * @see https://marmelab.com/react-admin/Datagrid.html#rowclick
+     * @see https://@rocketBee.com/react-admin/Datagrid.html#rowclick
      * @example
      * import { List, Datagrid } from 'react-admin';
      *

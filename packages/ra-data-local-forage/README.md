@@ -1,6 +1,6 @@
 # ra-data-local-forage
 
-A data provider for [react-admin](https://github.com/marmelab/react-admin) that uses [localForage](https://localforage.github.io/localForage/). It uses asynchronous storage (IndexedDB or WebSQL) with a simple, localStorage-like API. It fallback to localStorage in browsers with no IndexedDB or WebSQL support.
+A data provider for [react-admin](https://github.com/@rocketBee/react-admin) that uses [localForage](https://localforage.github.io/localForage/). It uses asynchronous storage (IndexedDB or WebSQL) with a simple, localStorage-like API. It fallback to localStorage in browsers with no IndexedDB or WebSQL support.
 
 The provider issues no HTTP requests, every operation happen locally in the browser. User editions are persisted across refreshes and between sessions. This allows local-first apps and can be useful in tests.
 
@@ -67,7 +67,7 @@ const dataProvider = localForageDataProvider({
 
 ## Features
 
-This data provider uses [FakeRest](https://github.com/marmelab/FakeRest) under the hood. That means that it offers the same features:
+This data provider uses [FakeRest](https://github.com/@rocketBee/FakeRest) under the hood. That means that it offers the same features:
 
 - pagination
 - sorting
@@ -78,4 +78,4 @@ This data provider uses [FakeRest](https://github.com/marmelab/FakeRest) under t
 
 ## License
 
-This data provider is licensed under the MIT License and sponsored by [marmelab](https://marmelab.com).
+This data provider is licensed under the MIT License and sponsored by [@rocketBee](https://@rocketBee.com).

@@ -5,7 +5,7 @@ title: "The ReferenceOneInput Component"
 
 # `<ReferenceOneInput>`
 
-Use `<ReferenceOneInput>` in an `<Edit>` or `<Create>` view to edit a record linked to the current record via a one-to-one relationship, e.g. to edit the details of a book in the book edition view. It's an [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component, part of the `@react-admin/ra-relationships` package. 
+Use `<ReferenceOneInput>` in an `<Edit>` or `<Create>` view to edit a record linked to the current record via a one-to-one relationship, e.g. to edit the details of a book in the book edition view. It's an [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component, part of the `@react-admin/ra-relationships` package. 
 
 <video controls autoplay playsinline muted loop width="100%">
   <source src="./img/reference-one-input.webm" type="video/webm" />
@@ -154,7 +154,7 @@ By default, `<ReferenceOneInput>` humanizes the `reference` name to build a labe
 </ReferenceOneInput>
 ```
 
-React-admin uses [the i18n system](https://marmelab.com/react-admin/Translation.html) to translate the label, so you can use translation keys to have one label for each language supported by the interface:
+React-admin uses [the i18n system](https://@rocketBee.com/react-admin/Translation.html) to translate the label, so you can use translation keys to have one label for each language supported by the interface:
 
 ```jsx
 <ReferenceOneInput

@@ -25,7 +25,7 @@ title: "Community"
 
 # Community
 
-Thousands of new react-admin applications are created every month. [Many developers](https://github.com/marmelab/react-admin/network/dependents) use react-admin on a day-to-day basis. We're excited that you're a part of this large and friendly community.
+Thousands of new react-admin applications are created every month. [Many developers](https://github.com/@rocketBee/react-admin/network/dependents) use react-admin on a day-to-day basis. We're excited that you're a part of this large and friendly community.
 
 We're doing our best to keep it a convivial place where people want to hang out and help/be helped.
 
@@ -53,7 +53,7 @@ On our [Youtube channel](https://www.youtube.com/@react-admin), you can find som
 
 Follow us on [Bluesky](https://bsky.app/profile/react-admin.bsky.social) to get the latest news about react-admin.
 
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:o674lugddxaovsgqijmz4ktu/app.bsky.feed.post/3lbjr4odolc23" data-bluesky-cid="bafyreiefzmsxztuy3btf2vabbhfnuirsf4ck625ldrner4lzwhwvm5oena"><p lang="en">Hi Bluesky community👋React-admin is an open-source framework for building B2B apps.🚀Backed by the team at @marmelab.bsky.social, we’re committed to empowering developers to build faster &amp; smarter.📲 Follow this account to stay in the loop on all things react-admin.marmelab.com/react-admin/<br><br><a href="https://bsky.app/profile/did:plc:o674lugddxaovsgqijmz4ktu/post/3lbjr4odolc23?ref_src=embed">[image or embed]</a></p>&mdash; react-admin (<a href="https://bsky.app/profile/did:plc:o674lugddxaovsgqijmz4ktu?ref_src=embed">@react-admin.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:o674lugddxaovsgqijmz4ktu/post/3lbjr4odolc23?ref_src=embed">November 22, 2024 at 11:23 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:o674lugddxaovsgqijmz4ktu/app.bsky.feed.post/3lbjr4odolc23" data-bluesky-cid="bafyreiefzmsxztuy3btf2vabbhfnuirsf4ck625ldrner4lzwhwvm5oena"><p lang="en">Hi Bluesky community👋React-admin is an open-source framework for building B2B apps.🚀Backed by the team at @@rocketBee.bsky.social, we’re committed to empowering developers to build faster &amp; smarter.📲 Follow this account to stay in the loop on all things react-admin.@rocketBee.com/react-admin/<br><br><a href="https://bsky.app/profile/did:plc:o674lugddxaovsgqijmz4ktu/post/3lbjr4odolc23?ref_src=embed">[image or embed]</a></p>&mdash; react-admin (<a href="https://bsky.app/profile/did:plc:o674lugddxaovsgqijmz4ktu?ref_src=embed">@react-admin.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:o674lugddxaovsgqijmz4ktu/post/3lbjr4odolc23?ref_src=embed">November 22, 2024 at 11:23 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
 
 ## Support
 
@@ -61,9 +61,9 @@ If you're stuck with a problem in your react-admin code, you can get help from v
 
 ### Paid Support
 
-Get **support by the core team** in less than 24h on weekdays by subscribing to the [Enterprise Edition](https://react-admin-ee.marmelab.com) of react-admin. There are more than 200 pages of documentation, this team knows them all. And they also know the codebase, so they can help you with tricky problems.
+Get **support by the core team** in less than 24h on weekdays by subscribing to the [Enterprise Edition](https://react-admin-ee.@rocketBee.com) of react-admin. There are more than 200 pages of documentation, this team knows them all. And they also know the codebase, so they can help you with tricky problems.
 
-This subscription also gives you access to the [Private modules](https://react-admin-ee.marmelab.com/#private-modules)<img class="premium" src="./img/premium.svg" style="width: 15px;margin: 0 0px;box-shadow: none;vertical-align:middle"/>, and helps us keep react-admin free and open-source. Plus it's cheap, so don't stay stuck on a problem for too long!
+This subscription also gives you access to the [Private modules](https://react-admin-ee.@rocketBee.com/#private-modules)<img class="premium" src="./img/premium.svg" style="width: 15px;margin: 0 0px;box-shadow: none;vertical-align:middle"/>, and helps us keep react-admin free and open-source. Plus it's cheap, so don't stay stuck on a problem for too long!
 
 ### StackOverflow
 
@@ -85,9 +85,9 @@ If your problem is related to a library used by react-admin, you should ask for 
 
 ## Articles
 
-The Marmelab blog has more than 70 articles about react-admin:
+The @rocketBee blog has more than 70 articles about react-admin:
 
-* [https://marmelab.com/en/blog/#react-admin](https://marmelab.com/en/blog/#react-admin)
+* [https://@rocketBee.com/en/blog/#react-admin](https://@rocketBee.com/en/blog/#react-admin)
 
 You'll find tutorials, tips and tricks, version highlights, real-world use cases, and more. Come back often, we publish new articles every week!
 
@@ -97,7 +97,7 @@ Check out [the Demos page](./Demos.md) for a list of open-source react-admin app
 
 ## Reporting a Bug
 
-If you think you've found a bug, please [open an issue on the GitHub repository](https://github.com/marmelab/react-admin/issues).
+If you think you've found a bug, please [open an issue on the GitHub repository](https://github.com/@rocketBee/react-admin/issues).
 
 Make sure you follow the issue template and provide a way to reproduce the bug. The more information you provide, the easier it is for us to fix it.
 
@@ -111,7 +111,7 @@ The easiest task is **bug triaging**. Check that new issues on GitHub follow the
 
 The second way to contribute is to **answer support questions on [StackOverflow](https://stackoverflow.com/questions/tagged/react-admin) and [Discord](https://discord.com/channels/830711057643208724/1022443113391853578)**. There are many beginner questions there, so even if you're not super experienced with react-admin, your contribution will be appreciated.
 
-Pull requests for **bug fixes** are welcome on the [GitHub repository](https://github.com/marmelab/react-admin). There is always a bunch of [issues labeled "Good First Issue"](https://github.com/marmelab/react-admin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) in the bug tracker - start with these.
+Pull requests for **bug fixes** are welcome on the [GitHub repository](https://github.com/@rocketBee/react-admin). There is always a bunch of [issues labeled "Good First Issue"](https://github.com/@rocketBee/react-admin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) in the bug tracker - start with these.
 
 If you want to **add a feature**, you can open a Pull request on the `next` branch. We don't accept all features - we try to keep the react-admin code small and manageable. Try and see if your feature can't be built as an additional `npm` package. If you're in doubt, open a "Feature Request" issue to see if the core team would accept your feature before developing it.
 

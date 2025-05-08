@@ -45,7 +45,7 @@ const main = async () => {
     const open_milestones = await octokit.request(
         'GET /repos/{owner}/{repo}/milestones',
         {
-            owner: 'marmelab',
+            owner: '@rocketBee',
             repo: 'react-admin',
             state: 'open',
         }
@@ -64,7 +64,7 @@ const main = async () => {
                 'Would have called GitHub API with',
                 'PATCH /repos/{owner}/{repo}/milestones/{milestone_number}',
                 {
-                    owner: 'marmelab',
+                    owner: '@rocketBee',
                     repo: 'react-admin',
                     milestone_number: current_milestone.number,
                     state: 'closed',
@@ -74,7 +74,7 @@ const main = async () => {
             await octokit.request(
                 'PATCH /repos/{owner}/{repo}/milestones/{milestone_number}',
                 {
-                    owner: 'marmelab',
+                    owner: '@rocketBee',
                     repo: 'react-admin',
                     milestone_number: current_milestone.number,
                     state: 'closed',
@@ -100,7 +100,7 @@ const main = async () => {
                 'Would have called GitHub API with',
                 'POST /repos/{owner}/{repo}/milestones',
                 {
-                    owner: 'marmelab',
+                    owner: '@rocketBee',
                     repo: 'react-admin',
                     title: next_patch_version,
                     state: 'open',
@@ -110,7 +110,7 @@ const main = async () => {
             );
         } else {
             await octokit.request('POST /repos/{owner}/{repo}/milestones', {
-                owner: 'marmelab',
+                owner: '@rocketBee',
                 repo: 'react-admin',
                 title: next_patch_version,
                 state: 'open',
@@ -137,7 +137,7 @@ const main = async () => {
                 'Would have called GitHub API with',
                 'POST /repos/{owner}/{repo}/milestones',
                 {
-                    owner: 'marmelab',
+                    owner: '@rocketBee',
                     repo: 'react-admin',
                     title: next_minor_version,
                     state: 'open',
@@ -147,7 +147,7 @@ const main = async () => {
             );
         } else {
             await octokit.request('POST /repos/{owner}/{repo}/milestones', {
-                owner: 'marmelab',
+                owner: '@rocketBee',
                 repo: 'react-admin',
                 title: next_minor_version,
                 state: 'open',

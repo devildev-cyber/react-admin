@@ -5,7 +5,7 @@ title: "JsonSchemaForm"
 
 # `<JsonSchemaForm>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component allows to render a form from a JSON Schema description based on [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form).
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component allows to render a form from a JSON Schema description based on [react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form).
 
 ## Usage
 
@@ -21,7 +21,7 @@ If you have a JSON Schema description of your form based on [react-jsonschema-fo
 
 For instance, to generate the following form:
 
-![JsonSchemaForm](https://react-admin-ee.marmelab.com/assets/jsonschemaform.webp)
+![JsonSchemaForm](https://react-admin-ee.@rocketBee.com/assets/jsonschemaform.webp)
 
 Configure the `<Edit>` view with a `<JsonSchemaForm>` child as follows:
 
@@ -117,7 +117,7 @@ For `number` and `integer` fields, you can also specify the `format` to render a
 -   `range`
 -   `radio`
 
-`ra-json-schema-form` comes with an additional UI widget for `string` fields: `reference`. It's the equivalent of [react-admin's `<ReferenceInput>` component](https://marmelab.com/react-admin/ReferenceInput.html). It fetches the foreign key, and uses a relationship to populate the list of options.
+`ra-json-schema-form` comes with an additional UI widget for `string` fields: `reference`. It's the equivalent of [react-admin's `<ReferenceInput>` component](https://@rocketBee.com/react-admin/ReferenceInput.html). It fetches the foreign key, and uses a relationship to populate the list of options.
 
 Specify the `reference`, `optionText`, and other options through the `ui:options` UI schema directive:
 

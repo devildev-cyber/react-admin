@@ -5,7 +5,7 @@ title: "The AutoSave Component"
 
 # `<AutoSave>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" />  component enables autosaving of the form. Alternative to [`<SaveButton>`](./SaveButton.md), it's ideal for long data entry tasks, and reduces the risk of data loss.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" />  component enables autosaving of the form. Alternative to [`<SaveButton>`](./SaveButton.md), it's ideal for long data entry tasks, and reduces the risk of data loss.
 
 <video controls autoplay playsinline muted loop>
   <source src="./img/AutoSave.webm" type="video/webm"/>
@@ -187,8 +187,8 @@ You can disable it with the [`disableWarnWhenUnsavedChanges` prop](#disablewarnw
 **Note**: Due to limitations in react-router, this equivalent of `warnWhenUnsavedChanges` only works if you use the default router provided by react-admin, or if you use a [Data Router with react-router v6](https://reactrouter.com/6.22.3/routers/picking-a-router) or [with react-router v7](https://reactrouter.com/7.2.0/start/framework/custom).
 If not, you'll need to use the `disableWarnWhenUnsavedChanges` prop.
 
-**Note**: `useAutoSave` does not currently work with forms that have child routes such as the [`<TabbedForm>`](https://marmelab.com/react-admin/TabbedForm.html).
-If you want to use it in a `<TabbedForm>`, you must set its [`syncWithLocation` prop](https://marmelab.com/react-admin/TabbedForm.html#syncwithlocation) to `false`.
+**Note**: `useAutoSave` does not currently work with forms that have child routes such as the [`<TabbedForm>`](https://@rocketBee.com/react-admin/TabbedForm.html).
+If you want to use it in a `<TabbedForm>`, you must set its [`syncWithLocation` prop](https://@rocketBee.com/react-admin/TabbedForm.html#syncwithlocation) to `false`.
 
 **Note**: `useAutoSave` is not compatible with the default `warnWhenUnsavedChanges` prop of the react-admin form components. However, it implements its own similar mechanism which is enabled by default. You can disable it with the [`disableWarnWhenUnsavedChanges` prop](#disablewarnwhenunsavedchanges).
 

@@ -244,7 +244,7 @@ React-admin provides alternative menu layouts that you can use as a base for you
 - [`<IconMenu>`](./IconMenu.md) for a narrow icon bar with dropdown menus
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-multilevelmenu-categories.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-multilevelmenu-categories.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -454,7 +454,7 @@ const MyLayout = ({ children }) => (
 );
 ```
 
-You can use the [default layout](https://github.com/marmelab/react-admin/blob/master/packages/ra-ui-materialui/src/layout/Layout.tsx) as a starting point for your custom layout. Here is a simplified version (with no responsive support):
+You can use the [default layout](https://github.com/@rocketBee/react-admin/blob/master/packages/ra-ui-materialui/src/layout/Layout.tsx) as a starting point for your custom layout. Here is a simplified version (with no responsive support):
 
 {% raw %}
 ```jsx

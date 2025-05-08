@@ -137,7 +137,7 @@ Some use cases:
 - Show/hide some inputs if another input has a specific value
 - Show/hide some inputs if the current form value matches specific constraints
 
-For all those cases, you can use the [`<FormDataConsumer>`](https://marmelab.com/react-admin/Inputs.html#linking-two-inputs) component.
+For all those cases, you can use the [`<FormDataConsumer>`](https://@rocketBee.com/react-admin/Inputs.html#linking-two-inputs) component.
 
 ## UI in production build is empty or broken
 
@@ -145,7 +145,7 @@ You have probably specified a version requirement for `@mui/material` that is in
 
 Please align your version requirement with the one of the `ra-ui-materialui` package.
 
-See this [issue for more information](https://github.com/marmelab/react-admin/issues/1782).
+See this [issue for more information](https://github.com/@rocketBee/react-admin/issues/1782).
 
 ## My Resource is defined but not displayed on the Menu
 

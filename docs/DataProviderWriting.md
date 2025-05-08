@@ -504,7 +504,7 @@ For example, the [JSON server](https://github.com/typicode/json-server?tab=readm
 GET /posts/123?_embed=author
 ```
 
-The [JSON Server Data Provider](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-json-server) therefore passes the `meta.embed` query parameter to the API:
+The [JSON Server Data Provider](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-json-server) therefore passes the `meta.embed` query parameter to the API:
 
 ```tsx
 const apiUrl = 'https://my.api.com/';
@@ -572,7 +572,7 @@ GET /posts/123?_embed=author
 }
 ```
 
-To add support for prefetching, the [JSON Server Data Provider](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-json-server) extracts the embedded data from the response, and puts them in the `meta.prefetched` property:
+To add support for prefetching, the [JSON Server Data Provider](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-json-server) extracts the embedded data from the response, and puts them in the `meta.prefetched` property:
 
 ```jsx
 const dataProvider = {
@@ -952,7 +952,7 @@ export default {
 There are two ways to implement a GraphQL Data Provider: 
 
 - Write the queries and mutations by hand - that's what's described in this section.
-- Take advantage of GraphQL introspection capabilities, and let the data provider "guess" the queries and mutations. For this second case, use [ra-data-graphql](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-graphql) as the basis of your provider.
+- Take advantage of GraphQL introspection capabilities, and let the data provider "guess" the queries and mutations. For this second case, use [ra-data-graphql](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-graphql) as the basis of your provider.
 
 Let’s say that you want to map the react-admin requests to a GraphQL backend exposing the following API (inspired by [the Hasura GraphQL syntax](https://hasura.io/docs/latest/graphql/core/api-reference/graphql-api/index/)):
 

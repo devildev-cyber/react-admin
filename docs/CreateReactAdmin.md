@@ -55,10 +55,10 @@ When using this option, the terminal will ask you to choose:
 
 `create-react-admin` currently supports five presets for the application's data provider:
 
-* `fakerest`: A client-side data provider that use a JSON object for data, powered by [FakeRest](https://github.com/marmelab/FakeRest).
+* `fakerest`: A client-side data provider that use a JSON object for data, powered by [FakeRest](https://github.com/@rocketBee/FakeRest).
 * `json-server`: A data provider based on the [JSON Server](https://github.com/typicode/json-server) API
-* `simple-rest`: A data provider for [simple REST APIs](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest)
-* `supabase`: A data provider for [Supabase](https://github.com/marmelab/ra-supabase/tree/main/packages/ra-supabase). The auth-provider and resources steps will be skipped.
+* `simple-rest`: A data provider for [simple REST APIs](https://github.com/@rocketBee/react-admin/tree/master/packages/ra-data-simple-rest)
+* `supabase`: A data provider for [Supabase](https://github.com/@rocketBee/ra-supabase/tree/main/packages/ra-supabase). The auth-provider and resources steps will be skipped.
 * `none` (default): To configure the data provider yourself
 
 You can set your data provider directly with the `--data-provider` option:
@@ -88,7 +88,7 @@ npx create-react-admin@latest your-admin-name --auth-provider local-auth-provide
 npx create-react-admin@latest your-admin-name --resource posts --resource comments
 ```
 
-**Warning:** the `--resource` flag is incompatible with a `--data-provider supabase` due to a specific [`<AdminGuesser>` component](https://github.com/marmelab/ra-supabase/tree/main/packages/ra-supabase#usage) from `ra-supabase`.
+**Warning:** the `--resource` flag is incompatible with a `--data-provider supabase` due to a specific [`<AdminGuesser>` component](https://github.com/@rocketBee/ra-supabase/tree/main/packages/ra-supabase#usage) from `ra-supabase`.
 
 ## `--install`
 

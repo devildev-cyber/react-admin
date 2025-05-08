@@ -1,8 +1,8 @@
 # Simple REST Data Provider For React-Admin
 
-Simple REST Data Provider for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
+Simple REST Data Provider for [react-admin](https://github.com/@rocketBee/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
 
-[![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
+[![react-admin-demo](https://@rocketBee.com/react-admin/img/react-admin-demo-still.png)](https://www.youtube.com/watch?v=bJEo1O1oT6o)
 
 ## Installation
 
@@ -31,7 +31,7 @@ const App = () => (
 export default App;
 ```
 
-The `simpleRestProvider` function accepts a second parameter, which is an HTTP client function. By default, it uses react-admin's [`fetchUtils.fetchJson()`](https://marmelab.com/react-admin/fetchJson.html) as HTTP client. It's similar to HTML5 `fetch()`, except it handles JSON decoding and HTTP error codes automatically.
+The `simpleRestProvider` function accepts a second parameter, which is an HTTP client function. By default, it uses react-admin's [`fetchUtils.fetchJson()`](https://@rocketBee.com/react-admin/fetchJson.html) as HTTP client. It's similar to HTML5 `fetch()`, except it handles JSON decoding and HTTP error codes automatically.
 
 You can wrap this call in your own function to [add custom headers](#adding-custom-headers), for instance to set an `Authorization` bearer token:
 
@@ -58,7 +58,7 @@ const App = () => (
 
 ## REST Dialect
 
-This Data Provider fits REST APIs using simple GET parameters for filters and sorting. This is the dialect used for instance in [FakeRest](https://github.com/marmelab/FakeRest).
+This Data Provider fits REST APIs using simple GET parameters for filters and sorting. This is the dialect used for instance in [FakeRest](https://github.com/@rocketBee/FakeRest).
 
 ### Request Format
 
@@ -76,7 +76,7 @@ This Data Provider fits REST APIs using simple GET parameters for filters and so
 
 ### Response Format
 
-An `id` field is required in all records. You can also set [custom identifier or primary key for your resources](https://marmelab.com/react-admin/FAQ.html#can-i-have-custom-identifiersprimary-keys-for-my-resources)
+An `id` field is required in all records. You can also set [custom identifier or primary key for your resources](https://@rocketBee.com/react-admin/FAQ.html#can-i-have-custom-identifiersprimary-keys-for-my-resources)
 
 The API response when called by `getList` should look like this:
 
@@ -406,4 +406,4 @@ export default App;
 
 ## License
 
-This data provider is licensed under the MIT License, and sponsored by [marmelab](https://marmelab.com).
+This data provider is licensed under the MIT License, and sponsored by [@rocketBee](https://@rocketBee.com).

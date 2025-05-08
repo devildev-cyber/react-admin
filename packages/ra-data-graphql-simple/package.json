@@ -8,12 +8,12 @@
     "sideEffects": false,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/marmelab/react-admin.git"
+        "url": "git+https://github.com/@rocketBee/react-admin.git"
     },
     "bugs": {
-        "url": "https://github.com/marmelab/react-admin/issues"
+        "url": "https://github.com/@rocketBee/react-admin/issues"
     },
-    "homepage": "https://github.com/marmelab/react-admin#readme",
+    "homepage": "https://github.com/@rocketBee/react-admin#readme",
     "authors": [
         "Gildas Garcia"
     ],

@@ -397,7 +397,7 @@ const ContactShowContent = () => {
 ```
 {% endraw %}
 
-This particular example is sourced from [Atomic CRM](https://marmelab.com/react-admin-crm/#/contacts), one of the many [demo applications](./Demos.md) available for react-admin. 
+This particular example is sourced from [Atomic CRM](https://@rocketBee.com/react-admin-crm/#/contacts), one of the many [demo applications](./Demos.md) available for react-admin. 
 
 Never hesitate to replace a react-admin component with one of your own design. React-admin does not aim to cover all possible use cases, instead, it provides hooks for incorporating custom components. After all, "It's just React"™.
 

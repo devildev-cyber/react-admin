@@ -19,7 +19,7 @@ describe('useListParams', () => {
                     perPage: 15,
                     sort: 'name',
                     order: SORT_ASC,
-                    filter: { name: 'marmelab' },
+                    filter: { name: '@rocketBee' },
                 },
                 params: {
                     page: 1,
@@ -44,14 +44,14 @@ describe('useListParams', () => {
                 sort: 'name',
                 order: SORT_ASC,
                 filter: {
-                    name: 'marmelab',
+                    name: '@rocketBee',
                 },
             });
         });
         it('Extends the values from the location with those from the props', () => {
             const query = getQuery({
                 queryFromLocation: {
-                    filter: { name: 'marmelab' },
+                    filter: { name: '@rocketBee' },
                 },
                 params: {
                     page: 1,
@@ -76,7 +76,7 @@ describe('useListParams', () => {
                 sort: 'company',
                 order: SORT_DESC,
                 filter: {
-                    name: 'marmelab',
+                    name: '@rocketBee',
                 },
             });
         });

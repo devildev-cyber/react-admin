@@ -5,10 +5,10 @@ title: "AccordionForm"
 
 # `<AccordionForm>`
 
-This [Enterprise Edition](https://react-admin-ee.marmelab.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers an alternative layout for Edit and Create forms, where Inputs are grouped into expandable panels.
+This [Enterprise Edition](https://react-admin-ee.@rocketBee.com)<img class="icon" src="./img/premium.svg" alt="React Admin Enterprise Edition icon" /> component offers an alternative layout for Edit and Create forms, where Inputs are grouped into expandable panels.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-accordion-form-overview.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-accordion-form-overview.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -72,11 +72,11 @@ By default, each child accordion element handles its expanded state independentl
 You can also use the `<AccordionSection>` component as a child of `<SimpleForm>` for secondary inputs:
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-accordion-section-overview.mp4" type="video/mp4" />
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-accordion-section-overview.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-Check [the `ra-form-layout` documentation](https://react-admin-ee.marmelab.com/documentation/ra-form-layout#accordionform) for more details.
+Check [the `ra-form-layout` documentation](https://react-admin-ee.@rocketBee.com/documentation/ra-form-layout#accordionform) for more details.
 
 ## Props
 
@@ -394,7 +394,7 @@ If you need a more fine-grained control over the sanitization, you can use [the 
 
 ## `toolbar`
 
-You can customize the form Toolbar by passing a custom element in the `toolbar` prop. The form expects the same type of element as `<SimpleForm>`, see [the `<SimpleForm toolbar>` prop documentation](https://marmelab.com/react-admin/CreateEdit.html#toolbar) in the react-admin docs.
+You can customize the form Toolbar by passing a custom element in the `toolbar` prop. The form expects the same type of element as `<SimpleForm>`, see [the `<SimpleForm toolbar>` prop documentation](https://@rocketBee.com/react-admin/CreateEdit.html#toolbar) in the react-admin docs.
 
 ```jsx
 import { Edit, SaveButton, Toolbar } from 'react-admin';
@@ -553,7 +553,7 @@ const CustomerEdit = () => (
 Renders children (Inputs) inside a Material UI `<Accordion>` element without a Card style. To be used as child of a `<SimpleForm>` or a `<TabbedForm>` element.
 
 <video controls autoplay playsinline muted loop>
-  <source src="https://react-admin-ee.marmelab.com/assets/ra-accordion-section-overview.mp4" type="video/mp4"/>
+  <source src="https://react-admin-ee.@rocketBee.com/assets/ra-accordion-section-overview.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 

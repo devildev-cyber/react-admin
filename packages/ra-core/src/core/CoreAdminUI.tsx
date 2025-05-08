@@ -47,7 +47,7 @@ export interface CoreAdminUIProps {
     /**
      * The content displayed when the user visits the /auth-callback page, used for redirection by third-party authentication providers
      *
-     * @see https://marmelab.com/react-admin/Admin.html#authcallbackpage
+     * @see https://@rocketBee.com/react-admin/Admin.html#authcallbackpage
      * @example
      * import { Admin } from 'react-admin';
      * import { dataProvider } from './dataProvider';
@@ -69,7 +69,7 @@ export interface CoreAdminUIProps {
     /**
      * A catch-all react component to display when the URL does not match any
      *
-     * @see https://marmelab.com/react-admin/Admin.html#catchall
+     * @see https://@rocketBee.com/react-admin/Admin.html#catchall
      * @example
      * // in src/NotFound.js
      * import Card from '@mui/material/Card';
@@ -103,7 +103,7 @@ export interface CoreAdminUIProps {
     /**
      * The component to use for the dashboard page (displayed on the `/` route).
      *
-     * @see https://marmelab.com/react-admin/Admin.html#dashboard
+     * @see https://@rocketBee.com/react-admin/Admin.html#dashboard
      * @example
      * import { Admin } from 'react-admin';
      * import Dashboard from './Dashboard';
@@ -120,7 +120,7 @@ export interface CoreAdminUIProps {
     /**
      * Set to true to disable anonymous telemetry collection
      *
-     * @see https://marmelab.com/react-admin/Admin.html#disabletelemetry
+     * @see https://@rocketBee.com/react-admin/Admin.html#disabletelemetry
      * @example
      * import { Admin } from 'react-admin';
      * import { dataProvider } from './dataProvider';
@@ -135,7 +135,7 @@ export interface CoreAdminUIProps {
 
     /**
      * The component displayed when an error is caught in a child component
-     * @see https://marmelab.com/react-admin/Admin.html#error
+     * @see https://@rocketBee.com/react-admin/Admin.html#error
      * @example
      * import { Admin } from 'react-admin';
      * import { MyError } from './error';
@@ -159,7 +159,7 @@ export interface CoreAdminUIProps {
     /**
      * The main app layout component
      *
-     * @see https://marmelab.com/react-admin/Admin.html#layout
+     * @see https://@rocketBee.com/react-admin/Admin.html#layout
      * @example
      * import { Admin, Layout } from 'react-admin';
      *
@@ -184,7 +184,7 @@ export interface CoreAdminUIProps {
 
     /**
      * The component displayed when the user visits the /login page
-     * @see https://marmelab.com/react-admin/Admin.html#loginpage
+     * @see https://@rocketBee.com/react-admin/Admin.html#loginpage
      * @example
      * import { Admin } from 'react-admin';
      * import { dataProvider } from './dataProvider';
@@ -206,7 +206,7 @@ export interface CoreAdminUIProps {
     /**
      * Flag to require authentication for all routes. Defaults to false.
      *
-     * @see https://marmelab.com/react-admin/Admin.html#requireauth
+     * @see https://@rocketBee.com/react-admin/Admin.html#requireauth
      * @example
      * import { Admin } from 'react-admin';
      * import { dataProvider } from './dataProvider';
@@ -227,7 +227,7 @@ export interface CoreAdminUIProps {
     /**
      * The page to display when the admin has no Resource children
      *
-     * @see https://marmelab.com/react-admin/Admin.html#ready
+     * @see https://@rocketBee.com/react-admin/Admin.html#ready
      * @example
      * import { Admin } from 'react-admin';
      *
@@ -248,7 +248,7 @@ export interface CoreAdminUIProps {
 
     /**
      * The title of the error page
-     * @see https://marmelab.com/react-admin/Admin.html#title
+     * @see https://@rocketBee.com/react-admin/Admin.html#title
      * @example
      * import { Admin } from 'react-admin';
      * import { dataProvider } from './dataProvider';
@@ -264,7 +264,7 @@ export interface CoreAdminUIProps {
     /**
      * The page to display when an authentication error occurs
      *
-     * @see https://marmelab.com/react-admin/Admin.html#authenticationError
+     * @see https://@rocketBee.com/react-admin/Admin.html#authenticationError
      * @example
      * import { Admin } from 'react-admin';
      *
@@ -286,7 +286,7 @@ export interface CoreAdminUIProps {
     /**
      * A react component to display when users don't have access to the page they're trying to access
      *
-     * @see https://marmelab.com/react-admin/Admin.html#accessDenied
+     * @see https://@rocketBee.com/react-admin/Admin.html#accessDenied
      * @example
      * // in src/AccessDenied.js
      * import Card from '@mui/material/Card';
@@ -346,7 +346,7 @@ export const CoreAdminUI = (props: CoreAdminUIProps) => {
             return;
         }
         const img = new Image();
-        img.src = `https://react-admin-telemetry.marmelab.com/react-admin-telemetry?domain=${window.location.hostname}`;
+        img.src = `https://react-admin-telemetry.@rocketBee.com/react-admin-telemetry?domain=${window.location.hostname}`;
     }, [disableTelemetry]);
 
     const handleError = (error: Error, info: ErrorInfo) => setErrorInfo(info);
