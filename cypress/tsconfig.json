@@ -1,7 +1,11 @@
 {
     "extends": "../tsconfig.json",
     "compilerOptions": {
-        "rootDir": "e2e"
+        "rootDir": "e2e",
+        "strict": true, // Enables all strict type-checking options
+        "noImplicitAny": true, // Disallows variables with an implicit 'any' type
+        "strictNullChecks": true, // Ensures null and undefined are handled explicitly
+        "esModuleInterop": true // Allows default imports from CommonJS modules
     },
     "types": ["cypress", "node"]
 }
